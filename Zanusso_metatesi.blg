@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Zanusso_metatesi.aux
+The style file: unsrt.bst
+Database file #1: references.bib
+Warning--empty title in ablikim2021
+Warning--empty title in burgio2021
+Warning--empty title in donato2000
+You've used 3 entries,
+            1791 wiz_defined-function locations,
+            461 strings with 3719 characters,
+and the built_in function-call counts, 532 in all, are:
+= -- 40
+> -- 19
+< -- 0
++ -- 8
+- -- 5
+* -- 41
+:= -- 95
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 26
+empty$ -- 56
+format.name$ -- 5
+if$ -- 110
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 15
+num.names$ -- 3
+pop$ -- 6
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 10
+stack$ -- 0
+substring$ -- 27
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 5
+width$ -- 4
+write$ -- 29
+(There were 3 warnings)

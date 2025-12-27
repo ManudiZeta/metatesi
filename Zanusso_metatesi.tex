@@ -1,0 +1,267 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+\documentclass[aspectratio=169,xcolor=dvipsnames, t]{beamer}
+\usepackage{fontspec} % Allows using custom font. MUST be before loading the theme!
+\usetheme{SimplePlusAIC}
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and  \bottomrule in tables
+\usepackage{svg} %allows using svg figures
+\usepackage{tikz}
+\usepackage{makecell}
+% ADD YOUR PACKAGES BELOW
+\usepackage{wrapfig}
+\usepackage[export]{adjustbox}
+\bibliographystyle{unsrt}
+
+
+\newcommand{\backupbegin}{
+   \newcounter{finalframe}
+   \setcounter{finalframe}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+   \setcounter{framenumber}{\value{finalframe}}
+}
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE CONFIGURATION
+%----------------------------------------------------------------------------------------
+
+\title[short title]{Characterization of hadronic showers in the Belle II Electromagnetic Calorimeter}  % The short title appears at the bottom of every slide, the full title is only on the title page
+\subtitle{Metatesi exam}
+
+\author{Emanuele Zanusso}
+\institute[Dipartimento di Fisica di Torino]{Dipartimento di Fisica
+\newline
+Università degli studi di Torino
+}
+% Your institution as it will appear on the bottom of every slide, maybe shorthand to save space
+
+
+\date{January 14 2026} % Date, can be changed to a custom date
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitlepage
+
+\begin{frame}[t,noframenumbering]{Summary}
+    \tableofcontents
+\end{frame}
+
+\makesection{Anti-neutron in physics experiment}
+
+%------------------------------------------------
+\begin{frame}{Anti-neutron in HEP experiments}
+The $\bar{n}$ plays a key role in several physics measurements, such as: 
+
+    \begin{itemize}    
+    \item The neutron e.m. form factor study in $e^+ + e^- \rightarrow n + \bar{n}$ annihilation \cite{ablikim2021}
+        	\begin{figure}[p]
+     	   \includegraphics[scale=0.18, angle=0]{images/feynman-eN.png}
+	\end{figure}
+  
+    \item The hyperon decay channels which involved $\bar{n}$, such as:
+	\begin{center}
+		$\bar{\Lambda}^0 \rightarrow \pi^0 + \bar{n}$, \hspace{1cm} $\bar{\Sigma}^- \rightarrow \pi^- + \bar{n}$, \hspace{1cm} $\bar{\Lambda}_c \rightarrow  K_s^0 + \pi^0 +\bar{n} $
+	\end{center}
+	
+    \item Other typical B-factories decay channels which involved $\bar{n}$, such as:
+    	\begin{center}
+		$e^+ + e^- \rightarrow p + \bar{n} + X^-$ \ \ ($X^-$: combination of charged pions and kaons)
+	\end{center}
+    \end{itemize}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{Anti-neutron in astrophysical experiments}
+$\bar{n}$ also plays a key role in several astro-physics measurements, such as:
+
+    \begin{itemize}    
+    \item Studying $\bar{n}$ - anti-hyperon potential to improve the understanding of the equation of state of the neutron star \cite{burgio2021}
+    
+    \item Investigating dark matter through anti-deuterons ($\bar{D}$) in cosmic rays, produced by dark matter annihilation or decay \cite{donato2000}:
+    \\
+    $ A_{d.m.} \ + \ B_{d.m.} \ \rightarrow hadrons$ ($n$, $\bar{n}$, $p$, $\bar{p}$ etc...  )
+    \\
+     $ X_{d.m.} \ \rightarrow$ hadrons ($n$, $\bar{n}$, $p$, $\bar{p}$ etc...  )
+
+    
+   \item $\bar{D}$ is mainly produced through a coalescence mechanism:
+   
+     \begin{center}
+    $\bar{n} + \bar{p} \rightarrow \bar{D} $
+    \end{center}
+    
+    Where $\bar{p}$ and $\bar{n}$ are nearby in the phase-space
+    \end{itemize}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{Anti-neutron interactions in physics}
+The $\bar{n}$ interacts with matter primarily via strong nuclear force 
+
+    \begin{itemize}    
+    \item It can annihilate with nucleons in the material, producing light mesons (mainly pions) 
+    \item Hadronic ($\pi^+$, $\pi^- $) and electromagnetic ($\pi^0$) showers are generated within the detectors
+    \item Since annihilation stars are produced, both forward and backward directions are involved
+    
+    	\begin{figure}[p]
+     	   \includegraphics[scale=0.16, angle=0]{images/Ann-nbar.png}
+	\end{figure}
+	 
+    \end{itemize}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Electromagnetic and hadronic showers}
+Different processes occur for e.m. (1) and hadronic (2) showers:
+	\begin{enumerate}
+		\item  $\pi^0 \rightarrow \gamma \gamma$ and bremsstrahlung process ($e^+,e^-,\gamma$)
+		\item  Strong interactions of hadrons with the material ($p,n,pions,kaons...$)
+	\end{enumerate}
+
+After $\bar{n}$ annihilation, the produced pions can be detected via their showers:
+
+\begin{columns}
+	\begin{column}{0.55\textwidth}
+    		\begin{itemize}    
+			\item About the 95\% of the hadronic shower is contained within a cylinder of radius $\lambda_{had}$ ($\sim$ 44.12 cm in CsI)
+			\item About the 90\% of the e.m. shower is contained within a cylinder of radius $R_M$ ($\sim$ 3.6 cm in CsI)
+	    	\end{itemize}
+	\end{column}
+	
+	\begin{column}{0.45\textwidth}
+		\begin{figure}[p]
+		   \includegraphics[scale=0.35, angle=0]{images/gamma_vs_hadronic.png}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{Anti-neutron interactions in physics}
+Several channels can be selected to look at $\bar{n}$ annihilation, such as:
+	\begin{itemize}
+		\item $e^+ + e^- \rightarrow J/\Psi \rightarrow p + \bar{n} + \pi^-$ (BESIII)
+		\item $e^+ + e^- + \gamma_{ISR} \rightarrow X \rightarrow p + \bar{n} + \pi^-$ (Belle II)
+		\item $\bar{\Lambda}_c \rightarrow  K_s^0 + \pi^0 +\bar{n} $ 
+	\end{itemize}
+	
+Several variables can be used to distinguish their clusters, such as:
+    	\begin{itemize}    
+		\item clusterLAT, clusterSecondMoment, clusterZernikeMoment, clusterNHits...
+    	\end{itemize}
+	
+	\begin{figure}[p]
+     	   \includegraphics[scale=0.16, angle=0]{images/ClusterLAT.png}
+	   \includegraphics[scale=0.35, angle=0]{images/gamma_vs_hadronic.png}
+	\end{figure}
+	
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{The MANTRA project}
+\textbf{M}easuring \textbf{A}nti-\textbf{N}eutron: \textbf{T}agging and \textbf{R}econstruction \textbf{A}lgorithm:
+
+    \begin{itemize}    
+    \item A general method to measure the $E_{\bar{n}}$ up to 10 GeV, by combining information from:
+    
+    	\begin{enumerate}
+    		\item A  detector with high time resolution ($<100ps$), like a T.O.F. detector
+		\item An electromagnetic calorimeter
+		\item A muon system (alternating layers of active material and high-Z absorber)
+    	\end{enumerate}
+     \item These features are common in modern general-purpose collider experiments such as \textbf{Belle II} and BESIII
+     \item For MANTRA project, only signals from (1) and/or (2) are taken into account. In this thesis only (2) signals are studied
+    \end{itemize}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{The MANTRA project}
+The measurement of the energy of the anti-neutrons is a two-step process:
+    	\begin{enumerate}
+    		\item $\bar{n}$ identification via its induced shower vs ones from by photons or other hadrons
+		\item Combine the signals from (1) and (2) to reconstruct the $\bar{n}$'s energy
+		
+		\begin{itemize}
+			\item If $\pi^0$ ($\sim 5 \%$): energy is all contained in the calorimeter, the shower is fully reconstructed
+		        	\item	If $\pi^{\pm}$ ($\sim 95\%$): their products may escape the crystals \\ $\rightarrow$ the goal is to complement the calorimeter information with that from the adjacent detectors
+		\end{itemize}
+    	\end{enumerate}
+    
+\end{frame}
+
+
+
+%------------------------------------------------
+\begin{frame}{The Belle II experiment}
+
+\begin{columns}[T] % T = top alignment
+    % Colonna sinistra
+    \begin{column}{0.55\textwidth}
+        SuperKEKB is an asymmetric $e^+ \ e^-$ collider (Tsukuba, Japan)
+        \begin{itemize}
+            \item 7 GeV electrons beam (HER)
+            \item 4 GeV positrons beam (LER)
+            \item Peak Lumi $\sim 5.1 \times 10^{34} cm^{-2} s^{-1}$ (Dec 2024)
+        \end{itemize}
+    \end{column}
+    
+    % Colonna destra
+    \begin{column}{0.50\textwidth}
+        \includegraphics[scale=0.10, angle=0]{images/superkekb.png}
+        \includegraphics[scale=0.20, angle=0]{images/int_lumi.png}
+    \end{column}
+\end{columns}
+
+\vspace{0.5cm} % Spazio tra le due sezioni
+
+% Parte inferiore con un’unica colonna
+It operates mainly around $\Upsilon(4S)$ resonance ($\sim10.58 GeV$):
+\begin{itemize}
+    \item It decays almost exclusively into entangled couple of $B \ \bar{B} \rightarrow B-factory$
+    \item Several goals: flavour physics, BSM, B and charm mesons etc...
+\end{itemize}
+
+\end{frame}
+%----------------------------------------------------------------------------------------
+
+\begin{frame}{The Electromagnetic CaLorimeter}
+The ECL plays a central role in this thesis
+		
+	\begin{itemize}
+		\item Array of \textbf{CsI(Tl)} crystals (8376 $6x6x30 cm^3$ crystals in total)
+	       	\item	It covers barrel and end-caps regions ($12°\le\theta\le155°$)
+		\item Energy resolution of 4\% @100 Mev and 1.6\% @8 GeV
+	\end{itemize}
+	
+\includegraphics[scale=0.20, angle=0]{images/belleii_scheme}
+\includegraphics[scale=0.20, angle=0]{images/ECL}
+    
+\end{frame}
+%----------------------------------------------------------------------------------------
+
+\makesection{Cluster variables}
+
+\begin{frame}{n vs gamma list in cluster variables}
+
+\end{frame}
+
+
+\finalpagetext{Thank you for your attention}
+%----------------------------------------------------------------------------------------
+\makefinalpage
+%----------------------------------------------------------------------------------------
+\backupbegin
+
+\backupend
+
+\begin{frame}[allowframebreaks,noframenumbering,plain]{References}
+\setbeamertemplate{footline}{} % rimuove numeri in basso
+\bibliography{references}  % senza .bib
+\end{frame}
+
+\end{document}
