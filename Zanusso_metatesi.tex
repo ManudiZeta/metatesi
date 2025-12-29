@@ -6,6 +6,7 @@
 \usetheme{SimplePlusAIC}
 \usepackage{hyperref}
 \usepackage{mathtools}
+\usepackage{enumerate}
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and  \bottomrule in tables
 \usepackage{svg} %allows using svg figures
@@ -14,7 +15,14 @@
 % ADD YOUR PACKAGES BELOW
 \usepackage{wrapfig}
 \usepackage[export]{adjustbox}
-\bibliographystyle{unsrt}
+
+\usepackage[
+  backend=biber,
+  style=numeric,
+  sorting=none
+]{biblatex}
+
+\addbibresource{references.bib}
 
 
 \newcommand{\backupbegin}{
@@ -23,6 +31,10 @@
 }
 \newcommand{\backupend}{
    \setcounter{framenumber}{\value{finalframe}}
+}
+
+\newcommand{\inlineimg}[1]{%
+  \raisebox{-0.2em}{\includegraphics[height=1em]{#1}}%
 }
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE CONFIGURATION
@@ -48,7 +60,7 @@ Università degli studi di Torino
 
 \maketitlepage
 
-\begin{frame}[t,noframenumbering]{Summary}
+\begin{frame}[t,noframenumbering]{Talk Outline}
     \tableofcontents
 \end{frame}
 
@@ -59,20 +71,24 @@ Università degli studi di Torino
 The $\bar{n}$ plays a key role in several physics measurements, such as: 
 
     \begin{itemize}    
-    \item The neutron e.m. form factor study in $e^+ + e^- \rightarrow n + \bar{n}$ annihilation \cite{ablikim2021}
+    \item The neutron e.m. form factor studies in $e^+ + e^- \rightarrow n + \bar{n}$ process \cite{ablikim2021}
         	\begin{figure}[p]
      	   \includegraphics[scale=0.18, angle=0]{images/feynman-eN.png}
 	\end{figure}
   
-    \item The hyperon decay channels which involved $\bar{n}$, such as:
+    \item The decay channels studied at B-factories which involved $\bar{n}$, such as:
+    
+    \begin{enumerate}
+    	\item The hyperons decay channel:
 	\begin{center}
 		$\bar{\Lambda}^0 \rightarrow \pi^0 + \bar{n}$, \hspace{1cm} $\bar{\Sigma}^- \rightarrow \pi^- + \bar{n}$, \hspace{1cm} $\bar{\Lambda}_c \rightarrow  K_s^0 + \pi^0 +\bar{n} $
 	\end{center}
 	
-    \item Other typical B-factories decay channels which involved $\bar{n}$, such as:
+    \item Other typical B-factories processes:
     	\begin{center}
 		$e^+ + e^- \rightarrow p + \bar{n} + X^-$ \ \ ($X^-$: combination of charged pions and kaons)
 	\end{center}
+\end{enumerate}
     \end{itemize}
 \end{frame}
 
@@ -101,102 +117,6 @@ $\bar{n}$ also plays a key role in several astro-physics measurements, such as:
 \end{frame}
 
 %------------------------------------------------
-\begin{frame}{Anti-neutron interactions in physics}
-The $\bar{n}$ interacts with matter primarily via strong nuclear force 
-
-    \begin{itemize}    
-    \item It can annihilate with nucleons in the material, producing light mesons (mainly pions) 
-    \item Hadronic ($\pi^+$, $\pi^- $) and electromagnetic ($\pi^0$) showers are generated within the detectors
-    \item Since annihilation stars are produced, both forward and backward directions are involved
-    
-    	\begin{figure}[p]
-     	   \includegraphics[scale=0.16, angle=0]{images/Ann-nbar.png}
-	\end{figure}
-	 
-    \end{itemize}
-\end{frame}
-%------------------------------------------------
-\begin{frame}{Electromagnetic and hadronic showers}
-Different processes occur for e.m. (1) and hadronic (2) showers:
-	\begin{enumerate}
-		\item  $\pi^0 \rightarrow \gamma \gamma$ and bremsstrahlung process ($e^+,e^-,\gamma$)
-		\item  Strong interactions of hadrons with the material ($p,n,pions,kaons...$)
-	\end{enumerate}
-
-After $\bar{n}$ annihilation, the produced pions can be detected via their showers:
-
-\begin{columns}
-	\begin{column}{0.55\textwidth}
-    		\begin{itemize}    
-			\item About the 95\% of the hadronic shower is contained within a cylinder of radius $\lambda_{had}$ ($\sim$ 44.12 cm in CsI)
-			\item About the 90\% of the e.m. shower is contained within a cylinder of radius $R_M$ ($\sim$ 3.6 cm in CsI)
-	    	\end{itemize}
-	\end{column}
-	
-	\begin{column}{0.45\textwidth}
-		\begin{figure}[p]
-		   \includegraphics[scale=0.35, angle=0]{images/gamma_vs_hadronic.png}
-		\end{figure}
-	\end{column}
-\end{columns}
-\end{frame}
-
-%------------------------------------------------
-\begin{frame}{Anti-neutron interactions in physics}
-Several channels can be selected to look at $\bar{n}$ annihilation, such as:
-	\begin{itemize}
-		\item $e^+ + e^- \rightarrow J/\Psi \rightarrow p + \bar{n} + \pi^-$ (BESIII)
-		\item $e^+ + e^- + \gamma_{ISR} \rightarrow X \rightarrow p + \bar{n} + \pi^-$ (Belle II)
-		\item $\bar{\Lambda}_c \rightarrow  K_s^0 + \pi^0 +\bar{n} $ 
-	\end{itemize}
-	
-Several variables can be used to distinguish their clusters, such as:
-    	\begin{itemize}    
-		\item clusterLAT, clusterSecondMoment, clusterZernikeMoment, clusterNHits...
-    	\end{itemize}
-	
-	\begin{figure}[p]
-     	   \includegraphics[scale=0.16, angle=0]{images/ClusterLAT.png}
-	   \includegraphics[scale=0.35, angle=0]{images/gamma_vs_hadronic.png}
-	\end{figure}
-	
-\end{frame}
-
-%------------------------------------------------
-\begin{frame}{The MANTRA project}
-\textbf{M}easuring \textbf{A}nti-\textbf{N}eutron: \textbf{T}agging and \textbf{R}econstruction \textbf{A}lgorithm:
-
-    \begin{itemize}    
-    \item A general method to measure the $E_{\bar{n}}$ up to 10 GeV, by combining information from:
-    
-    	\begin{enumerate}
-    		\item A  detector with high time resolution ($<100ps$), like a T.O.F. detector
-		\item An electromagnetic calorimeter
-		\item A muon system (alternating layers of active material and high-Z absorber)
-    	\end{enumerate}
-     \item These features are common in modern general-purpose collider experiments such as \textbf{Belle II} and BESIII
-     \item For MANTRA project, only signals from (1) and/or (2) are taken into account. In this thesis only (2) signals are studied
-    \end{itemize}
-\end{frame}
-
-%------------------------------------------------
-\begin{frame}{The MANTRA project}
-The measurement of the energy of the anti-neutrons is a two-step process:
-    	\begin{enumerate}
-    		\item $\bar{n}$ identification via its induced shower vs ones from by photons or other hadrons
-		\item Combine the signals from (1) and (2) to reconstruct the $\bar{n}$'s energy
-		
-		\begin{itemize}
-			\item If $\pi^0$ ($\sim 5 \%$): energy is all contained in the calorimeter, the shower is fully reconstructed
-		        	\item	If $\pi^{\pm}$ ($\sim 95\%$): their products may escape the crystals \\ $\rightarrow$ the goal is to complement the calorimeter information with that from the adjacent detectors
-		\end{itemize}
-    	\end{enumerate}
-    
-\end{frame}
-
-
-
-%------------------------------------------------
 \begin{frame}{The Belle II experiment}
 
 \begin{columns}[T] % T = top alignment
@@ -206,7 +126,8 @@ The measurement of the energy of the anti-neutrons is a two-step process:
         \begin{itemize}
             \item 7 GeV electrons beam (HER)
             \item 4 GeV positrons beam (LER)
-            \item Peak Lumi $\sim 5.1 \times 10^{34} cm^{-2} s^{-1}$ (Dec 2024)
+            \item Peak Lumi $\sim 5.1 \times 10^{34} cm^{-2} s^{-1}$ \inlineimg{images/coppa-del-mondo} 
+            \item Design Lumi $\sim 6.5 \times 10^{35} cm^{-2} s^{-1}$  \\ $\rightarrow$ x40 the Belle's one 
         \end{itemize}
     \end{column}
     
@@ -222,7 +143,7 @@ The measurement of the energy of the anti-neutrons is a two-step process:
 % Parte inferiore con un’unica colonna
 It operates mainly around $\Upsilon(4S)$ resonance ($\sim10.58 GeV$):
 \begin{itemize}
-    \item It decays almost exclusively into entangled couple of $B \ \bar{B} \rightarrow B-factory$
+    \item It decays almost exclusively into entangled couple of $B \ \bar{B} \rightarrow$ B-factory
     \item Several goals: flavour physics, BSM, B and charm mesons etc...
 \end{itemize}
 
@@ -231,7 +152,7 @@ It operates mainly around $\Upsilon(4S)$ resonance ($\sim10.58 GeV$):
 
 \begin{frame}{The Electromagnetic CaLorimeter}
 The ECL plays a central role in this thesis
-		
+	
 	\begin{itemize}
 		\item Array of \textbf{CsI(Tl)} crystals (8376 $6x6x30 cm^3$ crystals in total)
 	       	\item	It covers barrel and end-caps regions ($12°\le\theta\le155°$)
@@ -244,24 +165,207 @@ The ECL plays a central role in this thesis
 \end{frame}
 %----------------------------------------------------------------------------------------
 
-\makesection{Cluster variables}
+\begin{frame}{Anti-neutron interactions in physics}
+The $\bar{n}$ interacts with matter primarily via strong nuclear force 
 
-\begin{frame}{n vs gamma list in cluster variables}
-
+    \begin{itemize}    
+    \item It can annihilate with nucleons in the material, producing light mesons (mainly pions) 
+    \item Hadronic ($\pi^+$, $\pi^- $) and electromagnetic ($\pi^0$) showers are generated within the ECL
+    \item Since annihilation stars are produced, both backward (TOP) and forward (KLM) directions are involved
+    
+    	\begin{figure}[p]
+     	   \includegraphics[scale=0.16, angle=0]{images/Ann-nbar.png}
+	\end{figure}
+	 
+    \end{itemize}
 \end{frame}
+%------------------------------------------------
+\begin{frame}{Electromagnetic and hadronic showers}
+Different processes occur for e.m. (1) and hadronic (2) showers:
+	\begin{enumerate}
+		\item  Brems. and p.p. process ($e^+,e^-,\gamma$) and $\pi^0 \rightarrow \gamma \gamma$
+		\item  Strong interactions of hadrons with the material ($p,n,pions,kaons...$)
+	\end{enumerate}
+
+After $\bar{n}$ annihilation, the produced pions can be detected via their showers:
+
+\begin{columns}
+	\begin{column}{0.45\textwidth}
+    		\begin{itemize}    
+			\item About the 95\% of the hadronic shower is contained within a cylinder of radius $\lambda_{had}$ ($\sim$ 44.12 cm in CsI(Tl))
+			\item About the 90\% of the e.m. shower is contained within a cylinder of radius $R_M$ ($\sim$ 3.6 cm in CsI(Tl))
+	    	\end{itemize}
+	\end{column}
+	
+	\begin{column}{0.60\textwidth}
+		\begin{figure}[p]
+		   \includegraphics[scale=0.45, angle=0]{images/gamma_vs_hadronic.png}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{Anti-neutron interactions in physics}
+Several channels can be selected to look at $\bar{n}$ annihilation, such as:
+	\begin{itemize}
+		\item $e^+ + e^-  \rightarrow X \rightarrow p + \bar{n} + \pi^-$ (Mine)
+		\item $\bar{\Lambda}_c \rightarrow  K_s^0 + \pi^0 +\bar{n} $ 
+		\item $\Lambda (\rightarrow \ p + \pi^- ) + \bar{\Lambda} (\rightarrow \bar{n} + \pi^0)$ 
+	\end{itemize}
+	
+Several variables can be used to distinguish their clusters, such as \cite{sanjeeda2025}:
+    	\begin{itemize}    
+		\item clusterZernikeMoment, clusterSecondMoment, clusterLAT etc...
+    	\end{itemize}
+	
+	\begin{figure}[p]
+     	   \includegraphics[scale=0.22, angle=0]{images/sanjeeda_a.png}
+	   \includegraphics[scale=0.2225, angle=0]{images/sanjeeda.png}
+
+	\end{figure}
+	
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{The MANTRA project}
+\textbf{M}easuring \textbf{A}nti-\textbf{N}eutron: \textbf{T}agging and \textbf{R}econstruction \textbf{A}lgorithm:
+
+    \begin{itemize}    
+    \item A general method to measure the $E_{\bar{n}}$ up to 10 GeV, by combining information from:
+    
+    	\begin{enumerate}
+    		\item A  detector with high time resolution ($<100ps$), like a T.O.F. detector (T.O.P.)
+		\item An electromagnetic calorimeter (\textbf{ECL})
+		\item A muon system (alternating layers of active material and high-Z absorber) (KLM)
+    	\end{enumerate}
+     \item These features are common in modern general-purpose collider experiments such as \textbf{Belle II} and BESIII
+     \item For MANTRA project, only signals from (1) and/or (2) are taken into account. In this thesis only (2) signals are studied
+    \end{itemize}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{The MANTRA project}
+Anti-neutrons do not interact with tracking sub-detector. The measurement of the energy is a two-step process:
+    	\begin{enumerate}
+    		\item $\bar{n}$ identification via its induced ECL clusters and how hey correlate to the initial energy
+		\item Combine the signals from (1) and (2) to reconstruct the $\bar{n}$'s energy, in cases of backscatter or pre-annihilation
+		
+		\begin{itemize}
+			\item If $\pi^0$ ($\sim 5 \%$): energy is all contained in the calorimeter, the shower is fully reconstructed
+		        	\item	If $\pi^{\pm}$ ($\sim 95\%$): their products may escape the crystals \\ $\rightarrow$ the goal is to complement the calorimeter information with that from the adjacent detectors
+		\end{itemize}
+    	\end{enumerate}
+    
+\end{frame}
+
+\makesection{Preliminary study via clean MC sample}
+
+\begin{frame}{Analysis outline}
+\begin{enumerate}
+	\item Preliminary study of a clean selected channel via generators
+    		\begin{enumerate}[(a)]
+    			\item Recoil identification from the three-body system $p + \gamma_{ISR} + \pi^-$ 
+			\item Study of the kinematic recoil variables (momentum, angles, energy, etc...)
+			\item Study of ECL clusters
+    		\end{enumerate}
+	
+	\item Study of MC cocktail events sample:
+
+	\begin{enumerate}[(a)]
+			\item Recoil identification from the three-body system $p + \gamma_{ISR} + \pi^-$ 
+	\end{enumerate}
+	
+	\item Study of real data events sample:
+	\begin{enumerate}[(a)]
+			\item Recoil identification from the three-body system $p + \gamma_{ISR} + \pi^-$ 
+			\item Constraint with 1C kinematic fit over the $p + \gamma_{ISR} + \pi^-$ recoil mass
+			\item Examine Data/MC agreement in ECL cluster shapes from $\bar{n}$ channel
+
+	\end{enumerate}
+			
+	
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Analysis outline}
+Can $\bar{p}$ serve as a proxy for $\bar{n}$? Analysis of a $\Lambda \rightarrow p + \pi^- \ (\bar{\Lambda} \rightarrow \bar{p} + \pi^+)$ sample shows that \cite{shanette2025}:
+	\begin{figure}[p]
+     	   \includegraphics[scale=0.25, angle=0]{images/shanette.png}
+	\end{figure}
+Poor data/MC agreement in $\bar{p} \rightarrow$ it can't be used as a reliable proxy for $\bar{n}$
+	
+\end{frame}
+
+\begin{frame}{Analysis outline}
+\begin{itemize}
+
+\item Several channels can be selected to study $\bar{n}$ at Belle II experiment. The chosen one is:
+
+	\begin{center}
+		$e^+ + e^-  + \gamma_{ISR} \rightarrow X \rightarrow p + \bar{n} + \pi^-$ (Phokhara+evt\_gen generator)
+	\end{center}
+	
+\vspace{0.3cm}
+
+\item The reconstructed particles are (cuts and selections in backup)
+	\begin{enumerate}[(a)]
+			\item $vpho \rightarrow p + \gamma_{ISR} + \pi^-$, where $vpho$ is a fake particle, mimicking the recoil system 
+			\item $\bar{n}$ candidate list, used to compare its variables with those of the recoil
+	\end{enumerate}	
+
+\item \textbf{100k events} were generated, \textbf{17525} have been reconstructed 
+\\ $\rightarrow$ reconstruction efficiency:
+
+\vspace{0.3cm}
+
+\begin{center} \Large
+	$\epsilon = \frac{n° \ of \ reconstructed \ candidates}{n° \ of \ generated \ events} \sim 18\% $
+\end{center}
+
+\end{itemize}
+\end{frame}
+
 
 
 \finalpagetext{Thank you for your attention}
 %----------------------------------------------------------------------------------------
 \makefinalpage
 %----------------------------------------------------------------------------------------
+
+
+
+
 \backupbegin
+\begin{frame}[allowframebreaks,noframenumbering, plain]{Applied selections and cuts on clean MC sample}
+\vspace{0.6cm}
+\begin{columns}[T] % T = top alignment
+    % Colonna sinistra
+    	\begin{column}{0.60\textwidth}
+	 	\begin{enumerate}[(a)]
+		{
+			\item $protonID > 0.9$ and $dr < 1$ and $abs(dz) < 3$ and $pionID > 0.1$ (From IP?)
+			\item  $p\_PDG == 2212$ and $pi\_PDG == -211$ and $gamma\_PDG == 22$
+			\item Rec. $\bar{n}$ in theta ECL Acceptance and From ECL
+			\item $mRecoil > 0 GeV$ and $mRecoil < 2 GeV$
+			\item $\alpha$ < 0.35 rad ($\sim 20$ deg), where $\alpha$ is the 3D angle between the recoil vector and the closest reconstructed $\bar{n}$ candidate (rankByLowest)
+		}
+		\end{enumerate}
+	\end{column}
+
+	\begin{column}{0.45\textwidth}
+		\begin{figure}[p]
+     		   	\includegraphics[scale=0.35, angle=0]{images/gen_alpha.pdf}
+		\end{figure}
+	\end{column}
+\end{columns}
+
+\end{frame}
 
 \backupend
 
 \begin{frame}[allowframebreaks,noframenumbering,plain]{References}
-\setbeamertemplate{footline}{} % rimuove numeri in basso
-\bibliography{references}  % senza .bib
+  \printbibliography
 \end{frame}
 
 \end{document}
