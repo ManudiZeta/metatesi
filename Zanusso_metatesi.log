@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  29 DEC 2025 22:37
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  29 DEC 2025 22:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1687,31 +1687,43 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
  [14
 
 ]
+File: images/gen_vpho_r_mRecoil.pdf Graphic file (type pdf)
+<use images/gen_vpho_r_mRecoil.pdf>
+
+Overfull \hbox (1.35095pt too wide) in paragraph at lines 350--350
+ [] 
+ []
+
+File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
+<AICStyleData/logos/belleii_logo.png>
+[15
+
+]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 File: AICStyleData/logos/blue.jpeg Graphic file (type bmp)
 <AICStyleData/logos/blue.jpeg>
- [15
+ [16
 
 ]
 \c@finalframe=\count503
 File: images/gen_alpha.pdf Graphic file (type pdf)
 <use images/gen_alpha.pdf>
 
-Overfull \hbox (14.04858pt too wide) in paragraph at lines 363--363
+Overfull \hbox (14.04858pt too wide) in paragraph at lines 386--386
  [] 
  []
 
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
-[16
+[17
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
- [17
+ [18
 
 ]
 \tf@nav=\write7
@@ -1735,12 +1747,12 @@ Package logreq Info: Writing requests to 'Zanusso_metatesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37347 strings out of 474773
- 792269 string characters out of 5757723
+ 37360 strings out of 474773
+ 792646 string characters out of 5757723
  1929839 words of memory out of 5000000
- 58776 multiletter control sequences out of 15000+600000
+ 58788 multiletter control sequences out of 15000+600000
  566617 words of font info for 106 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,145p,689b,4974s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Zanusso_metatesi.pdf (17 pages).
+Output written on Zanusso_metatesi.pdf (18 pages).
