@@ -10,7 +10,7 @@
 
 void una_grand ()
 {
-    gStyle->SetOptStat(1);
+    gStyle->SetOptStat(0);
     string in_1;
     TFile *myf_1 = nullptr;
     in_1 = "../../../vpho_std_isr_n_REC_merge100k_2.root";
@@ -29,29 +29,34 @@ void una_grand ()
     TTree *tree_1 = (TTree*)myf_1->Get("tree");
     
     TCanvas *c1 = new TCanvas("c1", "c1",800,600);
-    TString var = "alpha";
+    TString var = "vpho_r_pRecoilTheta:nbar_mcTheta";
     TString um = "rad";
-    TString drawExpr1 = var + ">>histo1(100,0,0.35)";
-    tree_1->Draw(drawExpr1, "");
+    TString drawExpr1 = var + ">>histo1(100,0,3.2,100,0,3.2)";
+    tree_1->Draw(drawExpr1,"nbar_mcPDG == -2112","colz");
     
     
     delete c1;
     
-    TH1 *histo1 = (TH1D*)gDirectory->Get("histo1");
+    TH2 *histo1 = (TH2D*)gDirectory->Get("histo1");
         
     histo1->SetLineColor(kBlue);
     TString title_x = var + " [" + um + "]";
-    histo1->GetXaxis()->SetTitle(title_x);
-    histo1->GetYaxis()->SetTitle("counts []");
+    //histo1->GetXaxis()->SetTitle(title_x);
+    //histo1->GetYaxis()->SetTitle("counts []");
+    //TString title = "";
+    //histo1->SetTitle(title);
     
-    TString title = "";
-    histo1->SetTitle(title);
+    histo1->GetXaxis()->SetTitle("#bar{n} mc_#theta [rad]");
+    histo1->GetYaxis()->SetTitle("pRecoil #theta [rad]");
+    histo1->SetTitle("From generator");
+    
         
     TCanvas *tela = new TCanvas("tela", "tela");
     
     histo1->DrawCopy("HIST");
     
-    TString title_out = "../images/gen_" + var + ".pdf";
+    //TString title_out = "../images/gen_" + var + ".pdf";
+    TString title_out = "../images/gen_mc_theta_corr.pdf";
     tela->SaveAs(title_out);
     
     

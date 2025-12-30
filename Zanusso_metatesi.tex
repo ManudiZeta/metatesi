@@ -214,7 +214,7 @@ Several channels can be selected to look at $\bar{n}$ annihilation, such as:
 		\item $\Lambda (\rightarrow \ p + \pi^- ) + \bar{\Lambda} (\rightarrow \bar{n} + \pi^0)$ 
 	\end{itemize}
 	
-Several variables can be used to distinguish their clusters, such as \cite{sanjeeda2025}:
+Several variables can be used to distinguish their clusters, such as:
     	\begin{itemize}    
 		\item clusterZernikeMoment, clusterSecondMoment, clusterLAT etc...
     	\end{itemize}
@@ -224,6 +224,8 @@ Several variables can be used to distinguish their clusters, such as \cite{sanje
 	   \includegraphics[scale=0.2225, angle=0]{images/sanjeeda.png}
 
 	\end{figure}
+The distributions for ECL variables for $\bar{p}$ and $\bar{n}$ do not in agree \cite{sanjeeda2025}
+$\rightarrow \bar{p}$ cannot be used as proxy for $\bar{n}$
 	
 \end{frame}
 
@@ -258,8 +260,9 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
     	\end{enumerate}
     
 \end{frame}
-
+%------------------------------------------------------------------------------------------------
 \makesection{Preliminary study via clean MC sample}
+%------------------------------------------------------------------------------------------------
 
 \begin{frame}{Analysis outline}
 \begin{enumerate}
@@ -288,14 +291,7 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
 \end{enumerate}
 \end{frame}
 
-\begin{frame}{Analysis outline}
-Can $\bar{p}$ serve as a proxy for $\bar{n}$? Analysis of a $\Lambda \rightarrow p + \pi^- \ (\bar{\Lambda} \rightarrow \bar{p} + \pi^+)$ sample shows that \cite{shanette2025}:
-	\begin{figure}[p]
-     	   \includegraphics[scale=0.25, angle=0]{images/shanette.png}
-	\end{figure}
-Poor data/MC agreement in $\bar{p} \rightarrow$ it can't be used as a reliable proxy for $\bar{n}$
-	
-\end{frame}
+%------------------------------------------------------------------------------------------------
 
 \begin{frame}{Analysis outline}
 \begin{itemize}
@@ -326,6 +322,8 @@ Poor data/MC agreement in $\bar{p} \rightarrow$ it can't be used as a reliable p
 \end{itemize}
 \end{frame}
 
+%------------------------------------------------------------------------------------------------
+
 \begin{frame}{The recoil mass}
 
 \begin{columns}[T] % T = top alignment
@@ -346,11 +344,43 @@ Poor data/MC agreement in $\bar{p} \rightarrow$ it can't be used as a reliable p
 	\end{column}
 \end{columns}
 
+\end{frame}
+%------------------------------------------------------------------------------------------------
+\begin{frame}{Correlation in $p$ and $\theta$}
+	\begin{columns}[T] % T = top alignment
+    % Colonna sinistra
+    	\begin{column}{0.30\textwidth}
+	 	\begin{itemize}
+		{
+			\item Good correlation is observed at the generator level in both the momentum and $\theta$ distributions
+			\item While for the momentum, the reconstructed $\bar{n}$ momentum in the ECL is not a reliable variable 
+		}
+		\end{itemize}
+	\end{column}
 
+	\begin{column}{0.65\textwidth}
+		\begin{figure}[p]
+		  	\includegraphics[scale=0.22, angle=0]{images/gen_mc_theta_corr.pdf}
+			\includegraphics[scale=0.22, angle=0]{images/gen_rec_theta_corr.pdf}
+			\includegraphics[scale=0.22, angle=0]{images/gen_mc_p_corr.pdf}
+			\includegraphics[scale=0.22, angle=0]{images/gen_rec_p_corr.pdf}
+		\end{figure}
+	\end{column}
+	\end{columns}
+		
 \end{frame}
 
 
 
+\begin{frame}{Analysis outline}
+Analysis of a $\Lambda \rightarrow p + \pi^- \ (\bar{\Lambda} \rightarrow \bar{p} + \pi^+)$ sample shows that \cite{shanette2025}:
+	\begin{figure}[p]
+     	   \includegraphics[scale=0.25, angle=0]{images/shanette.png}
+	\end{figure}
+Poor Data/MC agreement in $\bar{p} \rightarrow$ will it be the same for $\bar{n}$?
+	
+\end{frame}
+    
 \finalpagetext{Thank you for your attention}
 %----------------------------------------------------------------------------------------
 \makefinalpage
@@ -364,7 +394,7 @@ Poor data/MC agreement in $\bar{p} \rightarrow$ it can't be used as a reliable p
 \vspace{0.6cm}
 \begin{columns}[T] % T = top alignment
     % Colonna sinistra
-    	\begin{column}{0.60\textwidth}
+    	\begin{column}{0.50\textwidth}
 	 	\begin{enumerate}[(a)]
 		{
 			\item $protonID > 0.9$ and $dr < 1$ and $abs(dz) < 3$ and $pionID > 0.1$ (From IP?)
@@ -376,7 +406,7 @@ Poor data/MC agreement in $\bar{p} \rightarrow$ it can't be used as a reliable p
 		\end{enumerate}
 	\end{column}
 
-	\begin{column}{0.45\textwidth}
+	\begin{column}{0.55\textwidth}
 		\begin{figure}[p]
      		   	\includegraphics[scale=0.35, angle=0]{images/gen_alpha.pdf}
 		\end{figure}

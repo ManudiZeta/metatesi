@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  29 DEC 2025 22:55
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  30 DEC 2025 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1657,7 +1657,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 245.
+(Font)              scaled to size 8.99994pt on input line 247.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
  [10
@@ -1673,30 +1673,49 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
  [12
 
 ]
-File: images/shanette.png Graphic file (type bmp)
-<images/shanette.png>
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
+(Font)              scaled to size 12.9599pt on input line 323.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
  [13
 
 ]
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 12.9599pt on input line 327.
-File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
-<AICStyleData/logos/belleii_logo.png>
- [14
-
-]
 File: images/gen_vpho_r_mRecoil.pdf Graphic file (type pdf)
 <use images/gen_vpho_r_mRecoil.pdf>
 
-Overfull \hbox (1.35095pt too wide) in paragraph at lines 350--350
+Overfull \hbox (1.35095pt too wide) in paragraph at lines 347--347
  [] 
  []
 
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
-[15
+[14
+
+]
+File: images/gen_mc_theta_corr.pdf Graphic file (type pdf)
+<use images/gen_mc_theta_corr.pdf>
+File: images/gen_rec_theta_corr.pdf Graphic file (type pdf)
+<use images/gen_rec_theta_corr.pdf>
+File: images/gen_mc_p_corr.pdf Graphic file (type pdf)
+<use images/gen_mc_p_corr.pdf>
+File: images/gen_rec_p_corr.pdf Graphic file (type pdf)
+<use images/gen_rec_p_corr.pdf>
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 371.
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
+(Font)              scaled to size 15.55188pt on input line 371.
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
+(Font)              scaled to size 10.79993pt on input line 371.
+File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
+<AICStyleData/logos/belleii_logo.png>
+ [15
+
+]
+File: images/shanette.png Graphic file (type bmp)
+<images/shanette.png>
+File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
+<AICStyleData/logos/belleii_logo.png>
+ [16
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
@@ -1705,25 +1724,20 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 File: AICStyleData/logos/blue.jpeg Graphic file (type bmp)
 <AICStyleData/logos/blue.jpeg>
- [16
+ [17
 
 ]
 \c@finalframe=\count503
 File: images/gen_alpha.pdf Graphic file (type pdf)
 <use images/gen_alpha.pdf>
-
-Overfull \hbox (14.04858pt too wide) in paragraph at lines 386--386
- [] 
- []
-
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
-[17
+ [18
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
- [18
+ [19
 
 ]
 \tf@nav=\write7
@@ -1747,12 +1761,12 @@ Package logreq Info: Writing requests to 'Zanusso_metatesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37360 strings out of 474773
- 792646 string characters out of 5757723
- 1929839 words of memory out of 5000000
- 58788 multiletter control sequences out of 15000+600000
- 566617 words of font info for 106 fonts, out of 8000000 for 9000
+ 37424 strings out of 474773
+ 794573 string characters out of 5757723
+ 1930839 words of memory out of 5000000
+ 58841 multiletter control sequences out of 15000+600000
+ 569748 words of font info for 123 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,145p,689b,4974s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Zanusso_metatesi.pdf (18 pages).
+Output written on Zanusso_metatesi.pdf (19 pages).
