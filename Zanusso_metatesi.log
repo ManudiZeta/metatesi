@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  31 DEC 2025 16:20
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  31 DEC 2025 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1695,16 +1695,16 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: images/pRecoil_nmcP.pdf Graphic file (type pdf)
 <use images/pRecoil_nmcP.pdf>
 
-Overfull \hbox (1.35095pt too wide) in paragraph at lines 376--376
+Overfull \hbox (1.35095pt too wide) in paragraph at lines 377--377
  [] 
  []
 
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 376.
+(Font)              scaled to size 10.79993pt on input line 377.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 15.55188pt on input line 376.
+(Font)              scaled to size 15.55188pt on input line 377.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 10.79993pt on input line 376.
+(Font)              scaled to size 10.79993pt on input line 377.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 [15
@@ -1713,7 +1713,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: images/pRecoil_nmcP_PDGsel.pdf Graphic file (type pdf)
 <use images/pRecoil_nmcP_PDGsel.pdf>
 
-Overfull \hbox (1.35095pt too wide) in paragraph at lines 402--402
+Overfull \hbox (1.35095pt too wide) in paragraph at lines 404--404
  [] 
  []
 
