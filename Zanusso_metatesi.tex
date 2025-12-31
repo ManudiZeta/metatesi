@@ -271,6 +271,7 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
     			\item Recoil identification from the three-body system $p + \gamma_{ISR} + \pi^-$ 
 			\item Study of the kinematic recoil variables (momentum, angles, energy, etc...)
 			\item Study of ECL clusters
+			\item Study of the effect of 1C kinematic fit over the $p + \gamma_{ISR} + \pi^-$ recoil mass
     		\end{enumerate}
 	
 	\item Study of MC cocktail events sample:
@@ -324,14 +325,15 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
 
 %------------------------------------------------------------------------------------------------
 
-\begin{frame}{The recoil mass}
+\begin{frame}{The recoil mass (1a)}
 
 \begin{columns}[T] % T = top alignment
     % Colonna sinistra
     	\begin{column}{0.40\textwidth}
 	 	\begin{itemize}
 		{
-			\item The recoil three body system is well reconstructed as shown in the recoil mass distribution
+			\item The recoil three body system is well reconstructed as shown in the recoil mass distribution, where a peak emerges above the $\bar{n}$ mass.
+			\vspace{0.2cm}
 			\\ $\rightarrow$ reconstructed $\bar{n}$ variables can be compared with the reconstructed recoil variables ($p, \ \theta, \ \phi $)
 		}
 		\end{itemize}
@@ -345,15 +347,68 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
 \end{columns}
 
 \end{frame}
+
+
 %------------------------------------------------------------------------------------------------
-\begin{frame}{Correlation in $p$ and $\theta$}
+
+\begin{frame}{The recoil and the $\bar{n}$ momentum}
+
+\begin{columns}[T] % T = top alignment
+    % Colonna sinistra
+    	\begin{column}{0.40\textwidth}
+	 	\begin{itemize}
+		{
+			\item The reconstructed $\bar{n}$ candidate list shows a discrepancy with the recoil momentum
+			$\rightarrow \gamma$'s are mis-identified as $\bar{n}$ in reconstruction
+			\item MC selection $\bar{n}_{mcPDG} != 22$ is applied in order to directly compare the recoil kinematic variables with the $\bar{n}$ from MC truth
+
+		}
+		\end{itemize}
+	\end{column}
+
+	\begin{column}{0.55\textwidth}
+		\begin{figure}[p]
+		   	\includegraphics[scale=0.40, angle=0]{images/pRecoil_nmcP.pdf}
+		\end{figure}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+%------------------------------------------------------------------------------------------------
+
+\begin{frame}{The recoil and the $\bar{n}$ momentum}
+
+\begin{columns}[T] % T = top alignment
+    % Colonna sinistra
+    	\begin{column}{0.40\textwidth}
+	 	\begin{itemize}
+		{
+			\item The reconstructed $\bar{n}$ candidate list shows a discrepancy with the recoil momentum
+			$\rightarrow \gamma$'s are mis-identified as $\bar{n}$ in reconstruction
+			\item MC selection $\bar{n}_{mcPDG} != 22$ is applied in order to directly compare the recoil kinematic variables with the $\bar{n}$ from MC truth
+
+		}
+		\end{itemize}
+	\end{column}
+
+	\begin{column}{0.55\textwidth}
+		\begin{figure}[p]
+		   	\includegraphics[scale=0.40, angle=0]{images/pRecoil_nmcP_PDGsel.pdf}
+		\end{figure}
+	\end{column}
+\end{columns}
+
+\end{frame}
+%------------------------------------------------------------------------------------------------
+\begin{frame}{$\bar{n}$ vs recoil vector correlation}
 	\begin{columns}[T] % T = top alignment
     % Colonna sinistra
     	\begin{column}{0.30\textwidth}
 	 	\begin{itemize}
 		{
 			\item Good correlation is observed at the generator level in both the momentum and $\theta$ distributions
-			\item While for the momentum, the reconstructed $\bar{n}$ momentum in the ECL is not a reliable variable 
+			\item The reconstructed $\bar{n}$ momentum in the ECL is not a reliable variable, since no high correlation is observed (energy loss)
 		}
 		\end{itemize}
 	\end{column}
@@ -414,6 +469,21 @@ Poor Data/MC agreement in $\bar{p} \rightarrow$ will it be the same for $\bar{n}
 \end{columns}
 
 \end{frame}
+
+\begin{frame}[allowframebreaks,noframenumbering, plain]{$\bar{n}$ mcPDG }
+$\gamma$'s are mis-identified as $\bar{n}$ in reconstruction:
+	\begin{figure}
+     	   \includegraphics[scale=0.40, angle=0]{images/nbar_mcPDG.pdf}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}[allowframebreaks,noframenumbering, plain]{$p_{\bar{n}}$/pRecoil }
+$\bar{n}$ is underrated in the most of cases (annihilation process + loss of energy)
+	\begin{figure}
+     	   \includegraphics[scale=0.40, angle=0]{images/frac_pREC_np.pdf}
+	\end{figure}	
+\end{frame}
+
 
 \backupend
 
