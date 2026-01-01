@@ -297,28 +297,38 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
 \begin{frame}{Analysis outline}
 \begin{itemize}
 
-\item Several channels can be selected to study $\bar{n}$ at Belle II experiment. The chosen one is:
+\item The analyzed channel is:
 
-	\begin{center}
-		$e^+ + e^-  + \gamma_{ISR} \rightarrow X \rightarrow p + \bar{n} + \pi^-$ (Phokhara+evt\_gen generator)
-	\end{center}
-	
+  \begin{center}
+    $e^+ + e^-  + \gamma_{ISR} \rightarrow X \rightarrow p + \bar{n} + \pi^-$ (Phokhara+evt\_gen generator)
+  \end{center}
+\end{itemize}
+  
+\begin{columns}[T]
+  \begin{column}{0.45\textwidth}
+The reconstructed particles are (cuts and selections in backup):
+    \begin{enumerate}[(a)]
+      \item $vpho \rightarrow p + \gamma_{ISR} + \pi^-$, where $vpho$ is a fake particle, mimicking the recoil system 
+      \item $\bar{n}$ candidate list, used to compare its variables with those of the recoil
+    \end{enumerate}  
+\end{column}
+
+  \begin{column}{0.50\textwidth}
+    \begin{figure}[p]
+         \includegraphics[scale=0.22, angle=0]{images/topoana_100k}
+    \end{figure}
+  \end{column}
+
+\end{columns}
 \vspace{0.3cm}
-
-\item The reconstructed particles are (cuts and selections in backup)
-	\begin{enumerate}[(a)]
-			\item $vpho \rightarrow p + \gamma_{ISR} + \pi^-$, where $vpho$ is a fake particle, mimicking the recoil system 
-			\item $\bar{n}$ candidate list, used to compare its variables with those of the recoil
-	\end{enumerate}	
-
+\begin{itemize}
 \item \textbf{100k events} were generated, \textbf{17525} candidates have been reconstructed 
-\\ $\rightarrow$ reconstruction efficiency:
-
-\vspace{0.3cm}
-
-\begin{center} \Large
-	$\epsilon = \frac{n° \ of \ reconstructed \ candidates}{n° \ of \ generated \ events} \sim 18\% $
+  \\ $\rightarrow$ reconstruction efficiency:
+  
+\begin{center}
+  $\epsilon = \frac{n° \ of \ reconstructed \ candidates}{n° \ of \ generated \ events} \sim 18\% $
 \end{center}
+
 
 \end{itemize}
 \end{frame}
@@ -351,7 +361,7 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
 
 %------------------------------------------------------------------------------------------------
 
-\begin{frame}{The recoil and the $\bar{n}$ momentum}
+\begin{frame}{The recoil and the $\bar{n}$ momentum (1b)}
 
 \begin{columns}[T] % T = top alignment
     % Colonna sinistra
@@ -378,7 +388,7 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
 
 %------------------------------------------------------------------------------------------------
 
-\begin{frame}{The recoil and the $\bar{n}$ momentum}
+\begin{frame}{The recoil and the $\bar{n}$ momentum (1b)}
 
 \begin{columns}[T] % T = top alignment
     % Colonna sinistra
@@ -402,8 +412,8 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
 \end{columns}
 
 \end{frame}
-%------------------------------------------------------------------------------------------------
-\begin{frame}{$\bar{n}$ vs recoil vector correlation}
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{frame}{$\bar{n}$ vs recoil vector correlation (1b)}
 	\begin{columns}[T] % T = top alignment
     % Colonna sinistra
     	\begin{column}{0.30\textwidth}
@@ -428,8 +438,63 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
 		
 \end{frame}
 
+%-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{frame}{$\bar{n}$ ECL cluster variables (1c)}
+Cluster variables can be studied to distinguish $\bar{n}$ from other neutral particles:
+
+\begin{itemize}
+\begin{columns}  
+  \begin{column}{0.50\textwidth}
+     {
+    \item \textbf{clusterE}, \textbf{clusterE1E9} and \textbf{clusterE9E21} ($E_{min} = 20$ GeV)
+     \item \textbf{clusterAbsZernikeMoment51}: $|Z_{51}|$ 
+     }
+   \end{column}
+   
+   \begin{column}{0.40\textwidth}
+  		\begin{figure}[p]
+		  	\includegraphics[scale=0.10, angle=0]{images/cluster/zernike.png}
+			\includegraphics[scale=0.13, angle=0]{images/cluster/cluster}
+		\end{figure}
+    \end{column}
+    \end{columns}
+   
+    \item \textbf{clusterLAT}:  lateral energy distribution, defined as:  $S = \frac{ \sum\limits_{i=2}^n \omega_i E_i r_i^2} { \omega_0 E_0 r_0^2 + \omega_1 E_1 r_1^2+ \sum\limits_{i=2}^n \omega_i E_i r_i^2}$    
+    \item \textbf{clusterSecondMoment}: second moment S, defined as:  $ S = \frac{ \sum\limits_{i=0}^n \omega_i E_i r_i^2} { \sum\limits_{i=0}^n \omega_i E_i}$  
+    
+\end{itemize}
+
+\end{frame}
+
+%-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{frame}{$\bar{n}$ ECL cluster variables (1c)}
+ \begin{figure}
+	\includegraphics[width=0.31\textwidth]{images/cluster/clusterE}
+	\includegraphics[width=0.31\textwidth]{images/cluster/clusterE1E9}
+	\includegraphics[width=0.31\textwidth]{images/cluster/clusterE9E21}
+	
+	\includegraphics[width=0.31\textwidth]{images/cluster/clusterAbsZernikeMoment51}
+	\includegraphics[width=0.31\textwidth]{images/cluster/clusterLAT}
+	\includegraphics[width=0.31\textwidth]{images/cluster/clusterSecondMoment}
+\end{figure}
+
+\end{frame}
+
+%-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{frame}{$\bar{n}$ ECL cluster variables (1c)}
+
+ \begin{figure}
+	\includegraphics[width=0.31\textwidth]{images/cluster/clusterNHits}
+\end{figure}
+
+\end{frame}
 
 
+
+
+
+
+%-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 \begin{frame}{Analysis outline}
 Analysis of a $\Lambda \rightarrow p + \pi^- \ (\bar{\Lambda} \rightarrow \bar{p} + \pi^+)$ sample shows that \cite{shanette2025}:
 	\begin{figure}[p]
