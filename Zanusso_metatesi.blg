@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Zanusso_metatesi.blg'
-[119] biber-darwin:340> INFO - === Gio Gen  1, 2026, 22:46:50
-[152] Biber.pm:419> INFO - Reading 'Zanusso_metatesi.bcf'
-[324] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
-[350] Biber.pm:4419> INFO - Processing section 0
-[381] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[383] bibtex.pm:1713> INFO - LaTeX decoding ...
-[394] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[486] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[486] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[486] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[486] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[492] bbl.pm:660> INFO - Writing 'Zanusso_metatesi.bbl' with encoding 'UTF-8'
-[495] bbl.pm:763> INFO - Output to Zanusso_metatesi.bbl
+[116] biber-darwin:340> INFO - === Gio Gen  1, 2026, 23:11:17
+[146] Biber.pm:419> INFO - Reading 'Zanusso_metatesi.bcf'
+[299] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[338] Biber.pm:4419> INFO - Processing section 0
+[359] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[361] bibtex.pm:1713> INFO - LaTeX decoding ...
+[372] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[455] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[455] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[455] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[455] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[460] bbl.pm:660> INFO - Writing 'Zanusso_metatesi.bbl' with encoding 'UTF-8'
+[463] bbl.pm:763> INFO - Output to Zanusso_metatesi.bbl
