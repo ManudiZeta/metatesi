@@ -31,9 +31,9 @@ void una_grand ()
     TTree *tree_1 = (TTree*)myf_1->Get("tree");
     
     TCanvas *c1 = new TCanvas("c1", "c1",800,600);
-    TString var = "nbar_p/vpho_r_pRecoil";
-    TString um = "";
-    TString drawExpr1 = var + ">>histo1(100,0,1.5)";
+    TString var = "vpho_r_pRecoilTheta-nbar_mcTheta";
+    TString um = "rad";
+    TString drawExpr1 = var + ">>histo1(100,-0.4,0.4)";
     tree_1->Draw(drawExpr1,"nbar_mcPDG == -2112");
     
     
@@ -45,7 +45,7 @@ void una_grand ()
     TString title_x = var + " [" + um + "]";
     histo1->GetXaxis()->SetTitle(title_x);
     histo1->GetYaxis()->SetTitle("counts []");
-    TString title = "";
+    TString title = "From generator";
     histo1->SetTitle(title);
     
     TCanvas *tela = new TCanvas("tela", "tela");
@@ -53,7 +53,7 @@ void una_grand ()
     histo1->DrawCopy("HIST");
     
     TString title_out = "../images/gen_" + var + ".pdf";
-    tela->SaveAs("../images/feac_pREC_np.pdf");
+    tela->SaveAs("../images/diff_thetaREC_ntheta_mc.pdf");
     
 }
 
