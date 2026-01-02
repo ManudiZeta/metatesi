@@ -140,7 +140,7 @@ SuperKEKB is an asymmetric $e^+ \ e^-$ collider (Tsukuba, Japan)
 \vspace{0.5cm} % Spazio tra le due sezioni
 
 % Parte inferiore con un’unica colonna
-It operates mainly around $\Upsilon(4S)$ resonance ($\sim10.58 GeV$):
+It operates mainly around $\Upsilon(4S)$ resonance ($\sim10.58$ GeV):
 \begin{itemize}
     \item It decays almost exclusively into entangled couple of $B \ \bar{B} \rightarrow$ B-factory
     \item Several goals: flavour physics, BSM, B and charm mesons etc...
@@ -269,8 +269,8 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
     		\begin{enumerate}[(a)]
     			\item Recoil identification from the three-body system $p + \gamma_{ISR} + \pi^-$ 
 			\item Study of the kinematic recoil variables (momentum, angles, energy, etc...)
-			\item Study of ECL clusters
 			\item Study of the effect of 1C kinematic fit over the $p + \gamma_{ISR} + \pi^-$ recoil mass
+			\item Study of ECL clusters
     		\end{enumerate}
 	
 	\item Study of MC cocktail events sample:
@@ -398,7 +398,7 @@ The reconstructed particles are (cuts and selections in backup):
 			\begin{enumerate}[(a)]
 				\item 100000 generated events
 				\item 17525 reconstructed events ($\sim 18\%$)
-				\item 6905 real $\bar{n}$ in candidates list
+				\item 6905 real $\bar{n}$ in candidates list ($\sim 7\%$)
 			\end{enumerate}
 			
 			\item For a $(LUMI)$ real data, $t(TOT events)$ are expected
@@ -467,11 +467,26 @@ The reconstructed particles are (cuts and selections in backup):
 		
 \end{frame}
 
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{frame}{KInematic Fit over the recoil mass (1c)}
+A 1C kinematic fit can possibly be used to add a constraint and improve the agreement in $p$ and $\theta$
 
-
+	 	\begin{itemize}
+		{
+			\item Highest amount of reconstructed candidates ($\sim 24 \%$) and of real $\bar{n}$ ($\sim 9 \%$)
+			\item No significant differences can be seen in $\theta_{recoil}$ vs MC $\theta_{\bar{n}}$
+			\item A slightly improvement can be observed in in $p_{recoil}$ vs MC $p_{\bar{n}}$
+		}
+		\end{itemize}
+		\begin{figure}
+			\includegraphics[scale=0.32, angle=0]{images/kin/kin_comp_deltaTheta.pdf}
+		  	\includegraphics[scale=0.32, angle=0]{images/kin/kin_comp_deltaP.pdf}
+		\end{figure}
+		
+\end{frame}
 
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-\begin{frame}{$\bar{n}$ ECL cluster variables (1c)}
+\begin{frame}{$\bar{n}$ ECL cluster variables (1d)}
 Cluster variables can be studied to distinguish $\bar{n}$ from other neutral particles:
 
 \begin{itemize}
@@ -499,7 +514,7 @@ Cluster variables can be studied to distinguish $\bar{n}$ from other neutral par
 \end{frame}
 
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-\begin{frame}{$\bar{n}$ ECL cluster variables (1c)}
+\begin{frame}{$\bar{n}$ ECL cluster variables (1d)}
  \begin{figure}
 	\includegraphics[width=0.31\textwidth]{images/cluster/clusterE}
 	\includegraphics[width=0.31\textwidth]{images/cluster/clusterE1E9}
@@ -514,12 +529,56 @@ Cluster variables can be studied to distinguish $\bar{n}$ from other neutral par
 
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 \begin{frame}{$\bar{n}$ ECL cluster variables (1c)}
+\begin{columns}  
 
+  \begin{column}{0.35\textwidth}
+     {
+     \begin{itemize}
+     \item $\bar{n}$ clusters mainly involved 15 or more crystals
+     \item A lot of photons are mis-identified as $\bar{n}$ during reconstruction (backup)$\rightarrow$ further selection can be studied such as:
+     \begin{center}
+     $\bar{n}_{mcPDG} \neq -2112$ \&\& $	nbar\_clusterNHits > 15$
+     \end{center}
+     \end{itemize}
+     }
+   \end{column}
+   \begin{column}{0.55\textwidth}
  \begin{figure}
-	\includegraphics[width=0.31\textwidth]{images/cluster/clusterNHits}
+	\includegraphics[width=0.95\textwidth]{images/cluster/clusterNHits}
+\end{figure}
+    \end{column}
+    \end{columns}
+
+\end{frame}
+
+%-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{frame}{$\bar{n}$ ECL cluster variables (1d)}
+ \begin{figure}
+	\includegraphics[width=0.31\textwidth]{images/cluster/mcPDG!=22/clusterE_gamma}
+	\includegraphics[width=0.31\textwidth]{images/cluster/mcPDG!=22/clusterE1E9_gamma}
+	\includegraphics[width=0.31\textwidth]{images/cluster/mcPDG!=22/clusterE9E21_gamma}
+	
+	\includegraphics[width=0.31\textwidth]{images/cluster/mcPDG!=22/clusterAbsZernikeMoment51_gamma}
+	\includegraphics[width=0.31\textwidth]{images/cluster/mcPDG!=22/clusterLAT_gamma}
+	\includegraphics[width=0.31\textwidth]{images/cluster/mcPDG!=22/clusterSecondMoment_gamma}
 \end{figure}
 
 \end{frame}
+
+%-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{frame}{$\bar{n}$ Summary (1)}
+\begin{itemize}
+\item Channel  $e^+ + e^-  + \gamma_{ISR} \rightarrow X \rightarrow p + \bar{n} + \pi^-$ has been studied
+\item The recoil three body system($p + \pi^- + \gamma_{ISR}$) is correctly reconstructed from the secondary background, ISR/FSR photons
+\item The $\bar{n}$ kinematic is properly described by the three body system $p, \pi^-, \gamma$ recoil vector
+\item Reconstructed $\bar{n}$ variables are mainly affected by mis-identified photons, which can be partially cleaned by cluster size cuts ($clusterNHits$)
+\item 1C kinematic fit can be possibly adopted during MC/Data comparison, in order to reduce the uncertainty on the recoil momentum
+
+\end{itemize}
+\end{frame}
+
+
+
 
 
 

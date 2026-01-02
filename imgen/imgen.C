@@ -65,7 +65,7 @@ void due_grand(TString var, TString cut, TString um)
     TFile *myf_1 = nullptr;
     
     
-    in_1 = "../../../vpho_std_isr_n_REC_merge100k_2.root";
+    in_1 = "../../../vpho_std_isr_n_REC_merge100k_3.root";
     
     ifstream in_f1(in_1);
     
@@ -76,7 +76,7 @@ void due_grand(TString var, TString cut, TString um)
     }
     in_f1.close();
     
-    myf_1 = new TFile("../../../vpho_std_isr_n_REC_merge100k_2.root");
+    myf_1 = new TFile("../../../vpho_std_isr_n_REC_merge100k_3.root");
     
     TTree *tree_1 = (TTree*)myf_1->Get("tree");
     TTree *tree_2 = (TTree*)myf_1->Get("tree");
@@ -87,7 +87,7 @@ void due_grand(TString var, TString cut, TString um)
     cout<<"var_1 = "<<var_1<<endl;
     cout<<"var_2 = "<<var_2<<endl;
     
-    TString drawExpr1 = var_1 + ">>histo1(256,0,-7)";
+    TString drawExpr1 = var_1 + ">>histo1(256,7,-7)";
     TString drawExpr2 = var_2 + ">>histo2(256,7,-7)";
     TString cut_2 = "nbar_" + cut;
     cout<<"cut_2 = "<<cut_2<<endl;
@@ -104,7 +104,7 @@ void due_grand(TString var, TString cut, TString um)
     histo1->SetFillColor(kBlue);
     histo2->SetFillColor(kRed);
     
-    TString title_x = var + "[" + um + "]";
+    TString title_x = var + " [" + um + "]";
     //TString title_x = "clusterSecondMoment []";
     histo1->GetXaxis()->SetTitle(title_x);
     histo1->GetYaxis()->SetTitle("counts []");
@@ -127,7 +127,7 @@ void due_grand(TString var, TString cut, TString um)
     histo2->DrawCopy("HIST SAMES");
     leg->Draw("SAME");
     
-    TString title_out = "../images/cluster/" + var +"NHits.pdf";
+    TString title_out = "../images/cluster/mcPDG!=22/" + var +"_gamma.pdf";
     tela->SaveAs(title_out);
     
 }
@@ -228,8 +228,8 @@ void kin()
     
     TCanvas *c1 = new TCanvas("c1", "c1",800,600);
     
-    tree_1->Draw("vpho_r_pRecoilTheta-nbar_mcTheta>>histo1(100,-1,1)","nbar_mcPDG == -2112","goff");
-    tree_2->Draw("vpho_r_pRecoilTheta-nbar_mcTheta>>histo2(100,-1,1)","nbar_mcPDG == -2112","goff");
+    tree_1->Draw("vpho_r_pRecoil-nbar_mcP>>histo1(100,-0.2,0.2)","nbar_mcPDG == -2112","goff");
+    tree_2->Draw("vpho_r_pRecoil-nbar_mcP>>histo2(100,-0.2,0.2)","nbar_mcPDG == -2112","goff");
     
     delete c1;
     
@@ -263,10 +263,10 @@ void kin()
     histo1->SetLineColor(kBlue);
     histo2->SetLineColor(kRed);
     
-    histo1->GetXaxis()->SetTitle("#Delta#theta [rad]");
+    histo1->GetXaxis()->SetTitle("#Delta p [GeV]");
     histo1->GetYaxis()->SetTitle("counts []");
     
-    string title = "#Delta#theta comparison (n list)";
+    string title = "";
     histo1->SetTitle(&title[0]);
     
     
@@ -285,12 +285,6 @@ void kin()
     
     tela->Update();
     
-    tela->SaveAs("images/kin_comp_deltaTheta.pdf");
-    
-    
-    
-    
-    tela->SaveAs("images/isr_g_kin_comp_deltaTheta.pdf");
-    
-    
+    tela->SaveAs("../images/kin/kin_comp_deltaP.pdf");
+        
 }
