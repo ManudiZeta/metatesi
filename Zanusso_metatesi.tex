@@ -155,7 +155,7 @@ The ECL plays a central role in this thesis
 	\begin{itemize}
 		\item Array of \textbf{CsI(Tl)} crystals (8376 $6x6x30 cm^3$ crystals in total)
 	       	\item	It covers barrel and end-caps regions ($12°\le\theta\le155°$)
-		\item Energy resolution of 4\% @100 Mev and 1.6\% @8 GeV
+		\item Energy resolution of 4\% @100 MeV and 1.6\% @8 GeV
 	\end{itemize}
 	
 \includegraphics[scale=0.20, angle=0]{images/belleii_scheme}
@@ -205,30 +205,6 @@ After $\bar{n}$ annihilation, the produced pions can be detected via their showe
 \end{frame}
 
 %------------------------------------------------
-\begin{frame}{Anti-neutron interactions in physics}
-Several channels can be selected to look at $\bar{n}$ annihilation, such as:
-	\begin{itemize}
-		\item $e^+ + e^-  \rightarrow X \rightarrow p + \bar{n} + \pi^-$ (Mine)
-		\item $\bar{\Lambda}_c \rightarrow  K_s^0 + \pi^0 +\bar{n} $ 
-		\item $\Lambda (\rightarrow \ p + \pi^- ) + \bar{\Lambda} (\rightarrow \bar{n} + \pi^0)$ 
-	\end{itemize}
-	
-Several variables can be used to distinguish their clusters, such as:
-    	\begin{itemize}    
-		\item clusterZernikeMoment, clusterSecondMoment, clusterLAT etc...
-    	\end{itemize}
-	
-	\begin{figure}[p]
-     	   \includegraphics[scale=0.22, angle=0]{images/sanjeeda_a.png}
-	   \includegraphics[scale=0.2225, angle=0]{images/sanjeeda.png}
-
-	\end{figure}
-The distributions for ECL variables for $\bar{p}$ and $\bar{n}$ do not in agree \cite{sanjeeda2025}
-$\rightarrow \bar{p}$ cannot be used as proxy for $\bar{n}$
-	
-\end{frame}
-
-%------------------------------------------------
 \begin{frame}{The MANTRA project}
 \textbf{M}easuring \textbf{A}nti-\textbf{N}eutron: \textbf{T}agging and \textbf{R}econstruction \textbf{A}lgorithm:
 
@@ -259,6 +235,31 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
     	\end{enumerate}
     
 \end{frame}
+
+%------------------------------------------------
+\begin{frame}{Preliminary concept}
+Several channels can be selected to look at $\bar{n}$ annihilation, such as:
+	\begin{itemize}
+		\item $e^+ + e^-  \rightarrow X \rightarrow p + \bar{n} + \pi^-$ (Mine)
+		\item $\bar{\Lambda}_c \rightarrow  K_s^0 + \pi^0 +\bar{n} $ 
+		\item $\Lambda (\rightarrow \ p + \pi^- ) + \bar{\Lambda} (\rightarrow \bar{n} + \pi^0)$ 
+	\end{itemize}
+	
+Several variables can be used to distinguish their clusters, such as:
+    	\begin{itemize}    
+		\item clusterZernikeMoment, clusterSecondMoment, clusterLAT etc...
+    	\end{itemize}
+	
+	\begin{figure}[p]
+     	   \includegraphics[scale=0.22, angle=0]{images/sanjeeda_a.png}
+	   \includegraphics[scale=0.2225, angle=0]{images/sanjeeda.png}
+
+	\end{figure}
+The distributions for ECL variables for $\bar{p}$ and $\bar{n}$ do not in agree \cite{sanjeeda2025}
+$\rightarrow \bar{p}$ cannot be used as proxy for $\bar{n}$
+	
+\end{frame}
+
 %------------------------------------------------------------------------------------------------
 \makesection{Preliminary study via clean MC sample}
 %------------------------------------------------------------------------------------------------
@@ -293,13 +294,13 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
 
 %------------------------------------------------------------------------------------------------
 
-\begin{frame}{Analysis outline}
+\begin{frame}{Analysis outline (1)}
 \begin{itemize}
 
 \item The analyzed channel is:
 
   \begin{center}
-    $e^+ + e^-  + \gamma_{ISR} \rightarrow X \rightarrow p + \bar{n} + \pi^-$ (Phokhara+evt\_gen generator)
+    $e^+ + e^-  + \gamma_{ISR} \rightarrow p + \bar{n} + \pi^-$ (Phokhara+evt\_gen generator)
   \end{center}
 \end{itemize}
   
@@ -308,7 +309,7 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
 The reconstructed particles are (cuts and selections in backup):
     \begin{enumerate}[(a)]
       \item $vpho \rightarrow p + \gamma_{ISR} + \pi^-$, where $vpho$ is a fake particle, mimicking the recoil system 
-      \item $\bar{n}$ candidate list, used to compare its variables with those of the recoil
+      \item $\bar{n}$ candidate list used to compare its variables with those of the recoil
     \end{enumerate}  
 \end{column}
 
@@ -537,7 +538,7 @@ Cluster variables can be studied to distinguish $\bar{n}$ from other neutral par
      \item $\bar{n}$ clusters mainly involved 15 or more crystals
      \item Several photons are mis-identified as $\bar{n}$ during reconstruction (backup)$\rightarrow$ further selection can be studied such as:
      \begin{center}
-     $\bar{n}_{mcPDG} \neq 22$ \\ \&\&  \\ $nbar\_clusterNHits > 15$
+     $\bar{n}\_mcPDG \neq 22$ \\ \&\&  \\ $\bar{n}\_clusterNHits > 15$
      \end{center}
      \end{itemize}
      }
@@ -566,7 +567,7 @@ Cluster variables can be studied to distinguish $\bar{n}$ from other neutral par
 \end{frame}
 
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-\begin{frame}{$\bar{n}$ Summary (1)}
+\begin{frame}{Summary (1)}
 \begin{itemize}
 \item Channel  $e^+ + e^-  + \gamma_{ISR} \rightarrow X \rightarrow p + \bar{n} + \pi^-$ has been studied
 \item The recoil three body system($p + \pi^- + \gamma_{ISR}$) is correctly reconstructed from the secondary background, ISR/FSR photons
@@ -578,7 +579,30 @@ Cluster variables can be studied to distinguish $\bar{n}$ from other neutral par
 \end{frame}
 
 
+%------------------------------------------------------------------------------------------------
+\makesection{Study of continuum with MC cocktail}
+%------------------------------------------------------------------------------------------------
 
+\begin{frame}{Analysis outline (2)}
+\begin{itemize}
+\item Study of uubar continuum using the following MC cocktail sample:
+\begin{center}
+	$/belle/collection/MC/MC16rd\_proc16\_chunk1\_uubar\_4S\_v1$
+\end{center}
+\item 2300 jobs have been submitted to the grid, with the following online cuts:
+\begin{enumerate}
+\item  $p\_mcPDG == 2212$ and $pi\_mcPDG == -211$ and $mRecoil > 0 GeV$ and $mRecoil < 2 GeV$
+\item Best candidate selected with RankByLowest method over $\alpha$
+\item In order to have a cleaner channel, only $p$ and $\pi^-$ compose the recoil vector (ISR neglected)
+\end{enumerate}
+
+\begin{enumerate}[(a)]
+\item Find the signal above the $\bar{n}$ mass $\sim 0.939 \ GeV$
+\item Zoom around this value and look at the same variables of the sample case 
+\end{enumerate}
+
+\end{itemize}
+\end{frame}
 
 
 
@@ -612,7 +636,7 @@ Poor Data/MC agreement in $\bar{p} \rightarrow$ will it be the same for $\bar{n}
 	 	\begin{enumerate}[(a)]
 		{
 			\item $protonID > 0.9$ and $dr < 1$ and $abs(dz) < 3$ and $pionID > 0.1$ (From IP?)
-			\item  $p\_PDG == 2212$ and $pi\_PDG == -211$ and $gamma\_PDG == 22$
+			\item $p\_mcPDG == 2212$ and $pi\_mcPDG == -211$ and $gamma\_mcPDG == 22$
 			\item Rec. $\bar{n}$ in theta ECL Acceptance and From ECL
 			\item $mRecoil > 0 GeV$ and $mRecoil < 2 GeV$
 			\item $\alpha$ < 0.35 rad ($\sim 20$ deg), where $\alpha$ is the 3D angle between the recoil vector and the closest reconstructed $\bar{n}$ candidate (rankByLowest)

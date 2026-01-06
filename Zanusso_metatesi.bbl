@@ -1,0 +1,148 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{ablikim2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f61f018ba60fab1056663ef0ecc13b14}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={M.\bibnamedelimi Ablikim},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{f61f018ba60fab1056663ef0ecc13b14}
+      \strng{fullhash}{f61f018ba60fab1056663ef0ecc13b14}
+      \strng{bibnamehash}{f61f018ba60fab1056663ef0ecc13b14}
+      \strng{authorbibnamehash}{f61f018ba60fab1056663ef0ecc13b14}
+      \strng{authornamehash}{f61f018ba60fab1056663ef0ecc13b14}
+      \strng{authorfullhash}{f61f018ba60fab1056663ef0ecc13b14}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Nature Physics}
+      \field{volume}{17}
+      \field{year}{2021}
+    \endentry
+    \entry{burgio2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=490e45b3456b674cf83e2be9ad670ed1}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={G.F.\bibnamedelimi Burgio},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{490e45b3456b674cf83e2be9ad670ed1}
+      \strng{fullhash}{490e45b3456b674cf83e2be9ad670ed1}
+      \strng{bibnamehash}{490e45b3456b674cf83e2be9ad670ed1}
+      \strng{authorbibnamehash}{490e45b3456b674cf83e2be9ad670ed1}
+      \strng{authornamehash}{490e45b3456b674cf83e2be9ad670ed1}
+      \strng{authorfullhash}{490e45b3456b674cf83e2be9ad670ed1}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Prog. Part. Nucl. Phys.}
+      \field{volume}{10389}
+      \field{year}{2021}
+      \field{pages}{120}
+      \range{pages}{1}
+    \endentry
+    \entry{donato2000}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c459aba8b23321ad1ef1336313517b28}{%
+           family={Donato},
+           familyi={D\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=64b13a960df700da60b29d3359730451}{%
+           family={Fornengo},
+           familyi={F\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1a6cfdf94eb95c9bf6b6f9add6a91b4c}{%
+           family={Salati},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f99f90d7b056932e7497eab811fc328f}
+      \strng{fullhash}{f99f90d7b056932e7497eab811fc328f}
+      \strng{bibnamehash}{f99f90d7b056932e7497eab811fc328f}
+      \strng{authorbibnamehash}{f99f90d7b056932e7497eab811fc328f}
+      \strng{authornamehash}{f99f90d7b056932e7497eab811fc328f}
+      \strng{authorfullhash}{f99f90d7b056932e7497eab811fc328f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{volume}{62}
+      \field{year}{2000}
+      \field{pages}{043003}
+      \range{pages}{1}
+    \endentry
+    \entry{sanjeeda2025}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6cca09e63e134617eff9ce837ebcf31c}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Sanjeeda},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6cca09e63e134617eff9ce837ebcf31c}
+      \strng{fullhash}{6cca09e63e134617eff9ce837ebcf31c}
+      \strng{bibnamehash}{6cca09e63e134617eff9ce837ebcf31c}
+      \strng{authorbibnamehash}{6cca09e63e134617eff9ce837ebcf31c}
+      \strng{authornamehash}{6cca09e63e134617eff9ce837ebcf31c}
+      \strng{authorfullhash}{6cca09e63e134617eff9ce837ebcf31c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Belle II Italy May}
+      \field{year}{2025}
+    \endentry
+    \entry{shanette2025}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3b9e9c9d4ed04afce8406bcadc50c9ab}{%
+           family={Motte},
+           familyi={M\bibinitperiod},
+           given={Shanette\bibnamedelimb De\bibnamedelima La},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b9e9c9d4ed04afce8406bcadc50c9ab}
+      \strng{fullhash}{3b9e9c9d4ed04afce8406bcadc50c9ab}
+      \strng{bibnamehash}{3b9e9c9d4ed04afce8406bcadc50c9ab}
+      \strng{authorbibnamehash}{3b9e9c9d4ed04afce8406bcadc50c9ab}
+      \strng{authornamehash}{3b9e9c9d4ed04afce8406bcadc50c9ab}
+      \strng{authorfullhash}{3b9e9c9d4ed04afce8406bcadc50c9ab}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Belle II Italy December}
+      \field{year}{2025}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

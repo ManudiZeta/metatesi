@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  2 JAN 2026 21:24
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  5 JAN 2026 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1580,10 +1580,6 @@ LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
 (Font)              scaled to size 7.19995pt on input line 93.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
 (Font)              scaled to size 5.39996pt on input line 93.
-
-
-LaTeX Warning: Citation 'ablikim2021' on page 3 undefined on input line 93.
-
 File: images/feynman-eN.png Graphic file (type bmp)
 <images/feynman-eN.png>
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
@@ -1600,18 +1596,12 @@ LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
 (Font)              scaled to size 4.49997pt on input line 93.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
-[3
+ [3
 
 ]
-
-LaTeX Warning: Citation 'burgio2021' on page 4 undefined on input line 117.
-
-
-LaTeX Warning: Citation 'donato2000' on page 4 undefined on input line 117.
-
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
-[4
+ [4
 
 ]
 File: images/coppa-del-mondo.png Graphic file (type bmp)
@@ -1622,7 +1612,8 @@ File: images/int_lumi.png Graphic file (type bmp)
 <images/int_lumi.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
- [5
+
+[5
 
 ]
 File: images/belleii_scheme.png Graphic file (type bmp)
@@ -1656,26 +1647,22 @@ Overfull \vbox (2.91379pt too high) detected at line 205
 [8
 
 ]
-File: images/sanjeeda_a.png Graphic file (type bmp)
-<images/sanjeeda_a.png>
-File: images/sanjeeda.png Graphic file (type bmp)
-<images/sanjeeda.png>
-
-
-LaTeX Warning: Citation 'sanjeeda2025' on page 9 undefined on input line 229.
-
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 222.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
-[9
+ [9
 
 ]
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 246.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
  [10
 
 ]
+File: images/sanjeeda_a.png Graphic file (type bmp)
+<images/sanjeeda_a.png>
+File: images/sanjeeda.png Graphic file (type bmp)
+<images/sanjeeda.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
  [11
@@ -1691,7 +1678,7 @@ File: images/topoana_100k.png Graphic file (type bmp)
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 
-Overfull \vbox (5.55583pt too high) detected at line 333
+Overfull \vbox (5.55583pt too high) detected at line 334
  []
 
 [13
@@ -1700,7 +1687,7 @@ Overfull \vbox (5.55583pt too high) detected at line 333
 File: images/gen_vpho_r_mRecoil.pdf Graphic file (type pdf)
 <use images/gen_vpho_r_mRecoil.pdf>
 
-Overfull \hbox (1.35095pt too wide) in paragraph at lines 358--358
+Overfull \hbox (1.35095pt too wide) in paragraph at lines 359--359
  [] 
  []
 
@@ -1712,16 +1699,16 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: images/pRecoil_nmcP.pdf Graphic file (type pdf)
 <use images/pRecoil_nmcP.pdf>
 
-Overfull \hbox (1.35095pt too wide) in paragraph at lines 386--386
+Overfull \hbox (1.35095pt too wide) in paragraph at lines 387--387
  [] 
  []
 
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 386.
+(Font)              scaled to size 10.79993pt on input line 387.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 15.55188pt on input line 386.
+(Font)              scaled to size 15.55188pt on input line 387.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 10.79993pt on input line 386.
+(Font)              scaled to size 10.79993pt on input line 387.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 [15
@@ -1730,7 +1717,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: images/pRecoil_nmcP_PDGsel.pdf Graphic file (type pdf)
 <use images/pRecoil_nmcP_PDGsel.pdf>
 
-Overfull \hbox (1.35095pt too wide) in paragraph at lines 416--416
+Overfull \hbox (1.35095pt too wide) in paragraph at lines 417--417
  [] 
  []
 
@@ -1750,7 +1737,7 @@ File: images/gen_rec_p_corr.pdf Graphic file (type pdf)
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 
-Overfull \vbox (1.09146pt too high) detected at line 441
+Overfull \vbox (1.09146pt too high) detected at line 442
  []
 
 [17
@@ -1767,7 +1754,7 @@ File: images/diff_pREC_np_rec.pdf Graphic file (type pdf)
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 
-Overfull \vbox (1.09146pt too high) detected at line 468
+Overfull \vbox (1.09146pt too high) detected at line 469
  []
 
 [18
@@ -1780,7 +1767,7 @@ File: images/kin/kin_comp_deltaP.pdf Graphic file (type pdf)
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 
-Overfull \vbox (12.04904pt too high) detected at line 486
+Overfull \vbox (12.04904pt too high) detected at line 487
  []
 
 [19
@@ -1793,7 +1780,7 @@ File: images/cluster/cluster.png Graphic file (type bmp)
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 
-Overfull \vbox (4.0905pt too high) detected at line 514
+Overfull \vbox (4.0905pt too high) detected at line 515
  []
 
 [20
@@ -1847,14 +1834,16 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
  [24
 
 ]
+File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
+<AICStyleData/logos/belleii_logo.png>
+ [25
 
-LaTeX Warning: Citation 'shanette2025' on page 25 undefined on input line 596.
-
+]
 File: images/shanette.png Graphic file (type bmp)
 <images/shanette.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
-[25
+ [26
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
@@ -1863,7 +1852,7 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 File: AICStyleData/logos/blue.jpeg Graphic file (type bmp)
 <AICStyleData/logos/blue.jpeg>
- [26
+ [27
 
 ]
 \c@finalframe=\count503
@@ -1871,29 +1860,26 @@ File: images/gen_alpha.pdf Graphic file (type pdf)
 <use images/gen_alpha.pdf>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
- [27
+ [28
 
 ]
 File: images/nbar_mcPDG.pdf Graphic file (type pdf)
 <use images/nbar_mcPDG.pdf>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
- [28
+ [29
 
 ]
 File: images/frac_pREC_np.pdf Graphic file (type pdf)
 <use images/frac_pREC_np.pdf>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
- [29
+ [30
 
 ]
-
-LaTeX Warning: Empty bibliography on input line 651.
-
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
-[30
+ [31
 
 ]
 \tf@nav=\write7
@@ -1905,33 +1891,25 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 \tf@snm=\write9
 \openout9 = `Zanusso_metatesi.snm'.
 
- (./Zanusso_metatesi.aux)
+
+(./Zanusso_metatesi.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Zanusso_metatesi.out' has not changed.
-(rerunfilecheck)             Checksum: 71067BBDE7A301A133ECE7DBA34537A9;465.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Zanusso_metatesi
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: D5D3ED1A2E7C234BFC9E60CBEB775433;791.
 Package logreq Info: Writing requests to 'Zanusso_metatesi.run.xml'.
 \openout1 = `Zanusso_metatesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37662 strings out of 474773
- 803288 string characters out of 5757723
+ 37748 strings out of 474773
+ 805970 string characters out of 5757723
  1930839 words of memory out of 5000000
- 59052 multiletter control sequences out of 15000+600000
+ 59138 multiletter control sequences out of 15000+600000
  568187 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,13n,145p,689b,1435s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,145p,689b,4974s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Zanusso_metatesi.pdf (30 pages).
+Output written on Zanusso_metatesi.pdf (31 pages).
