@@ -95,17 +95,17 @@ The $\bar{n}$ plays a key role in several physics measurements, such as:
 %------------------------------------------------
 \begin{frame}{Anti-neutron in astrophysical experiments}
 $\bar{n}$ also plays a key role in several astro-physics measurements, such as:
-
+\vspace{0.2cm}
     \begin{itemize}    
     \item Studying $\bar{n}$ - anti-hyperon potential to improve the understanding of the equation of state of the neutron star \cite{burgio2021}
-    
+    \vspace{0.1cm}
     \item Investigating dark matter through anti-deuterons ($\bar{D}$) in cosmic rays, produced by dark matter annihilation or decay \cite{donato2000}:
     \\
     $ A_{d.m.} \ + \ B_{d.m.} \ \rightarrow hadrons$ ($n$, $\bar{n}$, $p$, $\bar{p}$ etc...  )
     \\
      $ X_{d.m.} \ \rightarrow$ hadrons ($n$, $\bar{n}$, $p$, $\bar{p}$ etc...  )
 
-    
+    \vspace{0.1cm}
    \item $\bar{D}$ is mainly produced through a coalescence mechanism:
    
      \begin{center}
@@ -589,16 +589,20 @@ Cluster variables can be studied to distinguish $\bar{n}$ from other neutral par
 \begin{center}
 	$/belle/collection/MC/MC16rd\_proc16\_chunk1\_uubar\_4S\_v1$
 \end{center}
+\vspace{0.2cm}
 \item 2300 jobs have been submitted to the grid, with the following online cuts:
 \begin{enumerate}
-\item  $p\_mcPDG == 2212$ and $pi\_mcPDG == -211$ and $mRecoil > 0 GeV$ and $mRecoil < 2 GeV$
-\item Best candidate selected with RankByLowest method over $\alpha$
-\item In order to have a cleaner channel, only $p$ and $\pi^-$ compose the recoil vector (ISR neglected)
+\item  $p\_mcPDG == 2212$ and $pi\_mcPDG == -211$ and 0 GeV < mRecoil < 2 GeV
+\item The best candidate is selected with RankByLowest method on $\alpha$ (backup)
+\item To obtain a cleaner channel, only the $p$ and $\pi^-$ are used to build the recoil vector (ISR neglected for the moment)
 \end{enumerate}
 
+\item 
+Analysis outline:
 \begin{enumerate}[(a)]
-\item Find the signal above the $\bar{n}$ mass $\sim 0.939 \ GeV$
-\item Zoom around this value and look at the same variables of the sample case 
+\item Identify the signal peak near the $\bar{n}$ mass ($\sim 0.939 GeV$) adding offline cuts
+\item Study the previous variables in the zoomed region 
+\item (3) Compare it with data (Data/MC agreement)
 \end{enumerate}
 
 \end{itemize}

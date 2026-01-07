@@ -201,8 +201,9 @@
     \usebackgroundtemplate{
     \includegraphics[width=\paperwidth]{AICStyleData/logos/blue.jpeg}
     }
-    \begin{frame}[plain]
-    \usebeamertemplate{endpage}
+    \begin{frame}[plain,noframenumbering]
+      \setbeamertemplate{footline}{} % nasconde il footer
+      \usebeamertemplate{endpage}
     \end{frame}
     }
 }
