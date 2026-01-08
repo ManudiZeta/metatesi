@@ -15,12 +15,17 @@
 % General frames
 \setbeamertemplate{frametitle}{\vspace*{1em}\bfseries\insertframetitle\par\vskip-24pt
 \logo { 
-    \begin{tikzpicture}[overlay,remember picture]
+  \begin{tikzpicture}[overlay,remember picture]
+    % BELLE II
     \node[left=0.2cm] at (current page.24){
-        \includegraphics[width=1.2cm]{AICStyleData/logos/belleii_logo.png}
+      \includegraphics[width=1.2cm]{AICStyleData/logos/belleii_logo.png}
     };
-    \end{tikzpicture}
-    }
+    % UNITO
+    \node[left=2.0cm] at (current page.24){
+      \includegraphics[width=1.0cm]{AICStyleData/logos/nuovo_logo_Unito.png}
+    };
+  \end{tikzpicture}
+}
     %-------------------------
     {\usebeamercolor[fg]{titlegraphic}\insertlogo\par}
 

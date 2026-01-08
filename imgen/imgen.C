@@ -58,14 +58,14 @@ void una_grand ()
 }
 
 
-void due_grand(TString var, TString cut, TString um)
+void due_grand(TString var, TString cut, TString um, TString x1, TString x2)
 {
     gStyle->SetOptStat(1);
     string in_1, in_2;
     TFile *myf_1 = nullptr;
     
     
-    in_1 = "../../../vpho_std_isr_n_REC_merge100k_3.root";
+    in_1 = "../../../tot_nog_06012026.root";
     
     ifstream in_f1(in_1);
     
@@ -76,7 +76,7 @@ void due_grand(TString var, TString cut, TString um)
     }
     in_f1.close();
     
-    myf_1 = new TFile("../../../vpho_std_isr_n_REC_merge100k_3.root");
+    myf_1 = new TFile("../../../tot_nog_06012026.root");
     
     TTree *tree_1 = (TTree*)myf_1->Get("tree");
     TTree *tree_2 = (TTree*)myf_1->Get("tree");
@@ -87,8 +87,8 @@ void due_grand(TString var, TString cut, TString um)
     cout<<"var_1 = "<<var_1<<endl;
     cout<<"var_2 = "<<var_2<<endl;
     
-    TString drawExpr1 = var_1 + ">>histo1(256,7,-7)";
-    TString drawExpr2 = var_2 + ">>histo2(256,7,-7)";
+    TString drawExpr1 = var_1 + ">>histo1(256," + x1 + "," + x2 + ")";
+    TString drawExpr2 = var_2 + ">>histo2(256," + x1 + "," + x2 + ")";
     TString cut_2 = "nbar_" + cut;
     cout<<"cut_2 = "<<cut_2<<endl;
     tree_1->Draw(drawExpr1, "", "goff");
@@ -127,7 +127,7 @@ void due_grand(TString var, TString cut, TString um)
     histo2->DrawCopy("HIST SAMES");
     leg->Draw("SAME");
     
-    TString title_out = "../images/cluster/mcPDG!=22/" + var +"_gamma.pdf";
+    TString title_out = "../images/continuum/" + var +"_-2112.pdf";
     tela->SaveAs(title_out);
     
 }

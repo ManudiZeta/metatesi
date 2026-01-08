@@ -122,6 +122,26 @@
       \field{journaltitle}{Belle II Italy May}
       \field{year}{2025}
     \endentry
+    \entry{longo2025}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bda4f6893de4154ff8a39b75bdfec9e1}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Savino},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{bda4f6893de4154ff8a39b75bdfec9e1}
+      \strng{fullhash}{bda4f6893de4154ff8a39b75bdfec9e1}
+      \strng{bibnamehash}{bda4f6893de4154ff8a39b75bdfec9e1}
+      \strng{authorbibnamehash}{bda4f6893de4154ff8a39b75bdfec9e1}
+      \strng{authornamehash}{bda4f6893de4154ff8a39b75bdfec9e1}
+      \strng{authorfullhash}{bda4f6893de4154ff8a39b75bdfec9e1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Measure (Anti)Neutron Detection Efficiency at Belle II}
+      \field{year}{2025}
+    \endentry
     \entry{shanette2025}{article}{}
       \name{author}{1}{}{%
         {{hash=3b9e9c9d4ed04afce8406bcadc50c9ab}{%
@@ -136,8 +156,8 @@
       \strng{authorbibnamehash}{3b9e9c9d4ed04afce8406bcadc50c9ab}
       \strng{authornamehash}{3b9e9c9d4ed04afce8406bcadc50c9ab}
       \strng{authorfullhash}{3b9e9c9d4ed04afce8406bcadc50c9ab}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{journaltitle}{Belle II Italy December}
       \field{year}{2025}
