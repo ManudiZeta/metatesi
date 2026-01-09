@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  9 JAN 2026 23:33
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  9 JAN 2026 23:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -826,7 +826,7 @@ lic.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
 lic.ttf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 182.
+(Font)              scaled to size 9.85492pt on input line 194.
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
@@ -1535,6 +1535,8 @@ LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
 (Font)              scaled to size 9.85492pt on input line 60.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
+File: AICStyleData/logos/infn_logo.jpeg Graphic file (type bmp)
+<AICStyleData/logos/infn_logo.jpeg>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 File: AICStyleData/logos/blue.jpeg Graphic file (type bmp)
@@ -1944,6 +1946,8 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
+File: AICStyleData/logos/infn_logo.jpeg Graphic file (type bmp)
+<AICStyleData/logos/infn_logo.jpeg>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 File: AICStyleData/logos/blue.jpeg Graphic file (type bmp)
@@ -2019,10 +2023,10 @@ Package logreq Info: Writing requests to 'Zanusso_metatesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37742 strings out of 474773
- 804229 string characters out of 5757723
+ 37751 strings out of 474773
+ 804552 string characters out of 5757723
  1932839 words of memory out of 5000000
- 59129 multiletter control sequences out of 15000+600000
+ 59137 multiletter control sequences out of 15000+600000
  568195 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,145p,689b,1788s stack positions out of 10000i,1000n,20000p,200000b,200000s
