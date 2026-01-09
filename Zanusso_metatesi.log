@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  9 JAN 2026 23:14
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  9 JAN 2026 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1848,20 +1848,6 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [23
 
 ]
-File: images/cluster/mcPDG!=22/clusterE_gamma.pdf Graphic file (type pdf)
-<use images/cluster/mcPDG!=22/clusterE_gamma.pdf>
-File: images/cluster/mcPDG!=22/clusterE1E9_gamma.pdf Graphic file (type pdf)
-<use images/cluster/mcPDG!=22/clusterE1E9_gamma.pdf>
-File: images/cluster/mcPDG!=22/clusterE9E21_gamma.pdf Graphic file (type pdf)
-<use images/cluster/mcPDG!=22/clusterE9E21_gamma.pdf>
-File: images/cluster/mcPDG!=22/clusterAbsZernikeMoment51_gamma.pdf Graphic file
- (type pdf)
-<use images/cluster/mcPDG!=22/clusterAbsZernikeMoment51_gamma.pdf>
-File: images/cluster/mcPDG!=22/clusterLAT_gamma.pdf Graphic file (type pdf)
-<use images/cluster/mcPDG!=22/clusterLAT_gamma.pdf>
-File: images/cluster/mcPDG!=22/clusterSecondMoment_gamma.pdf Graphic file (type
- pdf)
-<use images/cluster/mcPDG!=22/clusterSecondMoment_gamma.pdf>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1876,13 +1862,6 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [25
 
 ]
-File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
-<AICStyleData/logos/belleii_logo.png>
-File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
-<AICStyleData/logos/nuovo_logo_Unito.png>
- [26
-
-]
 File: images/logos/red.png Graphic file (type bmp)
 <images/logos/red.png>
 File: images/logos/green.png Graphic file (type bmp)
@@ -1892,7 +1871,7 @@ File: images/logos/yellow.jpeg Graphic file (type bmp)
 File: images/continuum/mRecoil_comparison.pdf Graphic file (type pdf)
 <use images/continuum/mRecoil_comparison.pdf>
 
-Overfull \hbox (9.68974pt too wide) detected at line 678
+Overfull \hbox (9.68974pt too wide) detected at line 664
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
@@ -1901,21 +1880,21 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (7.90332pt too high) detected at line 678
+Overfull \vbox (7.90332pt too high) detected at line 664
  []
 
-[27
+[26
 
 ]
 
-LaTeX Warning: Citation 'longo2025' on page 28 undefined on input line 708.
+LaTeX Warning: Citation 'longo2025' on page 27 undefined on input line 694.
 
 File: images/logos/cyan.png Graphic file (type bmp)
 <images/logos/cyan.png>
 File: images/continuum/mRecoil_comparison_real.pdf Graphic file (type pdf)
 <use images/continuum/mRecoil_comparison_real.pdf>
 
-Overfull \hbox (9.68974pt too wide) detected at line 708
+Overfull \hbox (9.68974pt too wide) detected at line 694
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
@@ -1924,10 +1903,17 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (7.90332pt too high) detected at line 708
+Overfull \vbox (7.90332pt too high) detected at line 694
  []
 
-[28
+[27
+
+]
+File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
+<AICStyleData/logos/belleii_logo.png>
+File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
+<AICStyleData/logos/nuovo_logo_Unito.png>
+ [28
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
@@ -1937,15 +1923,8 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [29
 
 ]
-File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
-<AICStyleData/logos/belleii_logo.png>
-File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
-<AICStyleData/logos/nuovo_logo_Unito.png>
- [30
 
-]
-
-LaTeX Warning: Citation 'shanette2025' on page 31 undefined on input line 734.
+LaTeX Warning: Citation 'shanette2025' on page 30 undefined on input line 720.
 
 File: images/shanette.png Graphic file (type bmp)
 <images/shanette.png>
@@ -1953,14 +1932,14 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
-[31
+[30
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [32
+ [31
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
@@ -1969,7 +1948,7 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 File: AICStyleData/logos/blue.jpeg Graphic file (type bmp)
 <AICStyleData/logos/blue.jpeg>
- [33
+ [32
 
 ]
 \c@finalframe=\count503
@@ -1979,7 +1958,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [34
+ [33
 
 ]
 File: images/nbar_mcPDG.pdf Graphic file (type pdf)
@@ -1988,7 +1967,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [35
+ [34
 
 ]
 File: images/frac_pREC_np.pdf Graphic file (type pdf)
@@ -1997,17 +1976,17 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [36
+ [35
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 810.
+LaTeX Warning: Empty bibliography on input line 796.
 
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
-[37
+[36
 
 ]
 \tf@nav=\write7
@@ -2040,12 +2019,12 @@ Package logreq Info: Writing requests to 'Zanusso_metatesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37813 strings out of 474773
- 807816 string characters out of 5757723
+ 37742 strings out of 474773
+ 804229 string characters out of 5757723
  1932839 words of memory out of 5000000
- 59193 multiletter control sequences out of 15000+600000
+ 59129 multiletter control sequences out of 15000+600000
  568195 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,145p,689b,1788s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Zanusso_metatesi.pdf (37 pages).
+Output written on Zanusso_metatesi.pdf (36 pages).
