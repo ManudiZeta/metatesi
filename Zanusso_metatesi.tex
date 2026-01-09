@@ -40,11 +40,10 @@
 %	TITLE PAGE CONFIGURATION
 %----------------------------------------------------------------------------------------
 
-\title[short title]{Characterization of hadronic showers in the Belle II Electromagnetic Calorimeter}  % The short title appears at the bottom of every slide, the full title is only on the title page
-\subtitle{Metatesi Seminar}
+\title[short title]{Characterization of Hadronic Showers in the Belle II Electromagnetic Calorimeter}  
 
 \author{Emanuele Zanusso}
-\institute[Characterization of hadronic showers in the Belle II Electromagnetic Calorimeter - Emanuele Zanusso]{Dipartimento di Fisica
+\institute[Characterization of Hadronic Showers in the Belle II Electromagnetic Calorimeter - Emanuele Zanusso]{Dipartimento di Fisica
 \newline
 Università degli Studi di Torino
 }
@@ -71,7 +70,7 @@ Università degli Studi di Torino
 The $\bar{n}$ plays a key role in several physics measurements, such as: 
 
     \begin{itemize}    
-    \item The neutron e.m. form factor studies in $e^+ + e^- \rightarrow n + \bar{n}$ process \cite{ablikim2021}
+    \item The neutron e.m. form factor studies in $e^+ + e^- \rightarrow n + \bar{n}$ process
         	\begin{figure}[p]
      	   \includegraphics[scale=0.18, angle=0]{images/feynman-eN.png}
 	\end{figure}
@@ -83,23 +82,21 @@ The $\bar{n}$ plays a key role in several physics measurements, such as:
 	\begin{center}
 		$\bar{\Lambda}^0 \rightarrow \pi^0 + \bar{n}$, \hspace{1cm} $\bar{\Sigma}^- \rightarrow \pi^- + \bar{n}$, \hspace{1cm} $\bar{\Lambda}_c \rightarrow  K_s^0 + \pi^0 +\bar{n} $
 	\end{center}
+	\end{enumerate}
 	
-    \item Other typical B-factories processes:
-    	\begin{center}
-		(Altro canale di fisca)
-	\end{center}
-\end{enumerate}
+\item Discrimination between other neutral particles ($\gamma$) and $\bar{n}$
+
     \end{itemize}
 \end{frame}
 
 %------------------------------------------------
-\begin{frame}{Anti-neutrons in astrophysical experiments}
-The $\bar{n}$ also plays a key role in several astro-physics measurements, such as:
+\begin{frame}{Anti-neutrons in astrophysics}
+The $\bar{n}$ also plays a key role in several astrophysics measurements, such as:
 \vspace{0.2cm}
     \begin{itemize}    
-    \item Studying $\bar{n}$ - anti-hyperon potential to improve the understanding of the equation of state of the neutron stars \cite{burgio2021}
+    \item Studying $\bar{n}$ - anti-hyperon potential to improve the understanding of the equation of state of the neutron stars 
     \vspace{0.1cm}
-    \item Investigating dark matter through anti-deuterons ($\bar{D}$) in cosmic rays, produced by dark matter annihilation or decay \cite{donato2000}:
+    \item Investigating dark matter through anti-deuterons ($\bar{D}$) in cosmic rays, produced by dark matter annihilation or decay 
     \vspace{0.3cm}
 
     $ A_{d.m.} \ + \ B_{d.m.} \ \rightarrow hadrons$ ($n$, $\bar{n}$, $p$, $\bar{p}$ etc...  )
@@ -142,91 +139,94 @@ SuperKEKB is an asymmetric $e^+ \ e^-$ collider (Tsukuba, Japan)
 % Parte inferiore con un’unica colonna
 It operates mainly around $\Upsilon(4S)$ resonance ($\sim10.58$ GeV):
 \begin{itemize}
-    \item This latter decays almost exclusively into entangled couples of $B \ \bar{B} \rightarrow$ B-factory
-    \item Several goals: flavour physics, BSM, B and charm mesons spectroscopy etc...
+    \item This resonance decays almost exclusively into entangled couples of $B \ \bar{B} \rightarrow$ B-factory
+    \item Several goals: flavour physics, BSM physics, heavy hadrons spectroscopy etc...
 \end{itemize}
 
 \end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}{The Belle II experiment}
+
+\includegraphics[width=1\textwidth]{images/belleii_dets}
+    
+\end{frame}
+
 %----------------------------------------------------------------------------------------
 
 \begin{frame}{The Electromagnetic CaLorimeter}
 The ECL plays a central role in this thesis
-	
+	\begin{columns}
+	\begin{column}{0.45\textwidth}
 	\begin{itemize}
 		\item Array of \textbf{CsI(Tl)} crystals (8376 $6x6x30 cm^3$ crystals in total)
 	       	\item	It covers barrel and end-cap regions ($12°\le\theta\le155°$)
 		\item Energy resolution of 4\% @100 MeV and 1.6\% @8 GeV
 	\end{itemize}
+	\end{column}
+	\begin{column}{0.65\textwidth}
+	\begin{figure}[p]
+\includegraphics[width = 1 \textwidth]{images/belleii_scheme}
+	\end{figure}
+	\end{column}
 	
-\includegraphics[scale=0.20, angle=0]{images/belleii_scheme}
-\includegraphics[scale=0.20, angle=0]{images/ECL}
+	\end{columns}
     
 \end{frame}
 %----------------------------------------------------------------------------------------
-
 \begin{frame}{Anti-neutron interactions in physics}
-The $\bar{n}$ interacts with matter primarily via strong nuclear force 
+The $\bar{n}$ interacts primarily via strong nuclear force, producing hadronic showers
+\\
+It can annihilate with nucleons in the ECL, producing light mesons (mainly pions) 
+\vspace{0.2cm}
 
     \begin{itemize}    
-    \item It can annihilate with nucleons in the material, producing light mesons (mainly pions) 
-    \item Hadronic and electromagnetic showers are produced by $\pi^\pm$ interactions and $\pi^0 \rightarrow \gamma\gamma$ decays, respectively, within the ECL 
-    \item Since "Annihilation stars" are produced, showers develop in both forward and backward directions
-    
+	\item $\pi^0$ decays into $\gamma\gamma$, producing electromagnetic showers that are fully contained in the ECL
+	\item $\pi^\pm$ undergo hadronic interactions, which are not fully contained in the ECL $\rightarrow$ both the forward (KLM) and backward (TOP) directions are involved
+	\vspace{0.3cm}
     	\begin{figure}[p]
      	   \includegraphics[scale=0.16, angle=0]{images/Ann-nbar.png}
+	   \hspace{1.5cm}
+	    \includegraphics[scale=0.23, angle=0]{images/shanette_nbar_ECLTOP.jpg}
 	\end{figure}
 	 
     \end{itemize}
 \end{frame}
-%------------------------------------------------
-\begin{frame}{Electromagnetic and hadronic showers}
-Different processes occur for e.m. (1) and hadronic (2) showers:
-\vspace{0.1cm}
-	\begin{enumerate}
-		\item  Bremsstrahlung and pair production process ($e^+,e^-,\gamma$) and $\pi^0 \rightarrow \gamma \gamma$
-		\item  Strong interactions of hadrons with the material ($p,n,pions,kaons...$)
-	\end{enumerate}
-
-\begin{columns}
-	\begin{column}{0.45\textwidth}
-    		\begin{itemize}    
-			\item About the 95\% of the hadronic shower is contained within a cylinder of radius $\lambda_{had}$ ($\sim$ 44.12 cm in CsI(Tl))
-			\item About the 90\% of the e.m. shower is contained within a cylinder of radius $R_M$ ($\sim$ 3.6 cm in CsI(Tl))
-	    	\end{itemize}
-	\end{column}
-	
-	\begin{column}{0.60\textwidth}
-		\begin{figure}[p]
-		   \includegraphics[scale=0.45, angle=0]{images/gamma_vs_hadronic.png}
-		\end{figure}
-	\end{column}
-\end{columns}
-\end{frame}
 
 %------------------------------------------------
-\begin{frame}{The MANTRA project}
-\textbf{M}easuring \textbf{A}nti-\textbf{N}eutron: \textbf{T}agging and \textbf{R}econstruction \textbf{A}lgorithm:
-
+\begin{frame}{The MANTRA project (PRIN2022)}
+ \textbf{M}easuring \textbf{A}nti-\textbf{N}eutron: \textbf{T}agging and \textbf{R}econstruction \textbf{A}lgorithm
+ 
+ \vspace{0.2cm}
     \begin{itemize}    
     \item A general method to measure the $E_{\bar{n}}$ up to 10 GeV, by combining information from:
     
     	\begin{enumerate}
-    		\item A  detector with high time resolution ($<100ps$), like a T.O.F. detector (TOP)
+    		\item A  detector with high time resolution (TOP)
 		\item An electromagnetic calorimeter (\textbf{ECL})
-		\item A muon system (alternating layers of active material and high-Z absorber) (KLM)
+		\item A muon system (KLM)
     	\end{enumerate}
-     \item These features are common in modern general-purpose collider experiments such as \textbf{Belle II} and BESIII
+	 \vspace{0.1cm}
+     \item These features are common in modern general-purpose collider experiments such as \textbf{Belle II} and BESIII, which do not have a dedicated calorimeter 
      \item For MANTRA project, only signals from ECL and TOP are taken into account. In this thesis only ECL signals are studied
     \end{itemize}
+    
+    
+    \vspace{0.4cm}
+    {\large
+		\textcolor{red}{ \textbf{Are $\bar{n}$ hadronic showers correctly simulated in the Belle II software?}}
+    }
 \end{frame}
 
 %------------------------------------------------
-\begin{frame}{The MANTRA project}
-Anti-neutrons do not interact with tracking sub-detector. The measurement of the energy is a two-step process:
+\begin{frame}{The MANTRA project} LA LEVO?????
+Anti-neutrons cannot be reconstructed by sub-detectors.
+\\
+The measurement of the energy is a two-step process:
 \vspace{0.1cm}
     	\begin{enumerate}
-    		\item $\bar{n}$ identification via its induced ECL clusters and correlation to the initial energy
-		\item Combine the signals from (1) and (2) to reconstruct the $\bar{n}$ energy, in cases of backscatter or pre-annihilation
+    		\item $\bar{n}$ identification via its induced ECL clusters (study of the shower shape)
+		\item Combine the signals from TOP and ECL to reconstruct the $\bar{n}$ energy, in cases of backscattering or pre-showering
 		\vspace{0.1cm}
 		\begin{itemize}
 			\item If $\pi^0$ ($\sim 5 \%$): energy is all contained in the calorimeter, the shower is fully reconstructed
@@ -238,53 +238,54 @@ Anti-neutrons do not interact with tracking sub-detector. The measurement of the
 
 %------------------------------------------------
 \begin{frame}{Preliminary concept}
-Several channels can be selected to look at $\bar{n}$ annihilation, such as:
+Several channels can be selected to look at $\bar{n}$ annihilations, such as:
 	\begin{itemize}
-		\item $e^+ + e^-  \rightarrow X \rightarrow p + \bar{n} + \pi^-$ (Mine)
+		\item $e^+ + e^-  \rightarrow p + \bar{n} + \pi^- + (\gamma_{ISR})$ (Mine)
 		\item $\bar{\Lambda}_c \rightarrow  K_s^0 + \pi^0 +\bar{n} $ 
 		\item $\Lambda (\rightarrow \ p + \pi^- ) + \bar{\Lambda} (\rightarrow \bar{n} + \pi^0)$ 
 	\end{itemize}
 	
-Several variables can be used to distinguish their clusters, such as:
+	\vspace{0.2cm}
+Several variables can be used to validate the showers shape for $\bar{n}$ identification,$\bar{n}$ identification via its induced ECL clusters (study of the shower shape) such as:
+\vspace{0.1cm}
     	\begin{itemize}    
-		\item clusterZernikeMoment, clusterSecondMoment, clusterLAT etc...
+	{ \small
+		\item \textbf{Zernike Moments}, which describe cluster shape (backup)
+		\item \textbf{Lateral momentum} defined as:  $C_{LM} = \frac{ \sum\limits_{i=2}^n \omega_i E_i r_i^2} { \omega_0 E_0 r_0^2 + \omega_1 E_1 r_1^2+ \sum\limits_{i=2}^n \omega_i E_i r_i^2}$    
+ 		\item \textbf{Second moment} defined as:  $ C_{SM} = \frac{ \sum\limits_{i=0}^n \omega_i E_i r_i^2} { \sum\limits_{i=0}^n \omega_i E_i}$  
+	}
     	\end{itemize}
 	
-	\begin{figure}[p]
-     	   \includegraphics[scale=0.22, angle=0]{images/sanjeeda_a.png}
-	   \includegraphics[scale=0.2225, angle=0]{images/sanjeeda.png}
-
-	\end{figure}
-The distributions for ECL variables for $\bar{p}$ and $\bar{n}$ do not in agree \cite{sanjeeda2025}
-$\rightarrow \bar{p}$ cannot be used as proxy for $\bar{n}$
 	
 \end{frame}
 
 %------------------------------------------------------------------------------------------------
-\makesection{Preliminary study via signal MC sample}
+\makesection{Preliminary study via signal Monte Carlo sample}
 %------------------------------------------------------------------------------------------------
 
 \begin{frame}{Analysis outline}
 \begin{enumerate}
-	\item Preliminary study of a clean selected channel via generators
+	\item Study of the selected signal channel $e^+ + e^- \rightarrow p + \bar{n} + \pi^- + (\gamma_{ISR})$
     		\begin{enumerate}[(a)]
-    			\item Recoil identification from the three-body system $p + \gamma_{ISR} + \pi^-$ 
+    			\item Recoil identification from the system $p + \pi^-$ (with and without ISR) 
 			\item Study of the kinematic recoil variables (momentum, angles, energy, etc...)
-			\item Study of the effect of 1C kinematic fit over the $p + \gamma_{ISR} + \pi^-$ recoil mass
-			\item Study of ECL clusters
+			\item Study of the effect of 1C kinematic fit over the recoil mass
+			\item Study of ECL shower shape variables
     		\end{enumerate}
-	
-	\item Study of MC cocktail events sample:
+		
+	\vspace{0.2cm}
+	\item Study of MC cocktail sample:
 
 	\begin{enumerate}[(a)]
-			\item Recoil identification from the two-body system $p + \pi^-$ (cleaner channel)
+			\item Recoil identification from the system $p + \pi^-$ (with and without ISR) 
 			\item Study of the kinematic recoil variables (momentum, angles, energy, etc...)
 	\end{enumerate}
 	
-	\item Study of real data events sample:
+	\vspace{0.2cm}
+	\item Study of real data sample:
 	\begin{enumerate}[(a)]
-			\item Recoil identification from the three-body system $p + \gamma_{ISR} + \pi^-$ 
-			\item Constraint with 1C kinematic fit over the $p + \gamma_{ISR} + \pi^-$ recoil mass
+			\item Recoil identification from the system $p + \pi^-$ (with and without ISR) 
+			\item Constraint with 1C kinematic fit over the recoil mass
 			\item Examine Data/MC agreement in ECL cluster shapes from $\bar{n}$ channel
 
 	\end{enumerate}
@@ -301,33 +302,32 @@ $\rightarrow \bar{p}$ cannot be used as proxy for $\bar{n}$
 \item The analyzed channel is:
 
   \begin{center}
-    $e^+ + e^-  + \gamma_{ISR} \rightarrow p + \bar{n} + \pi^-$ (Phokhara+evt\_gen generator)
+    $e^+ + e^-  \rightarrow p + \bar{n} + \pi^- + (\gamma_{ISR})$ 
   \end{center}
 \end{itemize}
   
 \begin{columns}[T]
   \begin{column}{0.45\textwidth}
-The reconstructed particles are (cuts and selections in backup):
+The reconstructed particles are (cuts and selections in the next slide):
     \begin{enumerate}[(a)]
-      \item $vpho \rightarrow p + \gamma_{ISR} + \pi^-$, where $vpho$ is a fake particle, mimicking the recoil system 
-      \item $\bar{n}$ candidates list used to compare its variables with those of the recoil
+      \item $p + \pi^- + (\gamma_{ISR}) $ which compose the recoil system 
+      \item Neutral clusters associated to $\bar{n}$ candidates list used to compare its variables with those of the recoil
     \end{enumerate}  
 \end{column}
 
   \begin{column}{0.50\textwidth}
     \begin{figure}[p]
-         \includegraphics[scale=0.22, angle=0]{images/topoana_100k}
+         \includegraphics[width = 0.95 \textwidth]{images/topoana_100k}
     \end{figure}
   \end{column}
 
 \end{columns}
 \vspace{0.3cm}
 \begin{itemize}
-\item \textbf{100k events} were generated, \textbf{17525} candidates have been reconstructed 
-  \\ $\rightarrow$ reconstruction efficiency:
+\item \textbf{100k events}. The reconstruction efficiency is:
   \vspace{0.1cm}
 \begin{center}
-  $\epsilon = \frac{n° \ of \ reconstructed \ candidates}{n° \ of \ generated \ events} \sim 18\% $
+  $\epsilon = \frac{n° \ of \ reconstructed \ candidates}{n° \ of \ generated \ events} \sim 22\% (18\% )$
 \end{center}
 
 
@@ -335,24 +335,61 @@ The reconstructed particles are (cuts and selections in backup):
 \end{frame}
 
 %------------------------------------------------------------------------------------------------
+\begin{frame}{Applied selections and cuts}
 
+
+\begin{columns}[T] % T = top alignment
+    	\begin{column}{0.55\textwidth}
+	\begin{enumerate}[(a)]
+	 	
+		{
+			\item \textbf{proton}: standard PID selection, with tracks required to originate from the IP
+			\vspace{0.1cm}
+			\item \textbf{pion}: standard PID selection
+			\vspace{0.1cm}
+			\item \textbf{anti-neutron}: neutral clusters from ECL
+			\vspace{0.1cm}
+			\item  0 GeV < recoil mass < 2 GeV
+			\vspace{0.1cm}
+			\item $\alpha$ < 0.35 rad ($\sim 20$ deg)
+		}
+	
+	\end{enumerate}
+	\end{column}
+
+	\begin{column}{0.55\textwidth}
+		\begin{figure}[p]
+     		   	\includegraphics[width = 0.95\textwidth]{images/signal_sample/gen_alpha.pdf}
+		\end{figure}
+	\end{column}
+\end{columns}
+
+Where $\alpha$ is the angle between the recoil vector direction and the closest $\bar{n}$ cluster
+
+
+\end{frame}
+
+%------------------------------------------------------------------------------------------------
 \begin{frame}{The recoil mass (1a)}
 
 \begin{columns}[T] % T = top alignment
     % Colonna sinistra
-    	\begin{column}{0.40\textwidth}
+    	\begin{column}{0.50\textwidth}
 	 	\begin{itemize}
 		{
-			\item The recoil three body system is well reconstructed as shown in the recoil mass distribution, where a peak emerges above the $\bar{n}$ mass.
+			\item The recoil mass is well reconstructed in both ISR ($p, \pi^-, \gamma_{ISR}$) and no ISR  ($p, \pi^-$) cases
 			\vspace{0.3cm}
-			\\ $\rightarrow$ reconstructed $\bar{n}$ variables can be compared with the reconstructed recoil variables ($p, \ \theta$)
+			\\ $\rightarrow$ Variables associated with the $\bar{n}$ candidate clusters can be compared with the reconstructed recoil variables ($p$, $\theta$)
+			\vspace{0.3cm}
+			\item Since there is more than one $\gamma_{ISR}$ per event, the \inlineimg{images/logos/blue} distribution shows a higher number of entries in the left tail
+
 		}
 		\end{itemize}
 	\end{column}
 
 	\begin{column}{0.55\textwidth}
 		\begin{figure}[p]
-		   	\includegraphics[scale=0.40, angle=0]{images/gen_vpho_r_mRecoil.pdf}
+		   	\includegraphics[width = 0.95\textwidth]{images/signal_sample/gen_mRecoil.pdf}
 		\end{figure}
 	\end{column}
 \end{columns}
@@ -477,7 +514,7 @@ A 1C kinematic fit can possibly be used to add a constraint and improve the agre
 		{
 			\item Highest amount of reconstructed candidates ($\sim 24 \%$) and of real $\bar{n}$ ($\sim 9 \%$)
 			\item No significant differences can be seen in $\theta_{recoil}$ vs MC $\theta_{\bar{n}}$
-			\item A slightly improvement can be observed in in $p_{recoil}$ vs MC $p_{\bar{n}}$
+			\item An improvement can be observed in in $p_{recoil}$ vs MC $p_{\bar{n}}$
 		}
 		\end{itemize}
 		\begin{figure}
@@ -489,27 +526,27 @@ A 1C kinematic fit can possibly be used to add a constraint and improve the agre
 
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 \begin{frame}{$\bar{n}$ ECL cluster variables (1d)}
-Cluster variables can be studied to distinguish $\bar{n}$ from other neutral particles:
+Shower shapes variables can be studied to distinguish $\bar{n}$ from other neutral particles:
 
 \begin{itemize}
 \begin{columns}  
-  \begin{column}{0.50\textwidth}
+  \begin{column}{0.30\textwidth}
      {
-    \item \textbf{clusterE}, \textbf{clusterE1E9} and \textbf{clusterE9E21} ($E_{min} = 20$ GeV)
-     \item \textbf{clusterAbsZernikeMoment51}: $|Z_{51}|$ 
+    \item \textbf{E}, \textbf{E1E9} and \textbf{E9E21} ($E_{min} = 20$ GeV)
+     \item \textbf{ZernikeMoment51}: $|Z_{51}|$ 
      }
    \end{column}
    
-   \begin{column}{0.40\textwidth}
+   \begin{column}{0.70\textwidth}
   		\begin{figure}[p]
-		  	\includegraphics[scale=0.10, angle=0]{images/cluster/zernike.png}
-			\includegraphics[scale=0.13, angle=0]{images/cluster/cluster}
+		  	\includegraphics[width = 0.40\textwidth]{images/cluster/zernike.png}
+			\includegraphics[width = 0.40\textwidth]{images/cluster/cluster}
 		\end{figure}
     \end{column}
     \end{columns}
    
-    \item \textbf{clusterLAT}:  lateral energy distribution, defined as:  $S = \frac{ \sum\limits_{i=2}^n \omega_i E_i r_i^2} { \omega_0 E_0 r_0^2 + \omega_1 E_1 r_1^2+ \sum\limits_{i=2}^n \omega_i E_i r_i^2}$    
-    \item \textbf{clusterSecondMoment}: second moment S, defined as:  $ S = \frac{ \sum\limits_{i=0}^n \omega_i E_i r_i^2} { \sum\limits_{i=0}^n \omega_i E_i}$  
+    \item \textbf{Lateral momentum}:  lateral energy distribution, defined as:  $S = \frac{ \sum\limits_{i=2}^n \omega_i E_i r_i^2} { \omega_0 E_0 r_0^2 + \omega_1 E_1 r_1^2+ \sum\limits_{i=2}^n \omega_i E_i r_i^2}$    
+    \item \textbf{Second moment}: distribution S, defined as:  $ S = \frac{ \sum\limits_{i=0}^n \omega_i E_i r_i^2} { \sum\limits_{i=0}^n \omega_i E_i}$  
     
 \end{itemize}
 
@@ -574,7 +611,7 @@ Cluster variables can be studied to distinguish $\bar{n}$ from other neutral par
 \item The recoil three body system ($p + \pi^- + \gamma_{ISR}$) is correctly reconstructed from the secondary background, ISR/FSR photons
 \item The $\bar{n}$ kinematic is properly described by the three body system $p, \pi^-, \gamma$ recoil vector
 \item Reconstructed $\bar{n}$ variables are mainly affected by mis-identified photons, which can be partially cleaned by cluster size cuts ($clusterNHits$)
-\item 1C kinematic fit can be possibly adopted during MC/Data comparison, in order to reduce the uncertainty on the recoil momentum
+\item 1C kinematic fit can be possibly adopted during MC/Data comparison, in order to improve the recoil on the recoil momentum
 
 \end{itemize}
 \end{frame}
@@ -586,12 +623,15 @@ Cluster variables can be studied to distinguish $\bar{n}$ from other neutral par
 
 \begin{frame}{Analysis outline (2)}
 \begin{itemize}
-\item Study of uubar continuum using the following MC cocktail sample:
-\begin{center}
-	$/belle/collection/MC/MC16rd\_proc16\_chunk1\_uubar\_4S\_v1$
-\end{center}
+\item Study of cocktail from MC16rd\_proc16 using the following MC sample:
+\begin{enumerate}[(a)]
+	\item $q \bar{q}$ cocktail powered by Pythia
+	\item Number of Events: $341 \ M$ 
+	\item Luminosity: $215 \ fb^{-1}$
+\end{enumerate}
+
 \vspace{0.2cm}
-\item To obtain a cleaner channel, only the $p$ and $\pi^-$ are used to build the recoil vector (ISR neglected for the moment)
+\item To obtain a first attempt, only the $p$ and $\pi^-$ are used to build the recoil vector (ISR neglected for the moment)
 \item 2345 jobs have been submitted to the grid, with the following online cuts:
 \begin{enumerate}
 \item  $p\_mcPDG == 2212$ and $pi\_mcPDG == -211$ and 0 GeV < mRecoil < 2 GeV
@@ -619,7 +659,7 @@ Cluster variables can be studied to distinguish $\bar{n}$ from other neutral par
      \vspace{0.2cm}
      	\begin{enumerate}[(a)]
 	\item nRoeCharged == 0 (no additional charged particles in the Rest Of Event) \inlineimg{images/logos/red} 
-	\item nRoeCharged == 0 and alpha<0.35 (additional angular cut on the best candidate) \inlineimg{images/logos/green} 
+	\item nRoeCharged == 0 and alpha<0.35 (additional angular cut on the closest candidate) \inlineimg{images/logos/green} 
 	\item nRoeCharged == 0 and alpha<0.35 and nbar\_mcPDG == -2112 (MC truth selection) \inlineimg{images/logos/yellow} 
 	\end{enumerate}
 
@@ -644,13 +684,13 @@ Cluster variables can be studied to distinguish $\bar{n}$ from other neutral par
   \begin{column}{0.50\textwidth}
      {
      \begin{itemize}
-     \item Other "Real selections" can be applied as well, with (b), such as: \cite{longo2025}
+     \item "Real selections" can be applied as well, with (b), such as: \cite{longo2025}
      \vspace{0.2cm}
 \\  protonID > 0.9 and pionID > 0.1 and
 \\ dr < 1 and abs(dz) < 3 (from IP)  \inlineimg{images/logos/cyan}
 	
 	\vspace{0.2cm}
-	\item To maximize purity, a recoil mass zoom in the range (0.8-1.1) GeV can be applied to study the recoil variables
+	\item To maximize purity, a recoil mass selection in the range (0.8-1.1) GeV can be applied to study the recoil variables
 	\item This set of selections will be applied in the following sections
 
      \end{itemize}
@@ -718,30 +758,33 @@ Poor Data/MC agreement in $\bar{p} \rightarrow$ will it be the same for $\bar{n}
 
 
 \backupbegin
-\begin{frame}[allowframebreaks,noframenumbering, plain]{Selections/cuts on clean MC sample}
-\vspace{0.6cm}
-\begin{columns}[T] % T = top alignment
-    % Colonna sinistra
-    	\begin{column}{0.50\textwidth}
-	 	\begin{enumerate}[(a)]
-		{
-			\item $protonID > 0.9$ and $dr < 1$ and $abs(dz) < 3$ and $pionID > 0.1$ (From IP?)
-			\item $p\_mcPDG == 2212$ and $pi\_mcPDG == -211$ and $gamma\_mcPDG == 22$
-			\item Rec. $\bar{n}$ in theta ECL Acceptance and From ECL
-			\item $mRecoil > 0 GeV$ and $mRecoil < 2 GeV$
-			\item $\alpha$ < 0.35 rad ($\sim 20$ deg), where $\alpha$ is the 3D angle between the recoil vector and the closest reconstructed $\bar{n}$ candidate (rankByLowest)
-		}
-		\end{enumerate}
-	\end{column}
 
-	\begin{column}{0.55\textwidth}
+%------------------------------------------------
+\begin{frame}{Electromagnetic and hadronic showers}
+Different processes occur for e.m. (1) and hadronic (2) showers:
+\vspace{0.1cm}
+	\begin{enumerate}
+		\item  Bremsstrahlung and pair production process ($e^+,e^-,\gamma$) and $\pi^0 \rightarrow \gamma \gamma$
+		\item  Strong interactions of hadrons with the material ($p,n,pions,kaons...$)
+	\end{enumerate}
+
+\begin{columns}
+	\begin{column}{0.45\textwidth}
+    		\begin{itemize}    
+			\item About the 95\% of the hadronic shower is contained within a cylinder of radius $\lambda_{had}$ ($\sim$ 44.12 cm in CsI(Tl))
+			\item About the 90\% of the e.m. shower is contained within a cylinder of radius $R_M$ ($\sim$ 3.6 cm in CsI(Tl))
+	    	\end{itemize}
+	\end{column}
+	
+	\begin{column}{0.60\textwidth}
 		\begin{figure}[p]
-     		   	\includegraphics[scale=0.35, angle=0]{images/gen_alpha.pdf}
+		   \includegraphics[scale=0.45, angle=0]{images/gamma_vs_hadronic.png}
 		\end{figure}
 	\end{column}
 \end{columns}
-
 \end{frame}
+
+%----------------------------------------------------------------------------------------
 
 \begin{frame}[allowframebreaks,noframenumbering, plain]{$\bar{n}$ mcPDG }
 $\gamma$'s are mis-identified as $\bar{n}$ in reconstruction:
@@ -760,6 +803,8 @@ $\bar{n}$ is underrated in the most of cases (annihilation process + loss of ene
 
 \backupend
 
+
+%----------------------------------------------------------------------------------------
 \begin{frame}[allowframebreaks,noframenumbering,plain]{References}
   \printbibliography
 \end{frame}

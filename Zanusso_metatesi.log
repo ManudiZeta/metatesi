@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  8 JAN 2026 23:28
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  9 JAN 2026 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1306,32 +1306,32 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 (./Zanusso_metatesi.aux)
 \openout1 = `Zanusso_metatesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
-9.
+8.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1367,59 +1367,59 @@ LaTeX Font Info:    ... okay on input line 59.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 58.
 (./Zanusso_metatesi.out) (./Zanusso_metatesi.out)
 \@outlinefile=\write6
 \openout6 = `Zanusso_metatesi.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 59.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 59.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 58.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 59.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 58.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Epilogue(0)/b/n on input line 59.
+(Font)                  OT1/cmr/bx/n --> TU/Epilogue(0)/b/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Epilogue(0)/b/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 59.
+(Font)                  OT1/cmr/bx/n --> TU/Epilogue(0)/b/n on input line 58.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Epilogue(0)/m/n on input line 59.
+(Font)                  OT1/cmss/m/n --> TU/Epilogue(0)/m/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Epilogue(0)/m/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 59.
+(Font)                  OT1/cmss/bx/n --> TU/Epilogue(0)/m/n on input line 58.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Epilogue(0)/m/it on input line 59.
+(Font)                  OT1/cmr/m/it --> TU/Epilogue(0)/m/it on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Epilogue(0)/m/it on input line 59.
+(Font)                  OT1/cmr/bx/it --> TU/Epilogue(0)/m/it on input line 58.
 
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 59.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 59.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 59.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  TU/Epilogue(0)/m/n --> TU/Epilogue(0)/b/n on input line
- 59.
+ 58.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/Epilogue(0)/m/it --> TU/Epilogue(0)/b/it on input li
-ne 59.
+ne 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 59.
+(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/Epilogue(0)/b/n --> TU/Epilogue(0)/b/n on input line
- 59.
+ 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/Epilogue(0)/m/n --> TU/Epilogue(0)/b/n on input line
- 59.
+ 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/Epilogue(0)/m/it --> TU/Epilogue(0)/b/it on input li
-ne 59.
+ne 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 59.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 58.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1451,59 +1451,59 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 59.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 59.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 59.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 59.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 59.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 59.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 59.
-LaTeX Font Info:    Redeclaring math accent \check on input line 59.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 59.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 59.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 59.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 59.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 58.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 58.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 58.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 58.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 58.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 58.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 58.
+LaTeX Font Info:    Redeclaring math accent \check on input line 58.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 58.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 58.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 58.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 58.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 59.
+(Font)              `operators' in the math version `normal' on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 59.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 58.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 59.
+(Font)              `operators' in the math version `bold' on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/lmr/m/n on input line 59.
+(Font)                  OT1/cmss/b/n --> TU/lmr/m/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 59.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 58.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/Epilogue(0)/m/it --> TU/lmr/m/it on input line 59.
+(Font)                  TU/Epilogue(0)/m/it --> TU/lmr/m/it on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/Epilogue(0)/b/n --> TU/lmr/b/n on input line 59.
+(Font)                  TU/Epilogue(0)/b/n --> TU/lmr/b/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  TU/Epilogue(0)/m/n --> TU/Epilogue(0)/m/n on input line
- 59.
+ 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 59.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 59.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/Epilogue(0)/b/it --> TU/lmr/b/it on input line 59.
+(Font)                  TU/Epilogue(0)/b/it --> TU/lmr/b/it on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/Epilogue(0)/b/n --> TU/Epilogue(0)/b/n on input line
- 59.
+ 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/b/n --> TU/lmtt/b/n on input line 59.
+(Font)                  TU/lmtt/b/n --> TU/lmtt/b/n on input line 58.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1520,30 +1520,26 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Zanusso_metatesi.bbl' found.
 
 (./Zanusso_metatesi.bbl)
-Package biblatex Info: Reference section=0 on input line 59.
-Package biblatex Info: Reference segment=0 on input line 59.
+Package biblatex Info: Reference section=0 on input line 58.
+Package biblatex Info: Reference segment=0 on input line 58.
  (./Zanusso_metatesi.nav)
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 59.
+(Font)              scaled to size 5.39996pt on input line 58.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 59.
+(Font)              scaled to size 7.19995pt on input line 58.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 61.
+(Font)              scaled to size 18.66588pt on input line 60.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 61.
+(Font)              scaled to size 18.66588pt on input line 60.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 61.
+(Font)              scaled to size 9.85492pt on input line 60.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
-
-Overfull \vbox (9.22737pt too high) detected at line 61
- []
-
 File: AICStyleData/logos/blue.jpeg Graphic file (type bmp)
 <AICStyleData/logos/blue.jpeg>
-[1
+ [1
 
 ] (./Zanusso_metatesi.toc
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
@@ -1552,50 +1548,50 @@ LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
 )
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 65.
+(Font)              scaled to size 15.55188pt on input line 64.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 65.
+(Font)              scaled to size 15.55188pt on input line 64.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 3.59998pt on input line 65.
- [2
+(Font)              scaled to size 3.59998pt on input line 64.
+
+[2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 90.
 
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 90.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 9.85492pt on input line 93.
+(Font)              scaled to size 9.85492pt on input line 90.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 7.19995pt on input line 93.
+(Font)              scaled to size 7.19995pt on input line 90.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 5.39996pt on input line 93.
+(Font)              scaled to size 5.39996pt on input line 90.
 File: images/feynman-eN.png Graphic file (type bmp)
 <images/feynman-eN.png>
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 93.
+(Font)              scaled to size 8.99994pt on input line 90.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 93.
+(Font)              scaled to size 6.29996pt on input line 90.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 93.
+(Font)              scaled to size 4.49997pt on input line 90.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 93.
+(Font)              scaled to size 8.99994pt on input line 90.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 6.29996pt on input line 93.
+(Font)              scaled to size 6.29996pt on input line 90.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 4.49997pt on input line 93.
+(Font)              scaled to size 4.49997pt on input line 90.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1617,7 +1613,7 @@ File: images/superkekb.png Graphic file (type bmp)
 File: images/int_lumi.png Graphic file (type bmp)
 <images/int_lumi.png>
 
-Overfull \hbox (9.68974pt too wide) detected at line 149
+Overfull \hbox (9.68974pt too wide) detected at line 146
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
@@ -1628,23 +1624,21 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 [5
 
 ]
-File: images/belleii_scheme.png Graphic file (type bmp)
-<images/belleii_scheme.png>
-File: images/ECL.png Graphic file (type bmp)
-<images/ECL.png>
+File: images/belleii_dets.png Graphic file (type bmp)
+<images/belleii_dets.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (6.98581pt too high) detected at line 164
+Overfull \vbox (0.52606pt too high) detected at line 153
  []
 
 [6
 
 ]
-File: images/Ann-nbar.png Graphic file (type bmp)
-<images/Ann-nbar.png>
+File: images/belleii_scheme.png Graphic file (type bmp)
+<images/belleii_scheme.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1652,8 +1646,10 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [7
 
 ]
-File: images/gamma_vs_hadronic.png Graphic file (type bmp)
-<images/gamma_vs_hadronic.png>
+File: images/Ann-nbar.png Graphic file (type bmp)
+<images/Ann-nbar.png>
+File: images/shanette_nbar_ECLTOP.jpg Graphic file (type bmp)
+<images/shanette_nbar_ECLTOP.jpg>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1662,7 +1658,13 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 221.
+(Font)              scaled to size 8.99994pt on input line 219.
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 219.
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 219.
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
+(Font)              scaled to size 10.79993pt on input line 219.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1677,10 +1679,6 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [10
 
 ]
-File: images/sanjeeda_a.png Graphic file (type bmp)
-<images/sanjeeda_a.png>
-File: images/sanjeeda.png Graphic file (type bmp)
-<images/sanjeeda.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1701,59 +1699,57 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
-
-Overfull \vbox (8.40128pt too high) detected at line 335
- []
-
-[13
+ [13
 
 ]
-File: images/gen_vpho_r_mRecoil.pdf Graphic file (type pdf)
-<use images/gen_vpho_r_mRecoil.pdf>
-
-Overfull \hbox (1.35095pt too wide) in paragraph at lines 360--360
- [] 
- []
-
+File: images/signal_sample/gen_alpha.pdf Graphic file (type pdf)
+<use images/signal_sample/gen_alpha.pdf>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
-[14
+ [14
+
+]
+File: images/logos/blue.jpeg Graphic file (type bmp)
+<images/logos/blue.jpeg>
+File: images/signal_sample/gen_mRecoil.pdf Graphic file (type pdf)
+<use images/signal_sample/gen_mRecoil.pdf>
+File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
+<AICStyleData/logos/belleii_logo.png>
+File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
+<AICStyleData/logos/nuovo_logo_Unito.png>
+ [15
 
 ]
 File: images/pRecoil_nmcP.pdf Graphic file (type pdf)
 <use images/pRecoil_nmcP.pdf>
 
-Overfull \hbox (1.35095pt too wide) in paragraph at lines 388--388
+Overfull \hbox (1.35095pt too wide) in paragraph at lines 425--425
  [] 
  []
 
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 388.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 15.55188pt on input line 388.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 10.79993pt on input line 388.
-File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
-<AICStyleData/logos/belleii_logo.png>
-File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
-<AICStyleData/logos/nuovo_logo_Unito.png>
-[15
-
-]
-File: images/pRecoil_nmcP_PDGsel.pdf Graphic file (type pdf)
-<use images/pRecoil_nmcP_PDGsel.pdf>
-
-Overfull \hbox (1.35095pt too wide) in paragraph at lines 418--418
- [] 
- []
-
+(Font)              scaled to size 15.55188pt on input line 425.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 [16
+
+]
+File: images/pRecoil_nmcP_PDGsel.pdf Graphic file (type pdf)
+<use images/pRecoil_nmcP_PDGsel.pdf>
+
+Overfull \hbox (1.35095pt too wide) in paragraph at lines 455--455
+ [] 
+ []
+
+File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
+<AICStyleData/logos/belleii_logo.png>
+File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
+<AICStyleData/logos/nuovo_logo_Unito.png>
+[17
 
 ]
 File: images/gen_mc_theta_corr.pdf Graphic file (type pdf)
@@ -1769,10 +1765,10 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (1.09146pt too high) detected at line 443
+Overfull \vbox (1.09146pt too high) detected at line 480
  []
 
-[17
+[18
 
 ]
 File: images/diff_thetaREC_ntheta_mc.pdf Graphic file (type pdf)
@@ -1788,10 +1784,10 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (1.09146pt too high) detected at line 470
+Overfull \vbox (1.09146pt too high) detected at line 507
  []
 
-[18
+[19
 
 ]
 File: images/kin/kin_comp_deltaTheta.pdf Graphic file (type pdf)
@@ -1803,10 +1799,10 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (12.04904pt too high) detected at line 488
+Overfull \vbox (11.97023pt too high) detected at line 525
  []
 
-[19
+[20
 
 ]
 File: images/cluster/zernike.png Graphic file (type bmp)
@@ -1818,10 +1814,10 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (4.0905pt too high) detected at line 516
+Overfull \vbox (49.96523pt too high) detected at line 553
  []
 
-[20
+[21
 
 ]
 File: images/cluster/clusterE.pdf Graphic file (type pdf)
@@ -1840,7 +1836,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [21
+ [22
 
 ]
 File: images/cluster/clusterNHits.pdf Graphic file (type pdf)
@@ -1849,7 +1845,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [22
+ [23
 
 ]
 File: images/cluster/mcPDG!=22/clusterE_gamma.pdf Graphic file (type pdf)
@@ -1870,13 +1866,6 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [23
-
-]
-File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
-<AICStyleData/logos/belleii_logo.png>
-File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
-<AICStyleData/logos/nuovo_logo_Unito.png>
  [24
 
 ]
@@ -1885,6 +1874,13 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
  [25
+
+]
+File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
+<AICStyleData/logos/belleii_logo.png>
+File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
+<AICStyleData/logos/nuovo_logo_Unito.png>
+ [26
 
 ]
 File: images/logos/red.png Graphic file (type bmp)
@@ -1896,7 +1892,7 @@ File: images/logos/yellow.jpeg Graphic file (type bmp)
 File: images/continuum/mRecoil_comparison.pdf Graphic file (type pdf)
 <use images/continuum/mRecoil_comparison.pdf>
 
-Overfull \hbox (9.68974pt too wide) detected at line 638
+Overfull \hbox (9.68974pt too wide) detected at line 678
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
@@ -1905,37 +1901,33 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (7.90332pt too high) detected at line 638
- []
-
-[26
-
-]
-File: images/logos/cyan.png Graphic file (type bmp)
-<images/logos/cyan.png>
-File: images/continuum/mRecoil_comparison_real.pdf Graphic file (type pdf)
-<use images/continuum/mRecoil_comparison_real.pdf>
-
-Overfull \hbox (9.68974pt too wide) detected at line 668
-[][][] [][][][][][][][][] [][][][][][][] 
- []
-
-File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
-<AICStyleData/logos/belleii_logo.png>
-File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
-<AICStyleData/logos/nuovo_logo_Unito.png>
-
-Overfull \vbox (7.90332pt too high) detected at line 668
+Overfull \vbox (7.90332pt too high) detected at line 678
  []
 
 [27
 
 ]
+
+LaTeX Warning: Citation 'longo2025' on page 28 undefined on input line 708.
+
+File: images/logos/cyan.png Graphic file (type bmp)
+<images/logos/cyan.png>
+File: images/continuum/mRecoil_comparison_real.pdf Graphic file (type pdf)
+<use images/continuum/mRecoil_comparison_real.pdf>
+
+Overfull \hbox (9.68974pt too wide) detected at line 708
+[][][] [][][][][][][][][] [][][][][][][] 
+ []
+
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [28
+
+Overfull \vbox (7.90332pt too high) detected at line 708
+ []
+
+[28
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
@@ -1945,8 +1937,6 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [29
 
 ]
-File: images/shanette.png Graphic file (type bmp)
-<images/shanette.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1954,11 +1944,23 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [30
 
 ]
+
+LaTeX Warning: Citation 'shanette2025' on page 31 undefined on input line 734.
+
+File: images/shanette.png Graphic file (type bmp)
+<images/shanette.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [31
+[31
+
+]
+File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
+<AICStyleData/logos/belleii_logo.png>
+File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
+<AICStyleData/logos/nuovo_logo_Unito.png>
+ [32
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
@@ -1967,17 +1969,17 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 File: AICStyleData/logos/blue.jpeg Graphic file (type bmp)
 <AICStyleData/logos/blue.jpeg>
- [32
+ [33
 
 ]
 \c@finalframe=\count503
-File: images/gen_alpha.pdf Graphic file (type pdf)
-<use images/gen_alpha.pdf>
+File: images/gamma_vs_hadronic.png Graphic file (type bmp)
+<images/gamma_vs_hadronic.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [33
+ [34
 
 ]
 File: images/nbar_mcPDG.pdf Graphic file (type pdf)
@@ -1986,7 +1988,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [34
+ [35
 
 ]
 File: images/frac_pREC_np.pdf Graphic file (type pdf)
@@ -1995,14 +1997,17 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [35
+ [36
 
 ]
+
+LaTeX Warning: Empty bibliography on input line 810.
+
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [36
+[37
 
 ]
 \tf@nav=\write7
@@ -2019,19 +2024,28 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Zanusso_metatesi.out' has not changed.
-(rerunfilecheck)             Checksum: 4A8FCB5AF7A77914D65D2A4D90BCC1B7;851.
+(rerunfilecheck)             Checksum: 005F4805CBD5209838592A9781EAA732;806.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Zanusso_metatesi
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Zanusso_metatesi.run.xml'.
 \openout1 = `Zanusso_metatesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37878 strings out of 474773
- 809597 string characters out of 5757723
+ 37813 strings out of 474773
+ 807816 string characters out of 5757723
  1932839 words of memory out of 5000000
- 59260 multiletter control sequences out of 15000+600000
- 568187 words of font info for 115 fonts, out of 8000000 for 9000
+ 59193 multiletter control sequences out of 15000+600000
+ 568195 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,13n,145p,689b,4974s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,145p,689b,1788s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Zanusso_metatesi.pdf (36 pages).
+Output written on Zanusso_metatesi.pdf (37 pages).

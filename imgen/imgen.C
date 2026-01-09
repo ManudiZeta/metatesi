@@ -12,48 +12,75 @@
 
 void una_grand ()
 {
-    gStyle->SetOptStat(1);
+    gStyle->SetOptStat(0);
     string in_1;
     TFile *myf_1 = nullptr;
-    in_1 = "../../../vpho_std_isr_n_REC_merge100k_2.root";
+    string in_2;
+    TFile *myf_2 = nullptr;
+    in_1 = "../../../vpho_isr_n_REC_merge100k_09012026.root";
+    in_2 = "../../../vpho_nog_n_REC_merge100k_09012026.root";
     ifstream in_f1(in_1);
+    ifstream in_f2(in_2);
     
-    
-    if(!in_f1)
+    if(!in_f1 | !in_f2)
     {
         cout<<"Selected root file doesn't exist. Please, generate it. \n";
         return;
     }
     in_f1.close();
+    in_f2.close();
     
-    myf_1 = new TFile("../../../vpho_std_isr_n_REC_merge100k_2.root");
+    myf_1 = new TFile("../../../vpho_isr_n_REC_merge100k_09012026.root");
+    myf_2 = new TFile("../../../vpho_nog_n_REC_merge100k_09012026.root");
     
     TTree *tree_1 = (TTree*)myf_1->Get("tree");
+    TTree *tree_2 = (TTree*)myf_2->Get("tree");
     
     TCanvas *c1 = new TCanvas("c1", "c1",800,600);
-    TString var = "vpho_r_pRecoilTheta-nbar_mcTheta";
-    TString um = "rad";
-    TString drawExpr1 = var + ">>histo1(100,-0.4,0.4)";
-    tree_1->Draw(drawExpr1,"nbar_mcPDG == -2112");
+    TString var = "vpho_r_mRecoil";
+    TString um = "GeV";
+    TString drawExpr1 = var + ">>histo1(100,0,2)";
+    TString drawExpr2 = var + ">>histo2(100,0,2)";
+    tree_1->Draw(drawExpr1,"");
+    tree_2->Draw(drawExpr2,"");
     
     
     delete c1;
     
     TH1D *histo1 = (TH1D*)gDirectory->Get("histo1");
+    TH1D *histo2 = (TH1D*)gDirectory->Get("histo2");
     
     histo1->SetLineColor(kBlue);
-    TString title_x = var + " [" + um + "]";
+    histo2->SetLineColor(kRed);
+    
+    double max1 = histo1->GetBinContent(histo1->GetMaximumBin());
+    cout<<"max1 = "<<max1<<endl;
+    double max2 = histo2->GetBinContent(histo2->GetMaximumBin());
+    cout<<"max2 = "<<max2<<endl;
+    double max = (max1 > max2) ? max1 : max2;
+    cout<<"max = "<<max<<endl;
+    
+    histo1->SetMaximum(max + 0.1*max);
+    histo2->SetMaximum(max + 0.1*max);
+    
+    TString title_x = "recoil mass [GeV]";
     histo1->GetXaxis()->SetTitle(title_x);
-    histo1->GetYaxis()->SetTitle("counts []");
-    TString title = "From generator";
+    histo1->GetYaxis()->SetTitle("counts");
+    TString title = "";
     histo1->SetTitle(title);
+    
+    TLegend *leg = new TLegend(0.6,0.6,0.78,0.78);
+    leg->AddEntry(histo1,"ISR ","l");
+    leg->AddEntry(histo2,"no ISR","l");
     
     TCanvas *tela = new TCanvas("tela", "tela");
     
     histo1->DrawCopy("HIST");
+    histo2->DrawCopy("HIST SAMES");
+    leg->Draw("SAME");
     
-    TString title_out = "../images/gen_" + var + ".pdf";
-    tela->SaveAs("../images/diff_thetaREC_ntheta_mc.pdf");
+    TString title_out = "../images/signal_sample/gen_mRecoil.pdf";
+    tela->SaveAs(title_out);
     
 }
 
