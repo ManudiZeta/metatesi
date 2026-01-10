@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  10 JAN 2026 00:01
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  10 JAN 2026 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1724,72 +1724,67 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [15
 
 ]
-File: images/pRecoil_nmcP.pdf Graphic file (type pdf)
-<use images/pRecoil_nmcP.pdf>
-
-Overfull \hbox (1.35095pt too wide) in paragraph at lines 425--425
- [] 
- []
-
+File: images/signal_sample/pRecoil_nmcP_isr.pdf Graphic file (type pdf)
+<use images/signal_sample/pRecoil_nmcP_isr.pdf>
+File: images/signal_sample/pRecoil_nmcP_nog.pdf Graphic file (type pdf)
+<use images/signal_sample/pRecoil_nmcP_nog.pdf>
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 15.55188pt on input line 425.
+(Font)              scaled to size 15.55188pt on input line 423.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
-[16
+ [16
 
 ]
-File: images/pRecoil_nmcP_PDGsel.pdf Graphic file (type pdf)
-<use images/pRecoil_nmcP_PDGsel.pdf>
-
-Overfull \hbox (1.35095pt too wide) in paragraph at lines 455--455
- [] 
- []
-
+File: images/signal_sample/pRecoil_nmcP_PDGsel_isr.pdf Graphic file (type pdf)
+<use images/signal_sample/pRecoil_nmcP_PDGsel_isr.pdf>
+File: images/signal_sample/pRecoil_nmcP_PDGsel_nog.pdf Graphic file (type pdf)
+<use images/signal_sample/pRecoil_nmcP_PDGsel_nog.pdf>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
-[17
+ [17
 
 ]
-File: images/gen_mc_theta_corr.pdf Graphic file (type pdf)
-<use images/gen_mc_theta_corr.pdf>
-File: images/gen_rec_theta_corr.pdf Graphic file (type pdf)
-<use images/gen_rec_theta_corr.pdf>
-File: images/gen_mc_p_corr.pdf Graphic file (type pdf)
-<use images/gen_mc_p_corr.pdf>
-File: images/gen_rec_p_corr.pdf Graphic file (type pdf)
-<use images/gen_rec_p_corr.pdf>
+File: images/signal_sample/gen_mc_theta_corr_isr.pdf Graphic file (type pdf)
+<use images/signal_sample/gen_mc_theta_corr_isr.pdf>
+File: images/signal_sample/gen_rec_theta_corr_isr.pdf Graphic file (type pdf)
+<use images/signal_sample/gen_rec_theta_corr_isr.pdf>
+File: images/signal_sample/gen_mc_p_corr_isr.pdf Graphic file (type pdf)
+<use images/signal_sample/gen_mc_p_corr_isr.pdf>
+File: images/signal_sample/gen_rec_p_corr_isr.pdf Graphic file (type pdf)
+<use images/signal_sample/gen_rec_p_corr_isr.pdf>
+File: images/signal_sample/gen_mc_theta_corr_nog.pdf Graphic file (type pdf)
+<use images/signal_sample/gen_mc_theta_corr_nog.pdf>
+File: images/signal_sample/gen_rec_theta_corr_nog.pdf Graphic file (type pdf)
+<use images/signal_sample/gen_rec_theta_corr_nog.pdf>
+File: images/signal_sample/gen_mc_p_corr_nog.pdf Graphic file (type pdf)
+<use images/signal_sample/gen_mc_p_corr_nog.pdf>
+File: images/signal_sample/gen_rec_p_corr_nog.pdf Graphic file (type pdf)
+<use images/signal_sample/gen_rec_p_corr_nog.pdf>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
-
-Overfull \vbox (1.09146pt too high) detected at line 480
- []
-
-[18
+ [18
 
 ]
-File: images/diff_thetaREC_ntheta_mc.pdf Graphic file (type pdf)
-<use images/diff_thetaREC_ntheta_mc.pdf>
-File: images/diff_thetaREC_ntheta_rec.pdf Graphic file (type pdf)
-<use images/diff_thetaREC_ntheta_rec.pdf>
-File: images/diff_pREC_np_mc.pdf Graphic file (type pdf)
-<use images/diff_pREC_np_mc.pdf>
-File: images/diff_pREC_np_rec.pdf Graphic file (type pdf)
-<use images/diff_pREC_np_rec.pdf>
+File: images/signal_sample/diff_thetaREC_ntheta_mc.pdf Graphic file (type pdf)
+<use images/signal_sample/diff_thetaREC_ntheta_mc.pdf>
+File: images/signal_sample/diff_thetaREC_ntheta_rec.pdf Graphic file (type pdf)
+
+<use images/signal_sample/diff_thetaREC_ntheta_rec.pdf>
+File: images/signal_sample/diff_pREC_np_mc.pdf Graphic file (type pdf)
+<use images/signal_sample/diff_pREC_np_mc.pdf>
+File: images/signal_sample/diff_pREC_np_rec.pdf Graphic file (type pdf)
+<use images/signal_sample/diff_pREC_np_rec.pdf>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
-
-Overfull \vbox (1.09146pt too high) detected at line 507
- []
-
-[19
+ [19
 
 ]
 File: images/kin/kin_comp_deltaTheta.pdf Graphic file (type pdf)
@@ -1801,7 +1796,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (11.97023pt too high) detected at line 525
+Overfull \vbox (0.42758pt too high) detected at line 505
  []
 
 [20
@@ -1815,11 +1810,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
-
-Overfull \vbox (49.96523pt too high) detected at line 553
- []
-
-[21
+ [21
 
 ]
 File: images/cluster/clusterE.pdf Graphic file (type pdf)
@@ -1868,12 +1859,10 @@ File: images/logos/red.png Graphic file (type bmp)
 <images/logos/red.png>
 File: images/logos/green.png Graphic file (type bmp)
 <images/logos/green.png>
-File: images/logos/yellow.jpeg Graphic file (type bmp)
-<images/logos/yellow.jpeg>
 File: images/continuum/mRecoil_comparison.pdf Graphic file (type pdf)
 <use images/continuum/mRecoil_comparison.pdf>
 
-Overfull \hbox (9.68974pt too wide) detected at line 664
+Overfull \hbox (9.68974pt too wide) detected at line 662
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
@@ -1882,21 +1871,18 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (7.90332pt too high) detected at line 664
+Overfull \vbox (7.90332pt too high) detected at line 662
  []
 
 [26
 
 ]
-
-LaTeX Warning: Citation 'longo2025' on page 27 undefined on input line 694.
-
 File: images/logos/cyan.png Graphic file (type bmp)
 <images/logos/cyan.png>
 File: images/continuum/mRecoil_comparison_real.pdf Graphic file (type pdf)
 <use images/continuum/mRecoil_comparison_real.pdf>
 
-Overfull \hbox (9.68974pt too wide) detected at line 694
+Overfull \hbox (9.68974pt too wide) detected at line 698
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
@@ -1905,7 +1891,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (7.90332pt too high) detected at line 694
+Overfull \vbox (7.90332pt too high) detected at line 698
  []
 
 [27
@@ -1926,7 +1912,7 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 
 ]
 
-LaTeX Warning: Citation 'shanette2025' on page 30 undefined on input line 720.
+LaTeX Warning: Citation 'shanette2025' on page 30 undefined on input line 724.
 
 File: images/shanette.png Graphic file (type bmp)
 <images/shanette.png>
@@ -1984,7 +1970,7 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 796.
+LaTeX Warning: Empty bibliography on input line 800.
 
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
@@ -2023,12 +2009,12 @@ Package logreq Info: Writing requests to 'Zanusso_metatesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37751 strings out of 474773
- 804552 string characters out of 5757723
+ 37778 strings out of 474773
+ 807791 string characters out of 5757723
  1932839 words of memory out of 5000000
- 59137 multiletter control sequences out of 15000+600000
+ 59159 multiletter control sequences out of 15000+600000
  568195 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,13n,145p,689b,1788s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,145p,689b,1337s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Zanusso_metatesi.pdf (36 pages).

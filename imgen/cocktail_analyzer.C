@@ -79,10 +79,10 @@ void imgen(bool choice)
 
 
 
-void multi_grand(TString var, TString cut2, TString cut3, TString cut4, TString um)
+void multi_grand(TString var, TString cut2, TString cut3)
 {
-    gStyle->SetOptStat(1);
-    string in_1, in_2;
+    gStyle->SetOptStat(0);
+    string in_1;
     TFile *myf_1 = nullptr;
     
     
@@ -102,56 +102,49 @@ void multi_grand(TString var, TString cut2, TString cut3, TString cut4, TString 
     TTree *tree_1 = (TTree*)myf_1->Get("tree");
     TTree *tree_2 = (TTree*)myf_1->Get("tree");
     TTree *tree_3 = (TTree*)myf_1->Get("tree");
-    TTree *tree_4 = (TTree*)myf_1->Get("tree");
     
     TCanvas *c1 = new TCanvas("c1", "c1",800,600);
     TString var_1 =  var;
     TString var_2 =  var;
     TString var_3 =  var;
-    TString var_4 =  var;
     cout<<"var_1 = "<<var_1<<endl;
     cout<<"var_2 = "<<var_2<<endl;
     cout<<"var_3 = "<<var_1<<endl;
-    cout<<"var_4 = "<<var_2<<endl;
     
     TString drawExpr1 = var_1 + ">>histo1(256,0,2)";
     TString drawExpr2 = var_2 + ">>histo2(256,0,2)";
     TString drawExpr3 = var_3 + ">>histo3(256,0,2)";
-    TString drawExpr4 = var_4 + ">>histo4(256,0,2)";
     
     TString cut_2 = cut2;
     TString cut_3 = cut3;
-    TString cut_4 = cut4;
+    
     cout<<"cut_2 = "<<cut_2<<endl;
     cout<<"cut_3 = "<<cut_3<<endl;
-    cout<<"cut_4 = "<<cut_4<<endl;
+
     
     tree_1->Draw(drawExpr1, "", "goff");
     tree_2->Draw(drawExpr2, cut_2, "goff");
     tree_3->Draw(drawExpr3, cut_3, "goff");
-    tree_4->Draw(drawExpr4, cut_4, "goff");
-    
-    
+
+        
     delete c1;
     TH1 *histo1 = (TH1D*)gDirectory->Get("histo1");
     TH1 *histo2 = (TH1D*)gDirectory->Get("histo2");
     TH1 *histo3 = (TH1D*)gDirectory->Get("histo3");
-    TH1 *histo4 = (TH1D*)gDirectory->Get("histo4");
+
     
     histo1->SetLineColor(kBlue);
     histo2->SetLineColor(kRed);
     histo3->SetLineColor(kGreen);
-    histo4->SetLineColor(kYellow);
     
     histo1->SetFillColor(kBlue);
     histo2->SetFillColor(kRed);
     histo3->SetFillColor(kGreen);
-    histo4->SetFillColor(kYellow);
     
-    TString title_x = var + " [" + um + "]";
+    TString title_x = "recoil mass [#frac{GeV}{c^{2}}]";
     //TString title_x = "clusterSecondMoment []";
     histo1->GetXaxis()->SetTitle(title_x);
-    histo1->GetYaxis()->SetTitle("counts []");
+    histo1->GetYaxis()->SetTitle("counts");
     
     
     TString title = "";
@@ -161,20 +154,17 @@ void multi_grand(TString var, TString cut2, TString cut3, TString cut4, TString 
     cout<<"NEntries_1 = "<<histo1->GetEntries()<<endl;
     cout<<"NEntries_2 = "<<histo2->GetEntries()<<endl;
     cout<<"NEntries_3 = "<<histo3->GetEntries()<<endl;
-    cout<<"NEntries_4 = "<<histo4->GetEntries()<<endl;
     
     TLegend *leg = new TLegend(0.6,0.6,0.78,0.78);
-    leg->AddEntry(histo1,"No cuts","l");
+    leg->AddEntry(histo1,"No additional cuts","l");
     leg->AddEntry(histo2,"a","l");
     leg->AddEntry(histo3,"b","l");
-    leg->AddEntry(histo4,"c","l");
     
     TCanvas *tela = new TCanvas("tela", "tela");
     
     histo1->DrawCopy("HIST");
     histo2->DrawCopy("HIST SAMES");
     histo3->DrawCopy("HIST SAMES");
-    histo4->DrawCopy("HIST SAMES");
     leg->Draw("SAME");
     
     TString title_out = "../images/continuum/mRecoil_comparison.pdf";
@@ -183,14 +173,14 @@ void multi_grand(TString var, TString cut2, TString cut3, TString cut4, TString 
 }
 
 
-void multi_grand_real(TString var, TString cut1, TString cut2, TString um)
+void multi_grand_real(TString var, TString cut1, TString cut2)
 {
-    gStyle->SetOptStat(1);
+    gStyle->SetOptStat(0);
     string in_1, in_2;
     TFile *myf_1 = nullptr;
     
     
-    in_1 = "../../../tot_nog_06012026.root";
+    in_1 = "../../../RealSel_nog_cocktail_parz.root";
     
     ifstream in_f1(in_1);
     
@@ -201,7 +191,7 @@ void multi_grand_real(TString var, TString cut1, TString cut2, TString um)
     }
     in_f1.close();
     
-    myf_1 = new TFile("../../../tot_nog_06012026.root");
+    myf_1 = new TFile("../../../RealSel_nog_cocktail_parz.root");
     
     TTree *tree_1 = (TTree*)myf_1->Get("tree");
     TTree *tree_2 = (TTree*)myf_1->Get("tree");
@@ -239,10 +229,10 @@ void multi_grand_real(TString var, TString cut1, TString cut2, TString um)
     histo2->SetFillColor(kCyan);
 
     
-    TString title_x = var + " [" + um + "]";
+    TString title_x = "recoil mass [#frac{GeV}{c^{2}}]";
     //TString title_x = "clusterSecondMoment []";
     histo1->GetXaxis()->SetTitle(title_x);
-    histo1->GetYaxis()->SetTitle("counts []");
+    histo1->GetYaxis()->SetTitle("counts");
     
     
     TString title = "";
@@ -254,12 +244,12 @@ void multi_grand_real(TString var, TString cut1, TString cut2, TString um)
     
     TLegend *leg = new TLegend(0.6,0.6,0.78,0.78);
     leg->AddEntry(histo1,"(b)","l");
-    leg->AddEntry(histo2,"(b) + p and pi cuts","l");
+    leg->AddEntry(histo2,"(b) + PID + IP ","l");
     
-    TLine *tl_1 = new TLine(0.8,0,0.8,50);
+    TLine *tl_1 = new TLine(0.8,0,0.8,400);
     tl_1->SetLineColor(kBlack);
     
-    TLine *tl_2 = new TLine(1.1,0,1.1,50);
+    TLine *tl_2 = new TLine(1.1,0,1.1,400);
     tl_2->SetLineColor(kBlack);
     
     TCanvas *tela = new TCanvas("tela", "tela");

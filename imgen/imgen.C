@@ -10,17 +10,15 @@
 #include "TLine.h"
 #include "TPaveText.h"
 
-void una_grand ()
+void una_grand (TString file_1 = "../../../vpho_isr_n_REC_merge100k_09012026.root" , TString file_2 = "../../../vpho_nog_n_REC_merge100k_09012026.root")
 {
-    gStyle->SetOptStat(0);
-    string in_1;
+    gStyle->SetOptStat(1110);
+
     TFile *myf_1 = nullptr;
-    string in_2;
     TFile *myf_2 = nullptr;
-    in_1 = "../../../vpho_isr_n_REC_merge100k_09012026.root";
-    in_2 = "../../../vpho_nog_n_REC_merge100k_09012026.root";
-    ifstream in_f1(in_1);
-    ifstream in_f2(in_2);
+    
+    ifstream in_f1(file_1);
+    ifstream in_f2(file_2);
     
     if(!in_f1 | !in_f2)
     {
@@ -30,22 +28,23 @@ void una_grand ()
     in_f1.close();
     in_f2.close();
     
-    myf_1 = new TFile("../../../vpho_isr_n_REC_merge100k_09012026.root");
-    myf_2 = new TFile("../../../vpho_nog_n_REC_merge100k_09012026.root");
+    myf_1 = new TFile(file_1);
+    myf_2 = new TFile(file_2);
     
     TTree *tree_1 = (TTree*)myf_1->Get("tree");
     TTree *tree_2 = (TTree*)myf_2->Get("tree");
     
     TCanvas *c1 = new TCanvas("c1", "c1",800,600);
-    TString var = "vpho_r_mRecoil";
-    TString um = "GeV";
-    TString drawExpr1 = var + ">>histo1(100,0,2)";
-    TString drawExpr2 = var + ">>histo2(100,0,2)";
-    tree_1->Draw(drawExpr1,"");
-    tree_2->Draw(drawExpr2,"");
-    
+
+    TString var = "vpho_r_pRecoilTheta-nbar_theta";
+    TString drawExpr1 = var + ">>histo1(100,-0.35,0.35)";
+    TString drawExpr2 = var + ">>histo2(100,-0.35,0.35)";
+    tree_1->Draw(drawExpr1,"nbar_mcPDG == -2112");
+    tree_2->Draw(drawExpr2,"nbar_mcPDG == -2112");
+       
     
     delete c1;
+
     
     TH1D *histo1 = (TH1D*)gDirectory->Get("histo1");
     TH1D *histo2 = (TH1D*)gDirectory->Get("histo2");
@@ -63,15 +62,15 @@ void una_grand ()
     histo1->SetMaximum(max + 0.1*max);
     histo2->SetMaximum(max + 0.1*max);
     
-    TString title_x = "recoil mass [GeV]";
+    TString title_x = "#Delta#theta [rad]";
     histo1->GetXaxis()->SetTitle(title_x);
     histo1->GetYaxis()->SetTitle("counts");
-    TString title = "";
+    TString title = "#theta Recoil - #theta #bar{n} REC ";
     histo1->SetTitle(title);
     
     TLegend *leg = new TLegend(0.6,0.6,0.78,0.78);
-    leg->AddEntry(histo1,"ISR ","l");
-    leg->AddEntry(histo2,"no ISR","l");
+    leg->AddEntry(histo1,"ISR","l");
+    leg->AddEntry(histo2,"NO ISR","l");
     
     TCanvas *tela = new TCanvas("tela", "tela");
     
@@ -79,7 +78,7 @@ void una_grand ()
     histo2->DrawCopy("HIST SAMES");
     leg->Draw("SAME");
     
-    TString title_out = "../images/signal_sample/gen_mRecoil.pdf";
+    TString title_out = "../images/signal_sample/diff_thetaREC_ntheta_rec.pdf";
     tela->SaveAs(title_out);
     
 }
@@ -161,30 +160,17 @@ void due_grand(TString var, TString cut, TString um, TString x1, TString x2)
 
 
 
-void corr ()
+void corr (TString file_1 = "../../../vpho_isr_n_REC_merge100k_09012026.root")
 {
-    gStyle->SetOptStat(1);
-    string in_1;
-    TFile *myf_1 = nullptr;
-    in_1 = "../../../vpho_std_isr_n_REC_merge100k_2.root";
-    ifstream in_f1(in_1);
-    
-    
-    if(!in_f1)
-    {
-        cout<<"Selected root file doesn't exist. Please, generate it. \n";
-        return;
-    }
-    in_f1.close();
-    
-    myf_1 = new TFile("../../../vpho_std_isr_n_REC_merge100k_2.root");
+    gStyle->SetOptStat(0);
+
+    TFile *myf_1 = new TFile(file_1);
     
     TTree *tree_1 = (TTree*)myf_1->Get("tree");
     
     TCanvas *c1 = new TCanvas("c1", "c1",800,600);
-    TString var = "vpho_r_pRecoil:nbar_p";
-    TString um = "GeV";
-    TString drawExpr1 = var + ">>histo1(100,0,7,100,0,7)";
+    TString var = "vpho_r_pRecoilTheta:nbar_mcTheta";
+    TString drawExpr1 = var + ">>histo1(100,0,3.14,100,0,3.14)";
     tree_1->Draw(drawExpr1,"nbar_mcPDG == -2112","colz");
     
     
@@ -195,12 +181,11 @@ void corr ()
     histo1->SetLineColor(kBlue);
     cout << "Correlation factor = " << rho << endl;
     
-    TString title_x = var + " [" + um + "]";
-    histo1->GetXaxis()->SetTitle("#bar{n} rec_p [GeV]");
-    histo1->GetYaxis()->SetTitle("pRecoil [GeV]");
-    histo1->SetTitle("From reconstruction");
+    histo1->GetXaxis()->SetTitle("#bar{n} generated #theta [rad]");
+    histo1->GetYaxis()->SetTitle("recoil #theta [rad]");
+    histo1->SetTitle("ISR");
     
-    TLine *tl = new TLine(0,0,7,7);
+    TLine *tl = new TLine(0,0,3.14,3.14);
     
     TCanvas *tela = new TCanvas("tela", "tela");
     
@@ -209,14 +194,14 @@ void corr ()
     pt->SetBorderSize(1);
     pt->SetTextAlign(12);
     pt->SetTextSize(0.035);
-    pt->AddText(Form("#rho = %.3f", rho));
+    pt->AddText("p^{2} = E_{ECL}^{2} - m_{#bar{n}}^{2}");
     
     
     histo1->DrawCopy("HIST");
     tl->Draw("same");
-    pt->Draw("same");
+    //pt->Draw("same");
     //TString title_out = "../images/gen_" + var + ".pdf";
-    TString title_out = "../images/gen_rec_p_corr.pdf";
+    TString title_out = "../images/signal_sample/gen_mc_theta_corr_isr.pdf";
     tela->SaveAs(title_out);
     
     
@@ -226,13 +211,13 @@ void corr ()
 
 void kin()
 {
-    gStyle->SetOptStat(1);
+    gStyle->SetOptStat(1110);
     TString in_1, in_2;
     TFile *myf_1 = nullptr;
     TFile *myf_2 = nullptr;
     
-    in_1 = "../../../vpho_std_isr_n_REC_merge100k_2.root";
-    in_2 = "../../../vpho_std_isr_n_REC_merge100k_3.root";
+    in_1 = "../../../vpho_isr_n_REC_merge100k_09012026.root";
+    in_2 = "../../../vpho_isr_n_REC_merge100k_10012026_KIN.root";
     
     ifstream in_f1(in_1);
     ifstream in_f2(in_2);
@@ -255,8 +240,8 @@ void kin()
     
     TCanvas *c1 = new TCanvas("c1", "c1",800,600);
     
-    tree_1->Draw("vpho_r_pRecoil-nbar_mcP>>histo1(100,-0.2,0.2)","nbar_mcPDG == -2112","goff");
-    tree_2->Draw("vpho_r_pRecoil-nbar_mcP>>histo2(100,-0.2,0.2)","nbar_mcPDG == -2112","goff");
+    tree_1->Draw("vpho_r_pRecoilTheta-nbar_mcTheta>>histo1(100,-0.35,0.35)","nbar_mcPDG == -2112","goff");
+    tree_2->Draw("vpho_r_pRecoilTheta-nbar_mcTheta>>histo2(100,-0.35,0.35)","nbar_mcPDG == -2112","goff");
     
     delete c1;
     
@@ -290,10 +275,10 @@ void kin()
     histo1->SetLineColor(kBlue);
     histo2->SetLineColor(kRed);
     
-    histo1->GetXaxis()->SetTitle("#Delta p [GeV]");
-    histo1->GetYaxis()->SetTitle("counts []");
+    histo1->GetXaxis()->SetTitle("#Delta#theta [rad]");
+    histo1->GetYaxis()->SetTitle("counts");
     
-    string title = "";
+    string title = "#theta Recoil - #theta #bar{n} MC ";
     histo1->SetTitle(&title[0]);
     
     
@@ -301,8 +286,8 @@ void kin()
     cout<<"NEntries_2 = "<<histo2->GetEntries()<<endl;
     
     TLegend *leg = new TLegend(0.6,0.6,0.78,0.78);
-    leg->AddEntry(histo1,"no K.F. (histo1_copy)","l");
-    leg->AddEntry(histo2,"K.F. (histo2_copy)","l");
+    leg->AddEntry(histo1,"no K.F.","l");
+    leg->AddEntry(histo2,"K.F.","l");
     
     TCanvas *tela = new TCanvas("tela", "tela");
     
@@ -312,6 +297,6 @@ void kin()
     
     tela->Update();
     
-    tela->SaveAs("../images/kin/kin_comp_deltaP.pdf");
+    tela->SaveAs("../images/kin/kin_comp_deltaTheta.pdf");
         
 }

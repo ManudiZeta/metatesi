@@ -400,83 +400,64 @@ Where $\alpha$ is the angle between the recoil vector direction and the closest 
 %------------------------------------------------------------------------------------------------
 
 \begin{frame}{The recoil and the $\bar{n}$ momentum}
-
-\begin{columns}[T] % T = top alignment
-    % Colonna sinistra
-    	\begin{column}{0.40\textwidth}
+			
+		\begin{figure}[p]
+		   	\includegraphics[width = 0.45\textwidth]{images/signal_sample/pRecoil_nmcP_isr.pdf}
+			\includegraphics[width = 0.45\textwidth]{images/signal_sample/pRecoil_nmcP_nog.pdf}
+		\end{figure}		
 	 	\begin{itemize}
 		{
 			\item The reconstructed $\bar{n}$ candidate list shows a discrepancy with the recoil momentum
-			$\rightarrow$ several $\gamma$ are mis-identified as $\bar{n}$ in reconstruction 
-			\vspace{0.2cm}
-			\item MC selection $\bar{n}_{mcPDG} = -2112$ is applied in order to directly compare the recoil kinematic variables with the $\bar{n}$ from MC truth (next slide)
-
-		}
+			\begin{enumerate}[(a)]
+			{
+			\item \textcolor{red}{Could a cluster split-off introduce the left peak?}
+			\item \textcolor{red}{Could pre-showering affect the MC association?}
+			}
+			\end{enumerate}
+		}		
 		\end{itemize}
-	\end{column}
+		
 
-	\begin{column}{0.55\textwidth}
-		\begin{figure}[p]
-		   	\includegraphics[scale=0.40, angle=0]{images/pRecoil_nmcP.pdf}
-		\end{figure}
-	\end{column}
-\end{columns}
+
 
 \end{frame}
 
 %------------------------------------------------------------------------------------------------
 
 \begin{frame}{The recoil and the $\bar{n}$ momentum}
-
-\begin{columns}[T] % T = top alignment
-    % Colonna sinistra
-    	\begin{column}{0.40\textwidth}
-	 	\begin{itemize}
+ 	\begin{itemize}
 		{
-			\item Among the 17525 reconstructed candidates, 6905 correspond to real $\bar{n}$.
-			\begin{enumerate}[(a)]
-				\item 100000 generated events
-				\item 17525 reconstructed events ($\sim 18\%$)
-				\item 6905 real $\bar{n}$ in candidates list ($\sim 7\%$)
-			\end{enumerate}
-			
-			\item For a $(LUMI)$ real data, $(TOT events)$ are expected
-		}
+			\item MC truth can be imposed by selecting only correctly reconstructed $\bar{n}$ candidates from the $\bar{n}$ list
+
+			\item A good correspondence can be observed between the two distributions, in both the ISR and NO ISR cases
+
+		}		
 		\end{itemize}
-	\end{column}
 
-	\begin{column}{0.55\textwidth}
+
 		\begin{figure}[p]
-		   	\includegraphics[scale=0.40, angle=0]{images/pRecoil_nmcP_PDGsel.pdf}
-		\end{figure}
-	\end{column}
-\end{columns}
-
+		   	\includegraphics[width = 0.45\textwidth]{images/signal_sample/pRecoil_nmcP_PDGsel_isr.pdf}
+			\includegraphics[width = 0.45\textwidth]{images/signal_sample/pRecoil_nmcP_PDGsel_nog.pdf}
+		\end{figure}	
 \end{frame}
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \begin{frame}{$\bar{n}$ vs recoil vector correlation}
-	\begin{columns}[T] % T = top alignment
-    % Colonna sinistra
-    	\begin{column}{0.30\textwidth}
-	 	\begin{itemize}
-		{
-			\item Good correlation is observed at the generator level in both the momentum and $\theta$ distributions
-			\vspace{0.2cm}
-			\item The reconstructed $\bar{n}$ momentum in the ECL is not a reliable variable, since no high correlation is observed (annihilation and energy loss)
-		}
-		\end{itemize}
-	\end{column}
 
-	\begin{column}{0.65\textwidth}
 		\begin{figure}[p]
-		  	\includegraphics[scale=0.22, angle=0]{images/gen_mc_theta_corr.pdf}
-			\includegraphics[scale=0.22, angle=0]{images/gen_rec_theta_corr.pdf}
-			\includegraphics[scale=0.22, angle=0]{images/gen_mc_p_corr.pdf}
-			\includegraphics[scale=0.22, angle=0]{images/gen_rec_p_corr.pdf}
+		  	\includegraphics[width = 0.24\textwidth]{images/signal_sample/gen_mc_theta_corr_isr.pdf}
+			\includegraphics[width = 0.24\textwidth]{images/signal_sample/gen_rec_theta_corr_isr.pdf}
+			\includegraphics[width = 0.24\textwidth]{images/signal_sample/gen_mc_p_corr_isr.pdf}
+			\includegraphics[width = 0.24\textwidth]{images/signal_sample/gen_rec_p_corr_isr.pdf}
+			
+			\includegraphics[width = 0.24\textwidth]{images/signal_sample/gen_mc_theta_corr_nog.pdf}
+			\includegraphics[width = 0.24\textwidth]{images/signal_sample/gen_rec_theta_corr_nog.pdf}
+			\includegraphics[width = 0.24\textwidth]{images/signal_sample/gen_mc_p_corr_nog.pdf}
+			\includegraphics[width = 0.24\textwidth]{images/signal_sample/gen_rec_p_corr_nog.pdf}
 		\end{figure}
-	\end{column}
-	\end{columns}
 		
+\begin{itemize}		
+\item Poor resolution is observed in reconstructed $\bar{n}$ momentum ($p_{rec}^2 = E_{ECL}^2 - m_{\bar{n}}^2$), in both the ISR and NO ISR cases 
+\end{itemize}
 \end{frame}
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -488,17 +469,17 @@ Where $\alpha$ is the angle between the recoil vector direction and the closest 
 		{
 			\item Good correlation is observed at the generator level in both the momentum and $\theta$ distributions
 			\vspace{0.2cm}
-			\item The reconstructed $\bar{n}$ momentum in the ECL is not a reliable variable, since no high correlation is observed (annihilation and energy loss)
+			\item Besides exhibiting poor resolution, the reconstructed momentum of the $\bar{n}$ is underestimated $\rightarrow$ \textcolor{red}{missing energy in the shower} 
 		}
 		\end{itemize}
 	\end{column}
 
 	\begin{column}{0.65\textwidth}
 		\begin{figure}[p]
-			\includegraphics[scale=0.22, angle=0]{images/diff_thetaREC_ntheta_mc.pdf}
-		  	\includegraphics[scale=0.22, angle=0]{images/diff_thetaREC_ntheta_rec.pdf}
-			\includegraphics[scale=0.22, angle=0]{images/diff_pREC_np_mc.pdf}
-			\includegraphics[scale=0.22, angle=0]{images/diff_pREC_np_rec.pdf}
+			\includegraphics[scale=0.22, angle=0]{images/signal_sample/diff_thetaREC_ntheta_mc.pdf}
+		  	\includegraphics[scale=0.22, angle=0]{images/signal_sample/diff_thetaREC_ntheta_rec.pdf}
+			\includegraphics[scale=0.22, angle=0]{images/signal_sample/diff_pREC_np_mc.pdf}
+			\includegraphics[scale=0.22, angle=0]{images/signal_sample/diff_pREC_np_rec.pdf}
 			
 		\end{figure}
 	\end{column}
@@ -508,45 +489,49 @@ Where $\alpha$ is the angle between the recoil vector direction and the closest 
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \begin{frame}{KInematic Fit over the recoil mass}
-A 1C kinematic fit can possibly be used to add a constraint and improve the agreement in $p$ and $\theta$
+A 1C kinematic fit can possibly be used to add a constraint and improve the recoil resolution:
 
 	 	\begin{itemize}
 		{
-			\item Highest amount of reconstructed candidates ($\sim 24 \%$) and of real $\bar{n}$ ($\sim 9 \%$)
 			\item No significant differences can be seen in $\theta_{recoil}$ vs MC $\theta_{\bar{n}}$
 			\item An improvement can be observed in in $p_{recoil}$ vs MC $p_{\bar{n}}$
 		}
 		\end{itemize}
 		\begin{figure}
-			\includegraphics[scale=0.32, angle=0]{images/kin/kin_comp_deltaTheta.pdf}
-		  	\includegraphics[scale=0.32, angle=0]{images/kin/kin_comp_deltaP.pdf}
+			\includegraphics[width = 0.45\textwidth]{images/kin/kin_comp_deltaTheta.pdf}
+		  	\includegraphics[width = 0.45\textwidth]{images/kin/kin_comp_deltaP.pdf}
 		\end{figure}
 		
 \end{frame}
 
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 \begin{frame}{$\bar{n}$ ECL cluster variables}
-Shower shapes variables can be studied to distinguish $\bar{n}$ from other neutral particles:
+The aim is to validate several $\bar{n}$ shower shapes variables, such as:
 
 \begin{itemize}
 \begin{columns}  
   \begin{column}{0.30\textwidth}
      {
-    \item \textbf{E}, \textbf{E1E9} and \textbf{E9E21} ($E_{min} = 20$ GeV)
-     \item \textbf{ZernikeMoment51}: $|Z_{51}|$ 
+    \item \textbf{Energy} of the cluster
+    \item \textbf{E1E9} and \textbf{E9E21} 
+    \item \textbf{Zernike Moments} 
      }
    \end{column}
    
-   \begin{column}{0.70\textwidth}
-  		\begin{figure}[p]
-		  	\includegraphics[width = 0.40\textwidth]{images/cluster/zernike.png}
-			\includegraphics[width = 0.40\textwidth]{images/cluster/cluster}
+   \begin{column}{0.55\textwidth}
+  		\begin{figure}
+		  	\includegraphics[width = 0.45\textwidth]{images/cluster/zernike.png}
+			\includegraphics[width = 0.45\textwidth]{images/cluster/cluster}
 		\end{figure}
     \end{column}
     \end{columns}
    
-    \item \textbf{Lateral momentum}:  lateral energy distribution, defined as:  $S = \frac{ \sum\limits_{i=2}^n \omega_i E_i r_i^2} { \omega_0 E_0 r_0^2 + \omega_1 E_1 r_1^2+ \sum\limits_{i=2}^n \omega_i E_i r_i^2}$    
-    \item \textbf{Second moment}: distribution S, defined as:  $ S = \frac{ \sum\limits_{i=0}^n \omega_i E_i r_i^2} { \sum\limits_{i=0}^n \omega_i E_i}$  
+   \vspace{0.2cm}
+   
+		\item \textbf{Lateral momentum} and \textbf{Second moment} defined as:
+		\begin{center}
+		$C_{LM} = \frac{ \sum\limits_{i=2}^n \omega_i E_i r_i^2} { \omega_0 E_0 r_0^2 + \omega_1 E_1 r_1^2+ \sum\limits_{i=2}^n \omega_i E_i r_i^2} \hspace{2cm} C_{SM} = \frac{ \sum\limits_{i=0}^n \omega_i E_i r_i^2} { \sum\limits_{i=0}^n \omega_i E_i}$  
+    		\end{center}
     
 \end{itemize}
 
@@ -593,11 +578,24 @@ Shower shapes variables can be studied to distinguish $\bar{n}$ from other neutr
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 \begin{frame}{Summary (1)}
 \begin{itemize}
-\item Channel  $e^+ + e^-  + \gamma_{ISR} \rightarrow X \rightarrow p + \bar{n} + \pi^-$ has been studied
-\item The recoil three body system ($p + \pi^- + \gamma_{ISR}$) is correctly reconstructed from the secondary background, ISR/FSR photons
-\item The $\bar{n}$ kinematic is properly described by the three body system $p, \pi^-, \gamma$ recoil vector
-\item Reconstructed $\bar{n}$ variables are mainly affected by mis-identified photons, which can be partially cleaned by cluster size cuts ($clusterNHits$)
-\item 1C kinematic fit can be possibly adopted during MC/Data comparison, in order to improve the recoil on the recoil momentum
+\item Channel  $e^+ + e^-  \rightarrow p + \bar{n} + \pi^- + \gamma_{ISR}$ has been studied and recoil system is correctly reconstructed from the secondary background 
+
+\vspace{0.2cm}
+
+\item Reconstructed $\bar{n}$ variables, such as momentum and shower-shape variables, should be further investigated. This could be due to:
+
+\begin{enumerate}[(a)]
+\item \textcolor{red}{MC association affected by pre-showering within the TOP (?)}
+\item \textcolor{red}{Secondary cluster (split-off) mis-identified in the best candidate (?)}
+
+\vspace{0.2cm}
+
+$\rightarrow$ \textcolor{red}{This could be addressed by testing the ECL response with a $\bar{n}$ particle gun generator}
+\end{enumerate}
+
+\vspace{0.2cm}
+
+\item 1C kinematic fit can be possibly adopted during MC/Data comparison, in order to improve the recoil resolution
 
 \end{itemize}
 \end{frame}
@@ -609,46 +607,46 @@ Shower shapes variables can be studied to distinguish $\bar{n}$ from other neutr
 
 \begin{frame}{Analysis outline (2)}
 \begin{itemize}
-\item Study of cocktail from MC16rd\_proc16 using the following MC sample:
-\begin{enumerate}[(a)]
-	\item $q \bar{q}$ cocktail powered by Pythia
-	\item Number of Events: $341 \ M$ 
-	\item Luminosity: $215 \ fb^{-1}$
-\end{enumerate}
+\item Study of cocktail  using the following MC sample:
+
+$q \bar{q}$ cocktail with $341 \ M$ events (Luminosity: $215 \ fb^{-1}$)
+
 
 \vspace{0.2cm}
-\item To obtain a first attempt, only the $p$ and $\pi^-$ are used to build the recoil vector (ISR neglected for the moment)
-\item 2345 jobs have been submitted to the grid, with the following online cuts:
+\item Only the $p$ and $\pi^-$ are used to build the recoil vector (NO ISR for the moment) $\rightarrow$ \textcolor{red}{Can the signal be correctly reconstructed among the other cocktail channels?}
+\vspace{0.1cm}
+\item Following selections have been applied:
+
 \begin{enumerate}
-\item  $p\_mcPDG == 2212$ and $pi\_mcPDG == -211$ and 0 GeV < mRecoil < 2 GeV
-\item The best candidate is selected with RankByLowest method on $\alpha$ (backup)
+\item Real particles ID selection on $p$ and $pi^-$ from the MC truth
+\item 0 GeV < recoil mass < 2 GeV
+\item The best candidate is selected via $\alpha$ (closest candidate)
 \end{enumerate}
 
 \item Same strategy as before:
 \begin{enumerate}[(a)]
-\item Identify the signal peak near the $\bar{n}$ mass ($\sim 0.939$ GeV) adding offline cuts
-\item Study the previous variables (recoil and cluster) in a mRecoil zoomed region 
-\item (3) Compare it with data (Data/MC agreement)
+\item Identify the signal peak near the $\bar{n}$ mass ($\sim 0.939$ GeV) adding further cuts
+\item Study the shower shape variables in a selected recoil mass region, replacing the MC truth selections with data driven ones
+\item Compare it with data (Data/MC agreement)
 \end{enumerate}
 
 \end{itemize}
 \end{frame}
 
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-\begin{frame}{mRecoil distribution}
-\begin{columns}  
+\begin{frame}{Recoil mass distribution - MC selections}
 
+\begin{columns}  
   \begin{column}{0.50\textwidth}
      {
      \begin{itemize}
      \item The following cuts are applied to enhance the signal:
      \vspace{0.2cm}
      	\begin{enumerate}[(a)]
-	\item nRoeCharged == 0 (no additional charged particles in the Rest Of Event) \inlineimg{images/logos/red} 
-	\item nRoeCharged == 0 and alpha<0.35 (additional angular cut on the closest candidate) \inlineimg{images/logos/green} 
-	\item nRoeCharged == 0 and alpha<0.35 and nbar\_mcPDG == -2112 (MC truth selection) \inlineimg{images/logos/yellow} 
+	\item No additional charged tracks in the event \inlineimg{images/logos/red} 
+	\item No additional charged tracks in the event and alpha<0.35 (additional angular cut on the closest candidate) \inlineimg{images/logos/green} 
 	\end{enumerate}
-
+	\item A peak can be observed above the $\bar{n}$ mass $\rightarrow$ \textcolor{red}{the signal is correctly selected in the MC cocktail }
      \end{itemize}
      }
    \end{column}
@@ -664,20 +662,26 @@ Shower shapes variables can be studied to distinguish $\bar{n}$ from other neutr
 \end{frame}
 
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-\begin{frame}{mRecoil distribution}
-\begin{columns}  
+\begin{frame}{Recoil mass distribution - Real cuts}
 
+\begin{columns}  
   \begin{column}{0.50\textwidth}
      {
      \begin{itemize}
-     \item "Real selections" can be applied as well, with (b), such as: \cite{longo2025}
+     \item "Real cuts" can be applied instead of MC selections, with (b), such as: \inlineimg{images/logos/cyan}
      \vspace{0.2cm}
-\\  protonID > 0.9 and pionID > 0.1 and
-\\ dr < 1 and abs(dz) < 3 (from IP)  \inlineimg{images/logos/cyan}
+     	\begin{enumerate}[(a)]
+	 	
+		{
+			\item \textbf{proton}: standard PID selection, with tracks required to originate from the IP
+			\vspace{0.1cm}
+			\item \textbf{pion}: standard PID selection
+			\vspace{0.1cm}
+		}
+	\end{enumerate}
 	
 	\vspace{0.2cm}
-	\item To maximize purity, a recoil mass selection in the range (0.8-1.1) GeV can be applied to study the recoil variables
-	\item This set of selections will be applied in the following sections
+	\item To select the signal, a recoil mass cut in the range (0.8-1.1) GeV can be applied to study the recoil variables
 
      \end{itemize}
      }

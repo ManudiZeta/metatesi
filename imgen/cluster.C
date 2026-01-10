@@ -14,7 +14,7 @@ void super ()
     TString in_1, in_2;
     TFile *myf_1 = nullptr;
     TFile *myf_2 = nullptr;
-    6
+    
     in_1 = "../../../vpho_std_isr_n_REC_merge100k_2.root";
     
     ifstream in_f1(in_1);
