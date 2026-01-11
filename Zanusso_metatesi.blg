@@ -1,9 +1,9 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'Zanusso_metatesi.blg'
-[114] biber-darwin:340> INFO - === Sab Gen 10, 2026, 22:51:42
-[141] Biber.pm:419> INFO - Reading 'Zanusso_metatesi.bcf'
-[270] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
-[309] Biber.pm:4419> INFO - Processing section 0
-[349] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[351] bibtex.pm:1713> INFO - LaTeX decoding ...
-[373] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[1] Config.pm:307> INFO - This is Biber 2.19
+[1] Config.pm:310> INFO - Logfile is 'Zanusso_metatesi.blg'
+[122] biber-darwin:340> INFO - === Dom Gen 11, 2026, 19:39:26
+[152] Biber.pm:419> INFO - Reading 'Zanusso_metatesi.bcf'
+[326] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[368] bbl.pm:660> INFO - Writing 'Zanusso_metatesi.bbl' with encoding 'UTF-8'
+[368] bbl.pm:763> INFO - Output to Zanusso_metatesi.bbl
+[369] Biber.pm:131> WARN - The file 'Zanusso_metatesi.bcf' does not contain any citations!
+[369] Biber.pm:133> INFO - WARNINGS: 1

@@ -173,7 +173,7 @@ void multi_grand(TString var, TString cut2, TString cut3)
 }
 
 
-void multi_grand_real(TString var, TString cut1, TString cut2)
+void multi_grand_real(TString var, TString cut1)
 {
     gStyle->SetOptStat(0);
     string in_1, in_2;
@@ -194,73 +194,59 @@ void multi_grand_real(TString var, TString cut1, TString cut2)
     myf_1 = new TFile("../../../RealSel_nog_cocktail_parz.root");
     
     TTree *tree_1 = (TTree*)myf_1->Get("tree");
-    TTree *tree_2 = (TTree*)myf_1->Get("tree");
     
     TCanvas *c1 = new TCanvas("c1", "c1",800,600);
     TString var_1 =  var;
-    TString var_2 =  var;
 
     cout<<"var_1 = "<<var_1<<endl;
-    cout<<"var_2 = "<<var_2<<endl;
     
     TString drawExpr1 = var_1 + ">>histo1(256,0,2)";
-    TString drawExpr2 = var_2 + ">>histo2(256,0,2)";
 
     
     TString cut_1 = cut1;
-    TString cut_2 = cut2;
     cout<<"cut_1 = "<<cut_1<<endl;
-    cout<<"cut_2 = "<<cut_2<<endl;
 
     
     tree_1->Draw(drawExpr1, cut_1, "goff");
-    tree_2->Draw(drawExpr2, cut_2, "goff");
+
 
     
     delete c1;
     TH1 *histo1 = (TH1D*)gDirectory->Get("histo1");
-    TH1 *histo2 = (TH1D*)gDirectory->Get("histo2");
+    TH1 *histofill = new TH1D();
 
     
-    histo1->SetLineColor(kGreen);
-    histo2->SetLineColor(kCyan);
-
-    histo1->SetFillColor(kGreen);
-    histo2->SetFillColor(kCyan);
-
+    histo1->SetLineColor(kBlue);
     
     TString title_x = "recoil mass [#frac{GeV}{c^{2}}]";
     //TString title_x = "clusterSecondMoment []";
     histo1->GetXaxis()->SetTitle(title_x);
     histo1->GetYaxis()->SetTitle("counts");
     
-    
     TString title = "";
     histo1->SetTitle(title);
     
+    double max = histo1->GetBinContent(histo1->GetMaximumBin());
     
     cout<<"NEntries_1 = "<<histo1->GetEntries()<<endl;
-    cout<<"NEntries_2 = "<<histo2->GetEntries()<<endl;
     
     TLegend *leg = new TLegend(0.6,0.6,0.78,0.78);
-    leg->AddEntry(histo1,"(b)","l");
-    leg->AddEntry(histo2,"(b) + PID + IP ","l");
     
-    TLine *tl_1 = new TLine(0.8,0,0.8,400);
+    
+    
+    TLine *tl_1 = new TLine(0.8,0,0.8,max);
     tl_1->SetLineColor(kBlack);
     
-    TLine *tl_2 = new TLine(1.1,0,1.1,400);
+    TLine *tl_2 = new TLine(1.1,0,1.1,max);
     tl_2->SetLineColor(kBlack);
     
     TCanvas *tela = new TCanvas("tela", "tela");
     
     histo1->DrawCopy("HIST");
-    histo2->DrawCopy("HIST SAMES");
-    leg->Draw("SAME");
     tl_1->Draw("SAME");
     tl_2->Draw("SAME");
     
-    TString title_out = "../images/continuum/mRecoil_comparison_real.pdf";
+    TString title_out = "../images/continuum/mRecoil_comparison_real_new.pdf";
     tela->SaveAs(title_out);
     
 }

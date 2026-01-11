@@ -192,6 +192,30 @@ It can annihilate with nucleons in the ECL, producing light mesons (mainly pions
 	 
     \end{itemize}
 \end{frame}
+%------------------------------------------------
+\begin{frame}{Electromagnetic and hadronic showers}
+Different processes occur for electromagnetic and hadronic showers:
+\vspace{0.1cm}
+	\begin{enumerate}
+		\item  Bremsstrahlung and pair production process ($e^+,e^-,\gamma$) and $\pi^0 \rightarrow \gamma \gamma$
+		\item  Strong interactions of hadrons with the material ($p,n,pions,kaons...$)
+	\end{enumerate}
+
+\begin{columns}
+	\begin{column}{0.45\textwidth}
+    		\begin{itemize}    
+			\item About the 95\% of the hadronic shower is contained within a cylinder of radius $\lambda_{had}$ ($\sim$ 44.12 cm in CsI(Tl))
+			\item About the 90\% of the e.m. shower is contained within a cylinder of radius $R_M$ ($\sim$ 3.6 cm in CsI(Tl))
+	    	\end{itemize}
+	\end{column}
+	
+	\begin{column}{0.60\textwidth}
+		\begin{figure}[p]
+		   \includegraphics[scale=0.45, angle=0]{images/gamma_vs_hadronic.png}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
 
 %------------------------------------------------
 \begin{frame}{The MANTRA project (PRIN2022)}
@@ -219,18 +243,20 @@ It can annihilate with nucleons in the ECL, producing light mesons (mainly pions
 \end{frame}
 
 %------------------------------------------------
-\begin{frame}{The MANTRA project} LA LEVO?????
+\begin{frame}{The MANTRA project} 
 Anti-neutrons cannot be reconstructed by sub-detectors.
 \\
 The measurement of the energy is a two-step process:
 \vspace{0.1cm}
     	\begin{enumerate}
     		\item $\bar{n}$ identification via its induced ECL clusters (study of the shower shape)
-		\item Combine the signals from TOP and ECL to reconstruct the $\bar{n}$ energy, in cases of backscattering or pre-showering
 		\vspace{0.1cm}
+		\item Combine the signals from TOP and ECL to reconstruct the $\bar{n}$ energy, in cases of backscattering or pre-showering
+		\vspace{0.2cm}
 		\begin{itemize}
-			\item If $\pi^0$ ($\sim 5 \%$): energy is all contained in the calorimeter, the shower is fully reconstructed
-		        	\item	If $\pi^{\pm}$ ($\sim 95\%$): their products may escape the crystals \\ $\rightarrow$ the goal is to complement the calorimeter information with that from the adjacent detectors
+			\item If only $\pi^0$ ($\sim 5 \%$) are produced energy is all contained in the calorimeter, the shower is fully reconstructed
+			\vspace{0.2cm}
+		        	\item	Otherwise ($\sim 95\%$): the products may escape the crystals \\ $\rightarrow$ the goal is to complement the calorimeter information with that from the adjacent detectors
 		\end{itemize}
     	\end{enumerate}
     
@@ -246,11 +272,11 @@ Several channels can be selected to look at $\bar{n}$ annihilations, such as:
 	\end{itemize}
 	
 	\vspace{0.2cm}
-Several variables can be used to validate the showers shape for $\bar{n}$ identification,$\bar{n}$ identification via its induced ECL clusters (study of the shower shape) such as:
+Several variables can be used to validate the showers shape for $\bar{n}$ identification, such as:
 \vspace{0.1cm}
     	\begin{itemize}    
 	{ \small
-		\item \textbf{Zernike Moments}, which describe cluster shape (backup)
+		\item \textbf{Zernike Moments} (backup)
 		\item \textbf{Lateral momentum} defined as:  $C_{LM} = \frac{ \sum\limits_{i=2}^n \omega_i E_i r_i^2} { \omega_0 E_0 r_0^2 + \omega_1 E_1 r_1^2+ \sum\limits_{i=2}^n \omega_i E_i r_i^2}$    
  		\item \textbf{Second moment} defined as:  $ C_{SM} = \frac{ \sum\limits_{i=0}^n \omega_i E_i r_i^2} { \sum\limits_{i=0}^n \omega_i E_i}$  
 	}
@@ -539,6 +565,7 @@ The aim is to validate several $\bar{n}$ shower shapes variables, such as:
 
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 \begin{frame}{$\bar{n}$ ECL cluster variables}
+\inlineimg{images/logos/blue} all $\bar{n}$ candidates \hspace{1.5 cm} \inlineimg{images/logos/red} $\bar{n}$ MC truth ID 
  \begin{figure}
 	\includegraphics[width=0.31\textwidth]{images/cluster/clusterE}
 	\includegraphics[width=0.31\textwidth]{images/cluster/clusterE1E9}
@@ -553,20 +580,20 @@ The aim is to validate several $\bar{n}$ shower shapes variables, such as:
 
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 \begin{frame}{$\bar{n}$ ECL cluster variables }
-\begin{columns}  
 
+\begin{columns}  
   \begin{column}{0.35\textwidth}
      {
-     \begin{itemize}
-     \item $\bar{n}$ clusters mainly involve 15 or more crystals
-     \item Several photons are mis-identified as $\bar{n}$ during reconstruction (backup) $\rightarrow$ further selection can be studied such as:
-     \begin{center}
-     $\bar{n}\_mcPDG \neq 22$ \\ \&\&  \\ $\bar{n}\_clusterNHits > 15$
-     \end{center}
-     \end{itemize}
+     \begin{enumerate}
+     \item Could several cluster (split-off) be mis-identified as $\bar{n}$ primary cluster during reconstruction?
+     \item Could it be a wrong association due to pre-showering in the TOP detector?
+     \end{enumerate}
      }
+     $\rightarrow$ \textcolor{red}{further studies can be addressed with a particle gun generator}
    \end{column}
+   
    \begin{column}{0.60\textwidth}
+   $\bar{n}$ clusters mainly involve 15 or more crystals
  \begin{figure}
 	\includegraphics[width=1\textwidth]{images/cluster/clusterNHits}
 \end{figure}
@@ -578,7 +605,7 @@ The aim is to validate several $\bar{n}$ shower shapes variables, such as:
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 \begin{frame}{Summary (1)}
 \begin{itemize}
-\item Channel  $e^+ + e^-  \rightarrow p + \bar{n} + \pi^- + \gamma_{ISR}$ has been studied and recoil system is correctly reconstructed from the secondary background 
+\item Channel  $e^+ + e^-  \rightarrow p + \bar{n} + \pi^- + (\gamma_{ISR})$ has been studied and recoil system is correctly reconstructed from the secondary background 
 
 \vspace{0.2cm}
 
@@ -646,6 +673,7 @@ $q \bar{q}$ cocktail with $341 \ M$ events (Luminosity: $215 \ fb^{-1}$)
 	\item No additional charged tracks in the event \inlineimg{images/logos/red} 
 	\item No additional charged tracks in the event and alpha<0.35 (additional angular cut on the closest candidate) \inlineimg{images/logos/green} 
 	\end{enumerate}
+	\vspace{0.4cm}
 	\item A peak can be observed above the $\bar{n}$ mass $\rightarrow$ \textcolor{red}{the signal is correctly selected in the MC cocktail }
      \end{itemize}
      }
@@ -668,7 +696,7 @@ $q \bar{q}$ cocktail with $341 \ M$ events (Luminosity: $215 \ fb^{-1}$)
   \begin{column}{0.50\textwidth}
      {
      \begin{itemize}
-     \item "Real cuts" can be applied instead of MC selections, with (b), such as: \inlineimg{images/logos/cyan}
+     \item "Real cuts" can be applied instead of MC truth selections, such as:
      \vspace{0.2cm}
      	\begin{enumerate}[(a)]
 	 	
@@ -681,7 +709,7 @@ $q \bar{q}$ cocktail with $341 \ M$ events (Luminosity: $215 \ fb^{-1}$)
 	\end{enumerate}
 	
 	\vspace{0.2cm}
-	\item To select the signal, a recoil mass cut in the range (0.8-1.1) GeV can be applied to study the recoil variables
+	\item To select the signal, a recoil mass cut in the range (0.8-1.2) GeV can be applied to study the shower shapes variables
 
      \end{itemize}
      }
@@ -690,7 +718,7 @@ $q \bar{q}$ cocktail with $341 \ M$ events (Luminosity: $215 \ fb^{-1}$)
    
    \begin{column}{0.63\textwidth}
  \begin{figure}
-	\includegraphics[width=1\textwidth]{images/continuum/mRecoil_comparison_real.pdf}
+	\includegraphics[width=1\textwidth]{images/continuum/mRecoil_comparison_real_new.pdf}
 \end{figure}
     \end{column}
     \end{columns}
@@ -699,28 +727,32 @@ $q \bar{q}$ cocktail with $341 \ M$ events (Luminosity: $215 \ fb^{-1}$)
 
 
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-\begin{frame}{Variables}
-
-
+\begin{frame}{$\bar{n}$ ECL cluster variables}
+ \begin{figure}
+	\includegraphics[width=0.31\textwidth]{images/cluster/nbar_clusterE_real}
+	\includegraphics[width=0.31\textwidth]{images/cluster/nbar_clusterE1E9_real}
+	\includegraphics[width=0.31\textwidth]{images/cluster/nbar_clusterE9E21_real}
+	
+	\includegraphics[width=0.31\textwidth]{images/cluster/nbar_clusterAbsZernikeMoment51_real}
+	\includegraphics[width=0.31\textwidth]{images/cluster/nbar_clusterLAT_real}
+	\includegraphics[width=0.31\textwidth]{images/cluster/nbar_clusterSecondMoment_real}
+\end{figure}
 
 \end{frame}
+
 
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 \begin{frame}{Summary (2)}
-
-
-
-\end{frame}
-
-
-%-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-\begin{frame}{Data/MC agreement $\bar{n}$ case}
-Analysis of a $\Lambda \rightarrow p + \pi^- \ (\bar{\Lambda} \rightarrow \bar{p} + \pi^+)$ sample shows that \cite{shanette2025}:
+\begin{itemize}
+\item Study of $q \bar{q}$ cocktail has been performed
+\item The recoil mass is correctly reconstructed using both Monte Carlo based selections and data-driven cuts, in the presence of other cocktail channels
+\item A further selection on the recoil mass has been applied in order to study the shower shape variables and then validate it in a Data/MC agreement
+\end{itemize}
+Analysis of a $\Lambda \rightarrow p + \pi^- \ (\bar{\Lambda} \rightarrow \bar{p} + \pi^+)$ sample shows that:
 	\begin{figure}[p]
-     	   \includegraphics[scale=0.25, angle=0]{images/shanette.png}
+     	   \includegraphics[scale=0.15, angle=0]{images/shanette.png}
 	\end{figure}
-Poor Data/MC agreement in $\bar{p} \rightarrow$ will it be the same for $\bar{n}$?
-	
+Poor Data/MC agreement in $\bar{p} \rightarrow$ \textcolor{red}{will it be the same for $\bar{n}$?}
 \end{frame}
 
 
@@ -728,7 +760,16 @@ Poor Data/MC agreement in $\bar{p} \rightarrow$ will it be the same for $\bar{n}
 \makesection{Outlook}
 %------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-\begin{frame}{Outlook Until Graduation}
+\begin{frame}{Outlook}
+	
+The following topics will be faced from today:
+\begin{enumerate}
+\item Study of the Monte Carlo software association and of cluster split-off effects in the ECL using a particle gun
+\vspace{0.2cm}
+\item Study the entire cocktail production, adding further collections
+\vspace{0.2cm}
+\item Study of the Data/MC agreement of the shower-shape variables using the evaluated real selections
+\end{enumerate}
 
 
 
@@ -749,54 +790,52 @@ Poor Data/MC agreement in $\bar{p} \rightarrow$ will it be the same for $\bar{n}
 
 \backupbegin
 
-%------------------------------------------------
-\begin{frame}{Electromagnetic and hadronic showers}
-Different processes occur for e.m. (1) and hadronic (2) showers:
-\vspace{0.1cm}
-	\begin{enumerate}
-		\item  Bremsstrahlung and pair production process ($e^+,e^-,\gamma$) and $\pi^0 \rightarrow \gamma \gamma$
-		\item  Strong interactions of hadrons with the material ($p,n,pions,kaons...$)
-	\end{enumerate}
-
-\begin{columns}
-	\begin{column}{0.45\textwidth}
-    		\begin{itemize}    
-			\item About the 95\% of the hadronic shower is contained within a cylinder of radius $\lambda_{had}$ ($\sim$ 44.12 cm in CsI(Tl))
-			\item About the 90\% of the e.m. shower is contained within a cylinder of radius $R_M$ ($\sim$ 3.6 cm in CsI(Tl))
-	    	\end{itemize}
-	\end{column}
-	
-	\begin{column}{0.60\textwidth}
-		\begin{figure}[p]
-		   \includegraphics[scale=0.45, angle=0]{images/gamma_vs_hadronic.png}
-		\end{figure}
-	\end{column}
-\end{columns}
-\end{frame}
-
+%----------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
 
 \begin{frame}[allowframebreaks,noframenumbering, plain]{$\bar{n}$ mcPDG }
 $\gamma$'s are mis-identified as $\bar{n}$ in reconstruction:
 	\begin{figure}
-     	   \includegraphics[scale=0.40, angle=0]{images/nbar_mcPDG.pdf}
+     	   \includegraphics[scale=0.40, angle=0]{images/backup/nbar_mcPDG.pdf}
 	\end{figure}	
 \end{frame}
-
+%----------------------------------------------------------------------------------------
 \begin{frame}[allowframebreaks,noframenumbering, plain]{$p_{\bar{n}}$/pRecoil }
 $\bar{n}$ is underrated in the most of cases (annihilation process + loss of energy)
 	\begin{figure}
-     	   \includegraphics[scale=0.40, angle=0]{images/frac_pREC_np.pdf}
+     	   \includegraphics[scale=0.40, angle=0]{images/backup/frac_pREC_np.pdf}
 	\end{figure}	
 \end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}[allowframebreaks,noframenumbering, plain]{Recommended PID selections }
+PID probability defined as:
+	\begin{figure}
+     	   \includegraphics[scale=0.40, angle=0]{images/backup/protonID}	
+     	   \includegraphics[scale=0.40, angle=0]{images/backup/pionID}
+	\end{figure}	
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}[allowframebreaks,noframenumbering, plain]{Zernike Moments}
 
+\vspace{0.2cm}
+\begin{columns}
+\begin{column}{0.4\textwidth}
+\begin{itemize}
+\item Zernike polynomials are widely used as basis functions of image moments
+	\begin{figure}	
+		\includegraphics[width = 0.75\textwidth]{images/cluster/zernike.png}
+	\end{figure}
+\end{itemize}
+\end{column}
+
+\begin{column}{0.6\textwidth}
+	\begin{figure}	
+		\includegraphics[width = 0.75\textwidth]{images/backup/zernike_wiki.png}
+	\end{figure}	
+\end{column}
+\end{columns}
+\end{frame}
 
 \backupend
-
-
-%----------------------------------------------------------------------------------------
-\begin{frame}[allowframebreaks,noframenumbering,plain]{References}
-  \printbibliography
-\end{frame}
 
 \end{document}

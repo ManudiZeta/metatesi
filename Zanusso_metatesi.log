@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  10 JAN 2026 22:51
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  11 JAN 2026 19:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1659,14 +1659,8 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [8
 
 ]
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 219.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 219.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 219.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 10.79993pt on input line 219.
+File: images/gamma_vs_hadronic.png Graphic file (type bmp)
+<images/gamma_vs_hadronic.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1674,6 +1668,14 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [9
 
 ]
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 243.
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 243.
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 243.
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
+(Font)              scaled to size 10.79993pt on input line 243.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1695,13 +1697,20 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [12
 
 ]
+File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
+<AICStyleData/logos/belleii_logo.png>
+File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
+<AICStyleData/logos/nuovo_logo_Unito.png>
+ [13
+
+]
 File: images/topoana_100k.png Graphic file (type bmp)
 <images/topoana_100k.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [13
+ [14
 
 ]
 File: images/signal_sample/gen_alpha.pdf Graphic file (type pdf)
@@ -1710,7 +1719,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [14
+ [15
 
 ]
 File: images/logos/blue.jpeg Graphic file (type bmp)
@@ -1721,7 +1730,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [15
+ [16
 
 ]
 File: images/signal_sample/pRecoil_nmcP_isr.pdf Graphic file (type pdf)
@@ -1729,12 +1738,12 @@ File: images/signal_sample/pRecoil_nmcP_isr.pdf Graphic file (type pdf)
 File: images/signal_sample/pRecoil_nmcP_nog.pdf Graphic file (type pdf)
 <use images/signal_sample/pRecoil_nmcP_nog.pdf>
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 15.55188pt on input line 423.
+(Font)              scaled to size 15.55188pt on input line 449.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [16
+ [17
 
 ]
 File: images/signal_sample/pRecoil_nmcP_PDGsel_isr.pdf Graphic file (type pdf)
@@ -1745,7 +1754,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [17
+ [18
 
 ]
 File: images/signal_sample/gen_mc_theta_corr_isr.pdf Graphic file (type pdf)
@@ -1768,7 +1777,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [18
+ [19
 
 ]
 File: images/signal_sample/diff_thetaREC_ntheta_mc.pdf Graphic file (type pdf)
@@ -1784,7 +1793,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [19
+ [20
 
 ]
 File: images/kin/kin_comp_deltaTheta.pdf Graphic file (type pdf)
@@ -1796,10 +1805,10 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (0.42758pt too high) detected at line 505
+Overfull \vbox (0.42758pt too high) detected at line 531
  []
 
-[20
+[21
 
 ]
 File: images/cluster/zernike.png Graphic file (type bmp)
@@ -1810,9 +1819,13 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [21
+ [22
 
 ]
+File: images/logos/blue.jpeg Graphic file (type bmp)
+<images/logos/blue.jpeg>
+File: images/logos/red.png Graphic file (type bmp)
+<images/logos/red.png>
 File: images/cluster/clusterE.pdf Graphic file (type pdf)
 <use images/cluster/clusterE.pdf>
 File: images/cluster/clusterE1E9.pdf Graphic file (type pdf)
@@ -1829,7 +1842,11 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [22
+
+Overfull \vbox (7.06017pt too high) detected at line 579
+ []
+
+[23
 
 ]
 File: images/cluster/clusterNHits.pdf Graphic file (type pdf)
@@ -1838,14 +1855,11 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [23
 
-]
-File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
-<AICStyleData/logos/belleii_logo.png>
-File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
-<AICStyleData/logos/nuovo_logo_Unito.png>
- [24
+Overfull \vbox (1.704pt too high) detected at line 603
+ []
+
+[24
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
@@ -1855,6 +1869,13 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [25
 
 ]
+File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
+<AICStyleData/logos/belleii_logo.png>
+File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
+<AICStyleData/logos/nuovo_logo_Unito.png>
+ [26
+
+]
 File: images/logos/red.png Graphic file (type bmp)
 <images/logos/red.png>
 File: images/logos/green.png Graphic file (type bmp)
@@ -1862,7 +1883,7 @@ File: images/logos/green.png Graphic file (type bmp)
 File: images/continuum/mRecoil_comparison.pdf Graphic file (type pdf)
 <use images/continuum/mRecoil_comparison.pdf>
 
-Overfull \hbox (9.68974pt too wide) detected at line 662
+Overfull \hbox (9.68974pt too wide) detected at line 690
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
@@ -1871,39 +1892,43 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (7.90332pt too high) detected at line 662
- []
-
-[26
-
-]
-File: images/logos/cyan.png Graphic file (type bmp)
-<images/logos/cyan.png>
-File: images/continuum/mRecoil_comparison_real.pdf Graphic file (type pdf)
-<use images/continuum/mRecoil_comparison_real.pdf>
-
-Overfull \hbox (9.68974pt too wide) detected at line 698
-[][][] [][][][][][][][][] [][][][][][][] 
- []
-
-File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
-<AICStyleData/logos/belleii_logo.png>
-File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
-<AICStyleData/logos/nuovo_logo_Unito.png>
-
-Overfull \vbox (7.90332pt too high) detected at line 698
+Overfull \vbox (7.90332pt too high) detected at line 690
  []
 
 [27
 
 ]
+File: images/continuum/mRecoil_comparison_real_new.pdf Graphic file (type pdf)
+<use images/continuum/mRecoil_comparison_real_new.pdf>
+
+Overfull \hbox (9.68974pt too wide) detected at line 726
+[][][] [][][][][][][][][] [][][][][][][] 
+ []
+
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [28
+
+Overfull \vbox (7.90332pt too high) detected at line 726
+ []
+
+[28
 
 ]
+File: images/cluster/nbar_clusterE_real.pdf Graphic file (type pdf)
+<use images/cluster/nbar_clusterE_real.pdf>
+File: images/cluster/nbar_clusterE1E9_real.pdf Graphic file (type pdf)
+<use images/cluster/nbar_clusterE1E9_real.pdf>
+File: images/cluster/nbar_clusterE9E21_real.pdf Graphic file (type pdf)
+<use images/cluster/nbar_clusterE9E21_real.pdf>
+File: images/cluster/nbar_clusterAbsZernikeMoment51_real.pdf Graphic file (type
+ pdf)
+<use images/cluster/nbar_clusterAbsZernikeMoment51_real.pdf>
+File: images/cluster/nbar_clusterLAT_real.pdf Graphic file (type pdf)
+<use images/cluster/nbar_clusterLAT_real.pdf>
+File: images/cluster/nbar_clusterSecondMoment_real.pdf Graphic file (type pdf)
+<use images/cluster/nbar_clusterSecondMoment_real.pdf>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1911,16 +1936,13 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [29
 
 ]
-
-LaTeX Warning: Citation 'shanette2025' on page 30 undefined on input line 724.
-
 File: images/shanette.png Graphic file (type bmp)
 <images/shanette.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
-[30
+ [30
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
@@ -1942,8 +1964,8 @@ File: AICStyleData/logos/blue.jpeg Graphic file (type bmp)
 
 ]
 \c@finalframe=\count503
-File: images/gamma_vs_hadronic.png Graphic file (type bmp)
-<images/gamma_vs_hadronic.png>
+File: images/backup/nbar_mcPDG.pdf Graphic file (type pdf)
+<use images/backup/nbar_mcPDG.pdf>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1951,8 +1973,8 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [33
 
 ]
-File: images/nbar_mcPDG.pdf Graphic file (type pdf)
-<use images/nbar_mcPDG.pdf>
+File: images/backup/frac_pREC_np.pdf Graphic file (type pdf)
+<use images/backup/frac_pREC_np.pdf>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1960,8 +1982,10 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [34
 
 ]
-File: images/frac_pREC_np.pdf Graphic file (type pdf)
-<use images/frac_pREC_np.pdf>
+File: images/backup/protonID.png Graphic file (type bmp)
+<images/backup/protonID.png>
+File: images/backup/pionID.png Graphic file (type bmp)
+<images/backup/pionID.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1969,14 +1993,15 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [35
 
 ]
-
-LaTeX Warning: Empty bibliography on input line 800.
-
+File: images/cluster/zernike.png Graphic file (type bmp)
+<images/cluster/zernike.png>
+File: images/backup/zernike_wiki.png Graphic file (type bmp)
+<images/backup/zernike_wiki.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
-[36
+ [36
 
 ]
 \tf@nav=\write7
@@ -1993,28 +2018,19 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Zanusso_metatesi.out' has not changed.
 (rerunfilecheck)             Checksum: 005F4805CBD5209838592A9781EAA732;806.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Zanusso_metatesi
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'Zanusso_metatesi.run.xml'.
 \openout1 = `Zanusso_metatesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37778 strings out of 474773
- 807791 string characters out of 5757723
- 1932839 words of memory out of 5000000
- 59159 multiletter control sequences out of 15000+600000
+ 37687 strings out of 474773
+ 808281 string characters out of 5757723
+ 1931839 words of memory out of 5000000
+ 59059 multiletter control sequences out of 15000+600000
  568195 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,13n,145p,689b,1337s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,145p,689b,869s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Zanusso_metatesi.pdf (36 pages).
