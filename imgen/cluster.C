@@ -93,7 +93,7 @@ void super_real (TString var, TString assex,TString title, TString um, TString x
 {
     gStyle->SetOptStat(0);
     TString in_1;
-    TFile *myf_1 = new TFile("../../../RealSel_nog_cocktail_parz.root");
+    TFile *myf_1 = new TFile("../../../RealSel_nog_cocktail.root");
     
     TTree *tree_1 = (TTree*)myf_1->Get("tree");
     

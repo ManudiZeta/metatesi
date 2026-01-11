@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Anti-neutrons in physics experiments}{3}{0}{1}
-\beamer@sectionintoc {2}{Preliminary study via signal Monte Carlo sample}{13}{0}{2}
+\beamer@sectionintoc {2}{Study via signal Monte Carlo sample}{13}{0}{2}
 \beamer@sectionintoc {3}{Study of Monte Carlo cocktail}{26}{0}{3}
 \beamer@sectionintoc {4}{Outlook}{31}{0}{4}

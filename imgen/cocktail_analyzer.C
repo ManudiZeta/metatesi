@@ -180,7 +180,7 @@ void multi_grand_real(TString var, TString cut1)
     TFile *myf_1 = nullptr;
     
     
-    in_1 = "../../../RealSel_nog_cocktail_parz.root";
+    in_1 = "../../../RealSel_nog_cocktail.root";
     
     ifstream in_f1(in_1);
     
@@ -191,7 +191,7 @@ void multi_grand_real(TString var, TString cut1)
     }
     in_f1.close();
     
-    myf_1 = new TFile("../../../RealSel_nog_cocktail_parz.root");
+    myf_1 = new TFile("../../../RealSel_nog_cocktail.root");
     
     TTree *tree_1 = (TTree*)myf_1->Get("tree");
     
