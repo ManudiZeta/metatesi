@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  11 JAN 2026 21:46
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.17)  12 JAN 2026 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1690,11 +1690,17 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [11
 
 ]
+File: images/shower_ECL.png Graphic file (type bmp)
+<images/shower_ECL.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [12
+
+Overfull \vbox (17.46356pt too high) detected at line 282
+ []
+
+[12
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
@@ -1738,7 +1744,7 @@ File: images/signal_sample/pRecoil_nmcP_isr.pdf Graphic file (type pdf)
 File: images/signal_sample/pRecoil_nmcP_nog.pdf Graphic file (type pdf)
 <use images/signal_sample/pRecoil_nmcP_nog.pdf>
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 15.55188pt on input line 449.
+(Font)              scaled to size 15.55188pt on input line 445.
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
@@ -1746,6 +1752,8 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [17
 
 ]
+File: images/logos/red.png Graphic file (type bmp)
+<images/logos/red.png>
 File: images/signal_sample/pRecoil_nmcP_PDGsel_isr.pdf Graphic file (type pdf)
 <use images/signal_sample/pRecoil_nmcP_PDGsel_isr.pdf>
 File: images/signal_sample/pRecoil_nmcP_PDGsel_nog.pdf Graphic file (type pdf)
@@ -1805,14 +1813,12 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (0.42758pt too high) detected at line 531
+Overfull \vbox (0.42758pt too high) detected at line 527
  []
 
 [21
 
 ]
-File: images/cluster/zernike.png Graphic file (type bmp)
-<images/cluster/zernike.png>
 File: images/cluster/cluster.png Graphic file (type bmp)
 <images/cluster/cluster.png>
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
@@ -1820,6 +1826,19 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
  [22
+
+]
+File: images/cluster/zernike.png Graphic file (type bmp)
+<images/cluster/zernike.png>
+File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
+<AICStyleData/logos/belleii_logo.png>
+File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
+<AICStyleData/logos/nuovo_logo_Unito.png>
+
+Overfull \vbox (1.14629pt too high) detected at line 598
+ []
+
+[23
 
 ]
 File: images/logos/blue.jpeg Graphic file (type bmp)
@@ -1843,10 +1862,10 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (7.06017pt too high) detected at line 579
+Overfull \vbox (7.06017pt too high) detected at line 613
  []
 
-[23
+[24
 
 ]
 File: images/cluster/clusterNHits.pdf Graphic file (type pdf)
@@ -1856,17 +1875,10 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (1.704pt too high) detected at line 603
+Overfull \vbox (1.704pt too high) detected at line 637
  []
 
-[24
-
-]
-File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
-<AICStyleData/logos/belleii_logo.png>
-File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
-<AICStyleData/logos/nuovo_logo_Unito.png>
- [25
+[25
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
@@ -1876,6 +1888,13 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
  [26
 
 ]
+File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
+<AICStyleData/logos/belleii_logo.png>
+File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
+<AICStyleData/logos/nuovo_logo_Unito.png>
+ [27
+
+]
 File: images/logos/red.png Graphic file (type bmp)
 <images/logos/red.png>
 File: images/logos/green.png Graphic file (type bmp)
@@ -1883,7 +1902,7 @@ File: images/logos/green.png Graphic file (type bmp)
 File: images/continuum/mRecoil_comparison.pdf Graphic file (type pdf)
 <use images/continuum/mRecoil_comparison.pdf>
 
-Overfull \hbox (9.68974pt too wide) detected at line 690
+Overfull \hbox (9.68974pt too wide) detected at line 724
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
@@ -1892,16 +1911,16 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (7.90332pt too high) detected at line 690
+Overfull \vbox (7.90332pt too high) detected at line 724
  []
 
-[27
+[28
 
 ]
 File: images/continuum/mRecoil_comparison_real_new.pdf Graphic file (type pdf)
 <use images/continuum/mRecoil_comparison_real_new.pdf>
 
-Overfull \hbox (9.68974pt too wide) detected at line 726
+Overfull \hbox (9.68974pt too wide) detected at line 760
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
@@ -1910,10 +1929,10 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 
-Overfull \vbox (7.90332pt too high) detected at line 726
+Overfull \vbox (7.90332pt too high) detected at line 760
  []
 
-[28
+[29
 
 ]
 File: images/cluster/nbar_clusterE_real.pdf Graphic file (type pdf)
@@ -1933,7 +1952,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [29
+ [30
 
 ]
 File: images/shanette.png Graphic file (type bmp)
@@ -1942,14 +1961,14 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [30
+ [31
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [31
+ [32
 
 ]
 File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
@@ -1960,7 +1979,7 @@ File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
 File: AICStyleData/logos/blue.jpeg Graphic file (type bmp)
 <AICStyleData/logos/blue.jpeg>
- [32
+ [33
 
 ]
 \c@finalframe=\count503
@@ -1970,7 +1989,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [33
+ [34
 
 ]
 File: images/backup/frac_pREC_np.pdf Graphic file (type pdf)
@@ -1979,7 +1998,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [34
+ [35
 
 ]
 File: images/backup/protonID.png Graphic file (type bmp)
@@ -1990,7 +2009,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [35
+ [36
 
 ]
 File: images/cluster/zernike.png Graphic file (type bmp)
@@ -2001,7 +2020,7 @@ File: AICStyleData/logos/belleii_logo.png Graphic file (type bmp)
 <AICStyleData/logos/belleii_logo.png>
 File: AICStyleData/logos/nuovo_logo_Unito.png Graphic file (type bmp)
 <AICStyleData/logos/nuovo_logo_Unito.png>
- [36
+ [37
 
 ]
 \tf@nav=\write7
@@ -2025,12 +2044,12 @@ Package logreq Info: Writing requests to 'Zanusso_metatesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37687 strings out of 474773
- 808281 string characters out of 5757723
+ 37710 strings out of 474773
+ 808828 string characters out of 5757723
  1931839 words of memory out of 5000000
- 59059 multiletter control sequences out of 15000+600000
+ 59081 multiletter control sequences out of 15000+600000
  568195 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,145p,689b,869s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Zanusso_metatesi.pdf (36 pages).
+Output written on Zanusso_metatesi.pdf (37 pages).
