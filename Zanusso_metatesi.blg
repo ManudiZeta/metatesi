@@ -1,9 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Zanusso_metatesi.blg'
-[163] biber-darwin:340> INFO - === Lun Gen 12, 2026, 19:47:20
-[199] Biber.pm:419> INFO - Reading 'Zanusso_metatesi.bcf'
-[413] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[436] bbl.pm:660> INFO - Writing 'Zanusso_metatesi.bbl' with encoding 'UTF-8'
-[437] bbl.pm:763> INFO - Output to Zanusso_metatesi.bbl
-[437] Biber.pm:131> WARN - The file 'Zanusso_metatesi.bcf' does not contain any citations!
-[437] Biber.pm:133> INFO - WARNINGS: 1
+[172] biber-darwin:340> INFO - === Lun Gen 12, 2026, 21:54:24
+[214] Biber.pm:419> INFO - Reading 'Zanusso_metatesi.bcf'
+[385] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[429] bbl.pm:660> INFO - Writing 'Zanusso_metatesi.bbl' with encoding 'UTF-8'
+[430] bbl.pm:763> INFO - Output to Zanusso_metatesi.bbl
+[432] Biber.pm:131> WARN - The file 'Zanusso_metatesi.bcf' does not contain any citations!
+[432] Biber.pm:133> INFO - WARNINGS: 1
