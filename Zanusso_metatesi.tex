@@ -43,7 +43,10 @@
 \title[short title]{Characterization of Hadronic Showers in the Belle II Electromagnetic Calorimeter}  
 
 \author{Emanuele Zanusso}
-\institute[Characterization of Hadronic Showers in the Belle II Electromagnetic Calorimeter - Emanuele Zanusso]{Dipartimento di Fisica
+\institute[Characterization of Hadronic Showers in the Belle II Electromagnetic Calorimeter - Emanuele Zanusso]{Supervisor: Prof. \textbf{Stefano Spataro}
+\newline
+\newline
+Dipartimento di Fisica
 \newline
 Università degli Studi di Torino
 }
@@ -198,7 +201,7 @@ Different processes occur for electromagnetic and hadronic showers:
 \vspace{0.1cm}
 	\begin{enumerate}
 		\item  Bremsstrahlung and pair production process ($e^+,e^-,\gamma$) 
-		\item  Interactions of hadrons with the material ($p,n,\pi^{\pm},...$) and $\pi^0 \rightarrow \gamma \gamma$
+		\item  Interactions of hadrons with the material ($p,n,pions,...$)
 	\end{enumerate}
 
 \begin{columns}
@@ -540,11 +543,11 @@ The aim is to validate several $\bar{n}$ shower shapes variables, such as:
     
 		\vspace{0.3cm}
 		
-		$C_{LM} = \frac{ \sum\limits_{i=2}^n \omega_i E_i r_i^2} { \omega_0 E_0 r_0^2 + \omega_1 E_1 r_1^2+ \sum\limits_{i=2}^n \omega_i E_i r_i^2}$
+		$C_{LM} = \frac{ \sum\limits_{i=2}^n E_i r_i^2} {  E_0 r_0^2 + E_1 r_0^2+ \sum\limits_{i=2}^n E_i r_i^2}$, with $r_0 \simeq 5$ cm
 		
 		\vspace{0.3cm}
 		
-		$C_{SM} = \frac{ \sum\limits_{i=0}^n \omega_i E_i r_i^2} { \sum\limits_{i=0}^n \omega_i E_i}$  
+		$C_{SM} = \frac{ \sum\limits_{i=0}^n  E_i r_i^2} { \sum\limits_{i=0}^n E_i}$  
     		
      }
    \end{column}
@@ -656,7 +659,7 @@ $\rightarrow$ \textcolor{red}{This could be studied by testing the ECL response 
 
 \vspace{0.2cm}
 
-\item 1C kinematic fit can be possibly adopted during MC/Data comparison, in order to improve the recoil momentum resolution
+\item 1C kinematic fit can be possibly adopted during Data/MC comparison, in order to improve the recoil momentum resolution
 
 \end{itemize}
 \end{frame}
@@ -679,7 +682,7 @@ $q \bar{q}$ cocktail with $341 \ M$ events (Luminosity: $215 \ fb^{-1}$) generat
 \item Following selections have been applied:
 
 \begin{enumerate}
-\item Particles ID selection on $p$ and $\pi^-$ from the MC truth
+\item PID selection on $p$ and $\pi^-$ from the MC truth
 \item 0 GeV < recoil mass < 2 GeV
 \item The best candidate is selected via $\alpha$ (closest candidate)
 \end{enumerate}
@@ -771,7 +774,9 @@ $q \bar{q}$ cocktail with $341 \ M$ events (Luminosity: $215 \ fb^{-1}$) generat
 	\includegraphics[width=0.31\textwidth]{images/cluster/nbar_clusterLAT_real}
 	\includegraphics[width=0.31\textwidth]{images/cluster/nbar_clusterSecondMoment_real}
 \end{figure}
-
+{ \small
+Background must be further suppressed $\rightarrow$ \textcolor{red}{sideband method for background subtraction}
+}
 \end{frame}
 
 
@@ -786,7 +791,7 @@ Analysis of a $\Lambda \rightarrow p + \pi^- \ (\bar{\Lambda} \rightarrow \bar{p
 	\begin{figure}[p]
      	   \includegraphics[scale=0.15, angle=0]{images/shanette.png}
 	\end{figure}
-Could the poorer Data/MC agreement observed for $\bar{p}$ also be expected for $\bar{n}$?
+\textcolor{red}{Could the Data/MC agreement observed for $\bar{p}$ also be expected for $\bar{n}$?}
 \end{frame}
 
 
@@ -800,7 +805,7 @@ The following topics will be faced from today:
 \begin{enumerate}
 \item Study the cluster split-off and pre-showering effects using a particle gun, evaluating whether they can affect the Monte Carlo association
 \vspace{0.2cm}
-\item Study the entire cocktail production, adding further collections
+\item Study the complete cocktail production and attempt to further suppress the background
 \vspace{0.2cm}
 \item Study of the Data/MC agreement of the shower-shape variables using the evaluated real selections
 \end{enumerate}
@@ -847,6 +852,10 @@ PID probability defined as:
      	   \includegraphics[scale=0.40, angle=0]{images/backup/protonID}	
      	   \includegraphics[scale=0.40, angle=0]{images/backup/pionID}
 	\end{figure}	
+	
+		\begin{figure}
+     	   \includegraphics[scale=0.60, angle=0]{images/backup/PID_selections}	
+	\end{figure}	
 \end{frame}
 %----------------------------------------------------------------------------------------
 \begin{frame}[allowframebreaks,noframenumbering, plain]{Zernike Moments}
@@ -868,6 +877,16 @@ PID probability defined as:
 	\end{figure}	
 \end{column}
 \end{columns}
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}[allowframebreaks,noframenumbering, plain]{cluster LAT \& cluster Second Moment}
+
+	\begin{figure}
+     	   \includegraphics[scale=0.20, angle=0]{images/backup/ClusterLat}	
+	\end{figure}	
+		
 \end{frame}
 
 \backupend
